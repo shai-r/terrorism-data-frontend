@@ -11,6 +11,6 @@ def get_statistics(endpoint: str):
 
     if response.status_code == 200:
         data = response.json()
-        return jsonify(data)
+        return data
     else:
-        return jsonify({"error": "Failed to retrieve data"}), 500
+        return {"error": "Failed to retrieve data"}

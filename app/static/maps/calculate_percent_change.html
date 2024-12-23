@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9f97ec13ca4c16fd93b0a56573e01cd2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9f97ec13ca4c16fd93b0a56573e01cd2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9f97ec13ca4c16fd93b0a56573e01cd2 = L.map(
+                "map_9f97ec13ca4c16fd93b0a56573e01cd2",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b38d7bfe33965d9675aab18b784e7f50 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b38d7bfe33965d9675aab18b784e7f50.addTo(map_9f97ec13ca4c16fd93b0a56573e01cd2);
+        
+    
+            var marker_7cf94c2b00802e54f90115e4e4cdc1e2 = L.marker(
+                [-21.926960879432624, 146.91407513829787],
+                {
+}
+            ).addTo(map_9f97ec13ca4c16fd93b0a56573e01cd2);
+        
+    
+            var icon_3526074e1b6ce3e12b501ebf1880c546 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7cf94c2b00802e54f90115e4e4cdc1e2.setIcon(icon_3526074e1b6ce3e12b501ebf1880c546);
+        
+    
+            marker_7cf94c2b00802e54f90115e4e4cdc1e2.bindTooltip(
+                `<div>
+                     Region: Australasia & Oceania<br>Year: 1971<br>Percent Change: 0.0<br><br>Year: 1972<br>Percent Change: 700.0<br><br>Year: 1973<br>Percent Change: -87.5<br><br>Year: 1974<br>Percent Change: 0.0<br><br>Year: 1975<br>Percent Change: 0.0<br><br>Year: 1976<br>Percent Change: 0.0<br><br>Year: 1977<br>Percent Change: 0.0<br><br>Year: 1978<br>Percent Change: 100.0<br><br>Year: 1979<br>Percent Change: 0.0<br><br>Year: 1980<br>Percent Change: 250.0<br><br>Year: 1981<br>Percent Change: -57.14285714285714<br><br>Year: 1982<br>Percent Change: -33.333333333333336<br><br>Year: 1983<br>Percent Change: 0.0<br><br>Year: 1984<br>Percent Change: 450.0<br><br>Year: 1985<br>Percent Change: -36.36363636363637<br><br>Year: 1986<br>Percent Change: -42.85714285714286<br><br>Year: 1987<br>Percent Change: -25.0<br><br>Year: 1988<br>Percent Change: 300.0<br><br>Year: 1989<br>Percent Change: 141.66666666666666<br><br>Year: 1990<br>Percent Change: -37.93103448275862<br><br>Year: 1991<br>Percent Change: -44.44444444444444<br><br>Year: 1992<br>Percent Change: 70.0<br><br>Year: 1994<br>Percent Change: -17.647058823529417<br><br>Year: 1995<br>Percent Change: 28.57142857142858<br><br>Year: 1996<br>Percent Change: 5.555555555555558<br><br>Year: 1997<br>Percent Change: -63.1578947368421<br><br>Year: 1998<br>Percent Change: -14.28571428571429<br><br>Year: 1999<br>Percent Change: -33.333333333333336<br><br>Year: 2000<br>Percent Change: 50.0<br><br>Year: 2001<br>Percent Change: -33.333333333333336<br><br>Year: 2002<br>Percent Change: -50.0<br><br>Year: 2003<br>Percent Change: 100.0<br><br>Year: 2004<br>Percent Change: 0.0<br><br>Year: 2005<br>Percent Change: 0.0<br><br>Year: 2006<br>Percent Change: -50.0<br><br>Year: 2007<br>Percent Change: -50.0<br><br>Year: 2008<br>Percent Change: 700.0<br><br>Year: 2009<br>Percent Change: -87.5<br><br>Year: 2010<br>Percent Change: 0.0<br><br>Year: 2011<br>Percent Change: 0.0<br><br>Year: 2012<br>Percent Change: 0.0<br><br>Year: 2013<br>Percent Change: 0.0<br><br>Year: 2014<br>Percent Change: 800.0<br><br>Year: 2015<br>Percent Change: 55.55555555555556<br><br>Year: 2016<br>Percent Change: -28.57142857142857<br><br>Year: 2017<br>Percent Change: 19.999999999999996<br><br>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5ba6dfd0ceb31f5079a55d2d97b16233 = L.marker(
+                [12.606095897041763, -8411.181927277747],
+                {
+}
+            ).addTo(map_9f97ec13ca4c16fd93b0a56573e01cd2);
+        
+    
+            var icon_d0bcfa655f8028951d7d9de43927e4ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5ba6dfd0ceb31f5079a55d2d97b16233.setIcon(icon_d0bcfa655f8028951d7d9de43927e4ba);
+        
+    
+            marker_5ba6dfd0ceb31f5079a55d2d97b16233.bindTooltip(
+                `<div>
+                     Region: Central America & Caribbean<br>Year: 1971<br>Percent Change: -28.57142857142857<br><br>Year: 1972<br>Percent Change: -40.0<br><br>Year: 1973<br>Percent Change: 100.0<br><br>Year: 1974<br>Percent Change: 83.33333333333333<br><br>Year: 1975<br>Percent Change: -18.181818181818176<br><br>Year: 1976<br>Percent Change: 400.0<br><br>Year: 1977<br>Percent Change: -46.666666666666664<br><br>Year: 1978<br>Percent Change: 729.1666666666666<br><br>Year: 1979<br>Percent Change: 206.03015075376882<br><br>Year: 1980<br>Percent Change: 75.69786535303777<br><br>Year: 1981<br>Percent Change: 7.289719626168223<br><br>Year: 1982<br>Percent Change: -13.240418118466902<br><br>Year: 1983<br>Percent Change: -13.855421686746983<br><br>Year: 1984<br>Percent Change: -20.629370629370626<br><br>Year: 1985<br>Percent Change: 14.537444933920707<br><br>Year: 1986<br>Percent Change: -49.61538461538461<br><br>Year: 1987<br>Percent Change: 44.0203562340967<br><br>Year: 1988<br>Percent Change: -12.54416961130742<br><br>Year: 1989<br>Percent Change: 1.6161616161616266<br><br>Year: 1990<br>Percent Change: -37.17693836978131<br><br>Year: 1991<br>Percent Change: 130.69620253164555<br><br>Year: 1992<br>Percent Change: -70.91906721536351<br><br>Year: 1994<br>Percent Change: -15.094339622641506<br><br>Year: 1995<br>Percent Change: -6.666666666666665<br><br>Year: 1996<br>Percent Change: -30.952380952380953<br><br>Year: 1997<br>Percent Change: 0.8620689655172376<br><br>Year: 1998<br>Percent Change: -99.14529914529915<br><br>Year: 1999<br>Percent Change: 700.0<br><br>Year: 2000<br>Percent Change: 75.0<br><br>Year: 2001<br>Percent Change: -42.85714285714286<br><br>Year: 2002<br>Percent Change: -62.5<br><br>Year: 2003<br>Percent Change: 166.66666666666666<br><br>Year: 2004<br>Percent Change: -37.5<br><br>Year: 2005<br>Percent Change: -40.0<br><br>Year: 2006<br>Percent Change: 66.66666666666667<br><br>Year: 2007<br>Percent Change: -19.999999999999996<br><br>Year: 2008<br>Percent Change: 0.0<br><br>Year: 2009<br>Percent Change: 125.0<br><br>Year: 2010<br>Percent Change: -88.88888888888889<br><br>Year: 2011<br>Percent Change: 0.0<br><br>Year: 2012<br>Percent Change: 0.0<br><br>Year: 2013<br>Percent Change: 1300.0<br><br>Year: 2014<br>Percent Change: -64.28571428571428<br><br>Year: 2015<br>Percent Change: -80.0<br><br>Year: 2016<br>Percent Change: 200.0<br><br>Year: 2017<br>Percent Change: 33.33333333333333<br><br>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5fc4e23edfee3e03f286d51ab83a4ec9 = L.marker(
+                [39.7202625008881, 53.20464420426288],
+                {
+}
+            ).addTo(map_9f97ec13ca4c16fd93b0a56573e01cd2);
+        
+    
+            var icon_44b55180f91bd8873956b7887e72a7c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5fc4e23edfee3e03f286d51ab83a4ec9.setIcon(icon_44b55180f91bd8873956b7887e72a7c9);
+        
+    
+            marker_5fc4e23edfee3e03f286d51ab83a4ec9.bindTooltip(
+                `<div>
+                     Region: Central Asia<br>Year: 1992<br>Percent Change: 1000.0<br><br>Year: 1994<br>Percent Change: -15.58441558441559<br><br>Year: 1995<br>Percent Change: -15.384615384615385<br><br>Year: 1996<br>Percent Change: -40.0<br><br>Year: 1997<br>Percent Change: 48.484848484848484<br><br>Year: 1998<br>Percent Change: -48.97959183673469<br><br>Year: 1999<br>Percent Change: -4.0000000000000036<br><br>Year: 2000<br>Percent Change: -12.5<br><br>Year: 2001<br>Percent Change: -14.28571428571429<br><br>Year: 2002<br>Percent Change: -66.66666666666667<br><br>Year: 2003<br>Percent Change: 16.666666666666675<br><br>Year: 2004<br>Percent Change: 14.28571428571428<br><br>Year: 2005<br>Percent Change: 37.5<br><br>Year: 2006<br>Percent Change: -45.45454545454546<br><br>Year: 2007<br>Percent Change: -33.333333333333336<br><br>Year: 2008<br>Percent Change: 800.0<br><br>Year: 2009<br>Percent Change: -13.888888888888884<br><br>Year: 2010<br>Percent Change: -70.96774193548387<br><br>Year: 2011<br>Percent Change: 0.0<br><br>Year: 2012<br>Percent Change: 33.33333333333333<br><br>Year: 2013<br>Percent Change: -41.666666666666664<br><br>Year: 2014<br>Percent Change: 28.57142857142858<br><br>Year: 2015<br>Percent Change: 11.111111111111116<br><br>Year: 2016<br>Percent Change: 70.0<br><br>Year: 2017<br>Percent Change: -58.82352941176471<br><br>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_221a69f0992cc69b4db5d5c644bec253 = L.marker(
+                [33.876172655860344, 120.85775114837905],
+                {
+}
+            ).addTo(map_9f97ec13ca4c16fd93b0a56573e01cd2);
+        
+    
+            var icon_14cba492c02de46ae13515cea58507c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_221a69f0992cc69b4db5d5c644bec253.setIcon(icon_14cba492c02de46ae13515cea58507c0);
+        
+    
+            marker_221a69f0992cc69b4db5d5c644bec253.bindTooltip(
+                `<div>
+                     Region: East Asia<br>Year: 1971<br>Percent Change: -50.0<br><br>Year: 1972<br>Percent Change: 0.0<br><br>Year: 1973<br>Percent Change: 100.0<br><br>Year: 1974<br>Percent Change: 100.0<br><br>Year: 1975<br>Percent Change: 200.0<br><br>Year: 1976<br>Percent Change: -83.33333333333334<br><br>Year: 1977<br>Percent Change: 100.0<br><br>Year: 1978<br>Percent Change: 775.0<br><br>Year: 1979<br>Percent Change: -54.28571428571429<br><br>Year: 1980<br>Percent Change: -93.75<br><br>Year: 1981<br>Percent Change: 300.0<br><br>Year: 1982<br>Percent Change: -25.0<br><br>Year: 1983<br>Percent Change: 333.3333333333333<br><br>Year: 1984<br>Percent Change: 15.384615384615374<br><br>Year: 1985<br>Percent Change: -33.333333333333336<br><br>Year: 1986<br>Percent Change: 19.999999999999996<br><br>Year: 1987<br>Percent Change: -16.666666666666664<br><br>Year: 1988<br>Percent Change: 140.0<br><br>Year: 1989<br>Percent Change: -25.0<br><br>Year: 1990<br>Percent Change: 450.0<br><br>Year: 1991<br>Percent Change: -70.70707070707071<br><br>Year: 1992<br>Percent Change: 155.17241379310346<br><br>Year: 1994<br>Percent Change: -54.054054054054056<br><br>Year: 1995<br>Percent Change: 11.764705882352944<br><br>Year: 1996<br>Percent Change: 134.21052631578948<br><br>Year: 1997<br>Percent Change: -55.0561797752809<br><br>Year: 1998<br>Percent Change: -77.5<br><br>Year: 1999<br>Percent Change: -55.55555555555556<br><br>Year: 2000<br>Percent Change: 375.0<br><br>Year: 2001<br>Percent Change: 0.0<br><br>Year: 2002<br>Percent Change: -78.94736842105263<br><br>Year: 2003<br>Percent Change: 50.0<br><br>Year: 2004<br>Percent Change: -33.333333333333336<br><br>Year: 2005<br>Percent Change: -50.0<br><br>Year: 2006<br>Percent Change: -50.0<br><br>Year: 2007<br>Percent Change: 0.0<br><br>Year: 2008<br>Percent Change: 2400.0<br><br>Year: 2009<br>Percent Change: -68.0<br><br>Year: 2010<br>Percent Change: -87.5<br><br>Year: 2011<br>Percent Change: 300.0<br><br>Year: 2012<br>Percent Change: 0.0<br><br>Year: 2013<br>Percent Change: 275.0<br><br>Year: 2014<br>Percent Change: 186.66666666666666<br><br>Year: 2015<br>Percent Change: -34.883720930232556<br><br>Year: 2016<br>Percent Change: -71.42857142857143<br><br>Year: 2017<br>Percent Change: -12.5<br><br>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_40b097ec77f337351747b42526c83ccb = L.marker(
+                [45.849027871306376, 36.932252494362366],
+                {
+}
+            ).addTo(map_9f97ec13ca4c16fd93b0a56573e01cd2);
+        
+    
+            var icon_5cf038a22ccbd5abb3f6db0673cf008b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_40b097ec77f337351747b42526c83ccb.setIcon(icon_5cf038a22ccbd5abb3f6db0673cf008b);
+        
+    
+            marker_40b097ec77f337351747b42526c83ccb.bindTooltip(
+                `<div>
+                     Region: Eastern Europe<br>Year: 1971<br>Percent Change: -58.33333333333333<br><br>Year: 1972<br>Percent Change: -80.0<br><br>Year: 1973<br>Percent Change: 0.0<br><br>Year: 1974<br>Percent Change: 100.0<br><br>Year: 1975<br>Percent Change: 0.0<br><br>Year: 1976<br>Percent Change: 0.0<br><br>Year: 1977<br>Percent Change: 0.0<br><br>Year: 1978<br>Percent Change: 0.0<br><br>Year: 1979<br>Percent Change: -50.0<br><br>Year: 1980<br>Percent Change: 0.0<br><br>Year: 1981<br>Percent Change: 300.0<br><br>Year: 1982<br>Percent Change: -25.0<br><br>Year: 1983<br>Percent Change: -33.333333333333336<br><br>Year: 1984<br>Percent Change: 100.0<br><br>Year: 1985<br>Percent Change: 25.0<br><br>Year: 1986<br>Percent Change: -40.0<br><br>Year: 1987<br>Percent Change: -66.66666666666667<br><br>Year: 1988<br>Percent Change: 300.0<br><br>Year: 1989<br>Percent Change: 300.0<br><br>Year: 1990<br>Percent Change: 262.5<br><br>Year: 1991<br>Percent Change: 44.827586206896555<br><br>Year: 1992<br>Percent Change: 8.333333333333325<br><br>Year: 1994<br>Percent Change: 4.395604395604402<br><br>Year: 1995<br>Percent Change: -28.421052631578945<br><br>Year: 1996<br>Percent Change: 157.3529411764706<br><br>Year: 1997<br>Percent Change: 41.7142857142857<br><br>Year: 1998<br>Percent Change: -57.66129032258065<br><br>Year: 1999<br>Percent Change: 31.428571428571427<br><br>Year: 2000<br>Percent Change: 69.56521739130434<br><br>Year: 2001<br>Percent Change: 7.692307692307687<br><br>Year: 2002<br>Percent Change: -55.55555555555556<br><br>Year: 2003<br>Percent Change: -10.71428571428571<br><br>Year: 2004<br>Percent Change: -54.0<br><br>Year: 2005<br>Percent Change: 65.21739130434783<br><br>Year: 2006<br>Percent Change: -7.8947368421052655<br><br>Year: 2007<br>Percent Change: -11.428571428571432<br><br>Year: 2008<br>Percent Change: 237.0967741935484<br><br>Year: 2009<br>Percent Change: -21.052631578947366<br><br>Year: 2010<br>Percent Change: 58.18181818181818<br><br>Year: 2011<br>Percent Change: -24.13793103448276<br><br>Year: 2012<br>Percent Change: -12.62626262626263<br><br>Year: 2013<br>Percent Change: -4.6242774566473965<br><br>Year: 2014<br>Percent Change: 483.030303030303<br><br>Year: 2015<br>Percent Change: -28.898128898128896<br><br>Year: 2016<br>Percent Change: -80.4093567251462<br><br>Year: 2017<br>Percent Change: -17.910447761194025<br><br>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_749e6255c469d3ce4cc897b65ba2d7d6 = L.marker(
+                [32.091042598090105, 37.465476603716766],
+                {
+}
+            ).addTo(map_9f97ec13ca4c16fd93b0a56573e01cd2);
+        
+    
+            var icon_da1baca701132d7d08c1fd277fb6a7d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_749e6255c469d3ce4cc897b65ba2d7d6.setIcon(icon_da1baca701132d7d08c1fd277fb6a7d2);
+        
+    
+            marker_749e6255c469d3ce4cc897b65ba2d7d6.bindTooltip(
+                `<div>
+                     Region: Middle East & North Africa<br>Year: 1971<br>Percent Change: 96.42857142857142<br><br>Year: 1972<br>Percent Change: -3.6363636363636376<br><br>Year: 1973<br>Percent Change: -64.15094339622642<br><br>Year: 1974<br>Percent Change: 121.05263157894738<br><br>Year: 1975<br>Percent Change: 4.761904761904767<br><br>Year: 1976<br>Percent Change: 25.0<br><br>Year: 1977<br>Percent Change: 283.6363636363636<br><br>Year: 1978<br>Percent Change: -39.33649289099526<br><br>Year: 1979<br>Percent Change: 255.46875<br><br>Year: 1980<br>Percent Change: -3.956043956043953<br><br>Year: 1981<br>Percent Change: -28.604118993135007<br><br>Year: 1982<br>Percent Change: -7.051282051282048<br><br>Year: 1983<br>Percent Change: 15.172413793103456<br><br>Year: 1984<br>Percent Change: -19.760479041916167<br><br>Year: 1985<br>Percent Change: -50.37313432835822<br><br>Year: 1986<br>Percent Change: 47.36842105263157<br><br>Year: 1987<br>Percent Change: 3.0612244897959107<br><br>Year: 1988<br>Percent Change: 21.78217821782178<br><br>Year: 1989<br>Percent Change: 89.02439024390243<br><br>Year: 1990<br>Percent Change: 6.236559139784936<br><br>Year: 1991<br>Percent Change: 23.886639676113354<br><br>Year: 1992<br>Percent Change: 94.77124183006535<br><br>Year: 1994<br>Percent Change: -11.828859060402685<br><br>Year: 1995<br>Percent Change: -43.86298763082779<br><br>Year: 1996<br>Percent Change: -36.77966101694915<br><br>Year: 1997<br>Percent Change: 46.91689008042896<br><br>Year: 1998<br>Percent Change: -54.92700729927007<br><br>Year: 1999<br>Percent Change: 27.935222672064786<br><br>Year: 2000<br>Percent Change: -13.924050632911388<br><br>Year: 2001<br>Percent Change: 33.08823529411764<br><br>Year: 2002<br>Percent Change: -9.944751381215466<br><br>Year: 2003<br>Percent Change: -4.907975460122705<br><br>Year: 2004<br>Percent Change: 58.70967741935485<br><br>Year: 2005<br>Percent Change: 79.26829268292683<br><br>Year: 2006<br>Percent Change: 34.58049886621315<br><br>Year: 2007<br>Percent Change: 16.680707666385853<br><br>Year: 2008<br>Percent Change: 10.902527075812273<br><br>Year: 2009<br>Percent Change: -11.393229166666663<br><br>Year: 2010<br>Percent Change: 7.4944893460690665<br><br>Year: 2011<br>Percent Change: 13.670539986329455<br><br>Year: 2012<br>Percent Change: 44.85868911605533<br><br>Year: 2013<br>Percent Change: 89.29016189290162<br><br>Year: 2014<br>Percent Change: 52.17105263157895<br><br>Year: 2015<br>Percent Change: -13.01340250756593<br><br>Year: 2016<br>Percent Change: 1.308813783962881<br><br>Year: 2017<br>Percent Change: -38.18479149632053<br><br>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d462c24b57a608722b0bd55edd15a7b6 = L.marker(
+                [34.41976442708334, -92.76695860040509],
+                {
+}
+            ).addTo(map_9f97ec13ca4c16fd93b0a56573e01cd2);
+        
+    
+            var icon_47da26209e59e8de3b3a26709227d805 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d462c24b57a608722b0bd55edd15a7b6.setIcon(icon_47da26209e59e8de3b3a26709227d805);
+        
+    
+            marker_d462c24b57a608722b0bd55edd15a7b6.bindTooltip(
+                `<div>
+                     Region: North America<br>Year: 1971<br>Percent Change: -47.66949152542372<br><br>Year: 1972<br>Percent Change: -70.44534412955466<br><br>Year: 1973<br>Percent Change: -12.328767123287676<br><br>Year: 1974<br>Percent Change: 73.4375<br><br>Year: 1975<br>Percent Change: 43.24324324324324<br><br>Year: 1976<br>Percent Change: -21.383647798742132<br><br>Year: 1977<br>Percent Change: 19.199999999999996<br><br>Year: 1978<br>Percent Change: -21.476510067114095<br><br>Year: 1979<br>Percent Change: -32.47863247863248<br><br>Year: 1980<br>Percent Change: -5.063291139240511<br><br>Year: 1981<br>Percent Change: 2.6666666666666616<br><br>Year: 1982<br>Percent Change: 11.688311688311682<br><br>Year: 1983<br>Percent Change: -45.34883720930233<br><br>Year: 1984<br>Percent Change: 42.553191489361694<br><br>Year: 1985<br>Percent Change: -34.32835820895522<br><br>Year: 1986<br>Percent Change: 20.45454545454546<br><br>Year: 1987<br>Percent Change: -33.9622641509434<br><br>Year: 1988<br>Percent Change: -14.28571428571429<br><br>Year: 1989<br>Percent Change: 46.66666666666666<br><br>Year: 1990<br>Percent Change: -15.909090909090907<br><br>Year: 1991<br>Percent Change: 8.108108108108114<br><br>Year: 1992<br>Percent Change: 2.499999999999991<br><br>Year: 1994<br>Percent Change: 146.34146341463415<br><br>Year: 1995<br>Percent Change: -6.930693069306926<br><br>Year: 1996<br>Percent Change: 18.085106382978733<br><br>Year: 1997<br>Percent Change: 23.42342342342343<br><br>Year: 1998<br>Percent Change: -72.99270072992701<br><br>Year: 1999<br>Percent Change: 51.35135135135136<br><br>Year: 2000<br>Percent Change: -26.785714285714292<br><br>Year: 2001<br>Percent Change: 17.07317073170731<br><br>Year: 2002<br>Percent Change: -31.25<br><br>Year: 2003<br>Percent Change: 3.0303030303030276<br><br>Year: 2004<br>Percent Change: -64.70588235294117<br><br>Year: 2005<br>Percent Change: 83.33333333333333<br><br>Year: 2006<br>Percent Change: -31.818181818181824<br><br>Year: 2007<br>Percent Change: 19.999999999999996<br><br>Year: 2008<br>Percent Change: 72.22222222222223<br><br>Year: 2009<br>Percent Change: -48.38709677419355<br><br>Year: 2010<br>Percent Change: 50.0<br><br>Year: 2011<br>Percent Change: -50.0<br><br>Year: 2012<br>Percent Change: 225.0<br><br>Year: 2013<br>Percent Change: -17.948717948717952<br><br>Year: 2014<br>Percent Change: 15.625<br><br>Year: 2015<br>Percent Change: 67.56756756756756<br><br>Year: 2016<br>Percent Change: 20.967741935483875<br><br>Year: 2017<br>Percent Change: 29.33333333333332<br><br>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3798fc23a32dc7447d7374b861b3cfed = L.marker(
+                [-7.5842376932764255, -69.74600114991041],
+                {
+}
+            ).addTo(map_9f97ec13ca4c16fd93b0a56573e01cd2);
+        
+    
+            var icon_f7f8ea82fd449aea57f86c2b5bbee7f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3798fc23a32dc7447d7374b861b3cfed.setIcon(icon_f7f8ea82fd449aea57f86c2b5bbee7f1);
+        
+    
+            marker_3798fc23a32dc7447d7374b861b3cfed.bindTooltip(
+                `<div>
+                     Region: South America<br>Year: 1971<br>Percent Change: -63.07692307692307<br><br>Year: 1972<br>Percent Change: 37.5<br><br>Year: 1973<br>Percent Change: 151.5151515151515<br><br>Year: 1974<br>Percent Change: -2.409638554216864<br><br>Year: 1975<br>Percent Change: -32.098765432098766<br><br>Year: 1976<br>Percent Change: 65.45454545454545<br><br>Year: 1977<br>Percent Change: 30.76923076923077<br><br>Year: 1978<br>Percent Change: 86.5546218487395<br><br>Year: 1979<br>Percent Change: 6.3063063063063085<br><br>Year: 1980<br>Percent Change: 35.16949152542372<br><br>Year: 1981<br>Percent Change: 20.062695924764885<br><br>Year: 1982<br>Percent Change: 66.84073107049609<br><br>Year: 1983<br>Percent Change: 48.66979655712049<br><br>Year: 1984<br>Percent Change: 57.05263157894738<br><br>Year: 1985<br>Percent Change: -30.29490616621984<br><br>Year: 1986<br>Percent Change: 13.846153846153841<br><br>Year: 1987<br>Percent Change: 6.841216216216206<br><br>Year: 1988<br>Percent Change: -17.707509881422922<br><br>Year: 1989<br>Percent Change: 33.045148895292996<br><br>Year: 1990<br>Percent Change: -22.310469314079416<br><br>Year: 1991<br>Percent Change: 22.862453531598504<br><br>Year: 1992<br>Percent Change: -8.925869894099847<br><br>Year: 1994<br>Percent Change: -69.01993355481729<br><br>Year: 1995<br>Percent Change: -31.63538873994638<br><br>Year: 1996<br>Percent Change: 102.74509803921568<br><br>Year: 1997<br>Percent Change: 49.709864603481634<br><br>Year: 1998<br>Percent Change: -86.04651162790698<br><br>Year: 1999<br>Percent Change: 24.07407407407407<br><br>Year: 2000<br>Percent Change: 11.940298507462677<br><br>Year: 2001<br>Percent Change: 52.666666666666664<br><br>Year: 2002<br>Percent Change: -29.257641921397383<br><br>Year: 2003<br>Percent Change: -27.77777777777778<br><br>Year: 2004<br>Percent Change: -64.1025641025641<br><br>Year: 2005<br>Percent Change: 16.666666666666675<br><br>Year: 2006<br>Percent Change: 2.0408163265306145<br><br>Year: 2007<br>Percent Change: -6.000000000000005<br><br>Year: 2008<br>Percent Change: 206.38297872340425<br><br>Year: 2009<br>Percent Change: 10.416666666666675<br><br>Year: 2010<br>Percent Change: -6.91823899371069<br><br>Year: 2011<br>Percent Change: -28.37837837837838<br><br>Year: 2012<br>Percent Change: 25.47169811320755<br><br>Year: 2013<br>Percent Change: 36.8421052631579<br><br>Year: 2014<br>Percent Change: 55.494505494505496<br><br>Year: 2015<br>Percent Change: -37.80918727915194<br><br>Year: 2016<br>Percent Change: -9.659090909090907<br><br>Year: 2017<br>Percent Change: 8.176100628930815<br><br>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_66a68e77c0a037c3e79500e24a783a90 = L.marker(
+                [28.118339527482547, 73.40677307166364],
+                {
+}
+            ).addTo(map_9f97ec13ca4c16fd93b0a56573e01cd2);
+        
+    
+            var icon_17d68b06c4d721df6caeee2d40527689 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_66a68e77c0a037c3e79500e24a783a90.setIcon(icon_17d68b06c4d721df6caeee2d40527689);
+        
+    
+            marker_66a68e77c0a037c3e79500e24a783a90.bindTooltip(
+                `<div>
+                     Region: South Asia<br>Year: 1971<br>Percent Change: 0.0<br><br>Year: 1972<br>Percent Change: 0.0<br><br>Year: 1973<br>Percent Change: 0.0<br><br>Year: 1974<br>Percent Change: 100.0<br><br>Year: 1975<br>Percent Change: 100.0<br><br>Year: 1976<br>Percent Change: 0.0<br><br>Year: 1977<br>Percent Change: -50.0<br><br>Year: 1978<br>Percent Change: 0.0<br><br>Year: 1979<br>Percent Change: 1600.0<br><br>Year: 1980<br>Percent Change: -64.70588235294117<br><br>Year: 1981<br>Percent Change: 91.66666666666667<br><br>Year: 1982<br>Percent Change: -13.043478260869568<br><br>Year: 1983<br>Percent Change: 215.0<br><br>Year: 1984<br>Percent Change: 287.3015873015873<br><br>Year: 1985<br>Percent Change: -34.01639344262295<br><br>Year: 1986<br>Percent Change: 69.56521739130434<br><br>Year: 1987<br>Percent Change: 27.472527472527464<br><br>Year: 1988<br>Percent Change: 130.17241379310346<br><br>Year: 1989<br>Percent Change: 15.605493133583014<br><br>Year: 1990<br>Percent Change: -35.097192224622034<br><br>Year: 1991<br>Percent Change: 12.64559068219635<br><br>Year: 1992<br>Percent Change: -19.49778434268833<br><br>Year: 1994<br>Percent Change: -31.0091743119266<br><br>Year: 1995<br>Percent Change: 179.52127659574467<br><br>Year: 1996<br>Percent Change: -29.686013320647<br><br>Year: 1997<br>Percent Change: -33.694181326116365<br><br>Year: 1998<br>Percent Change: -72.24489795918367<br><br>Year: 1999<br>Percent Change: 65.44117647058823<br><br>Year: 2000<br>Percent Change: 58.666666666666664<br><br>Year: 2001<br>Percent Change: 7.843137254901955<br><br>Year: 2002<br>Percent Change: -13.24675324675325<br><br>Year: 2003<br>Percent Change: 5.688622754491024<br><br>Year: 2004<br>Percent Change: 4.532577903682711<br><br>Year: 2005<br>Percent Change: 63.68563685636857<br><br>Year: 2006<br>Percent Change: 55.29801324503312<br><br>Year: 2007<br>Percent Change: 4.6908315565032055<br><br>Year: 2008<br>Percent Change: 79.12423625254583<br><br>Year: 2009<br>Percent Change: 10.574189880613982<br><br>Year: 2010<br>Percent Change: 1.8508997429306007<br><br>Year: 2011<br>Percent Change: 7.925290257445727<br><br>Year: 2012<br>Percent Change: 77.87652011225444<br><br>Year: 2013<br>Percent Change: 21.27267946358138<br><br>Year: 2014<br>Percent Change: 8.369470945359936<br><br>Year: 2015<br>Percent Change: -8.263305322128856<br><br>Year: 2016<br>Percent Change: -20.632497273718652<br><br>Year: 2017<br>Percent Change: -5.743336081341033<br><br>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_748d503e9028483bba545ae8fb50fe6a = L.marker(
+                [8.384265510052062, 108.98438863147777],
+                {
+}
+            ).addTo(map_9f97ec13ca4c16fd93b0a56573e01cd2);
+        
+    
+            var icon_909f78845dc765d4d042286e26f0bbf9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_748d503e9028483bba545ae8fb50fe6a.setIcon(icon_909f78845dc765d4d042286e26f0bbf9);
+        
+    
+            marker_748d503e9028483bba545ae8fb50fe6a.bindTooltip(
+                `<div>
+                     Region: Southeast Asia<br>Year: 1971<br>Percent Change: -40.0<br><br>Year: 1972<br>Percent Change: 166.66666666666666<br><br>Year: 1973<br>Percent Change: -87.5<br><br>Year: 1974<br>Percent Change: 50.0<br><br>Year: 1975<br>Percent Change: 133.33333333333334<br><br>Year: 1976<br>Percent Change: 71.42857142857142<br><br>Year: 1977<br>Percent Change: -33.333333333333336<br><br>Year: 1978<br>Percent Change: 450.0<br><br>Year: 1979<br>Percent Change: 95.45454545454545<br><br>Year: 1980<br>Percent Change: 1.1627906976744207<br><br>Year: 1981<br>Percent Change: -42.52873563218391<br><br>Year: 1982<br>Percent Change: -14.000000000000002<br><br>Year: 1983<br>Percent Change: -48.837209302325576<br><br>Year: 1984<br>Percent Change: 109.09090909090908<br><br>Year: 1985<br>Percent Change: 178.26086956521738<br><br>Year: 1986<br>Percent Change: -20.3125<br><br>Year: 1987<br>Percent Change: 59.80392156862746<br><br>Year: 1988<br>Percent Change: 48.46625766871166<br><br>Year: 1989<br>Percent Change: -16.115702479338843<br><br>Year: 1990<br>Percent Change: 71.42857142857142<br><br>Year: 1991<br>Percent Change: -40.804597701149426<br><br>Year: 1992<br>Percent Change: 35.4368932038835<br><br>Year: 1994<br>Percent Change: -45.878136200716845<br><br>Year: 1995<br>Percent Change: 11.258278145695355<br><br>Year: 1996<br>Percent Change: 14.880952380952372<br><br>Year: 1997<br>Percent Change: -17.616580310880824<br><br>Year: 1998<br>Percent Change: -79.87421383647799<br><br>Year: 1999<br>Percent Change: 234.375<br><br>Year: 2000<br>Percent Change: 139.2523364485981<br><br>Year: 2001<br>Percent Change: -27.734375<br><br>Year: 2002<br>Percent Change: -40.54054054054054<br><br>Year: 2003<br>Percent Change: 31.818181818181813<br><br>Year: 2004<br>Percent Change: -34.48275862068966<br><br>Year: 2005<br>Percent Change: 114.73684210526316<br><br>Year: 2006<br>Percent Change: 33.33333333333333<br><br>Year: 2007<br>Percent Change: 34.191176470588225<br><br>Year: 2008<br>Percent Change: 40.821917808219176<br><br>Year: 2009<br>Percent Change: 9.14396887159532<br><br>Year: 2010<br>Percent Change: -15.686274509803921<br><br>Year: 2011<br>Percent Change: -24.73572938689218<br><br>Year: 2012<br>Percent Change: 64.8876404494382<br><br>Year: 2013<br>Percent Change: 102.38500851788754<br><br>Year: 2014<br>Percent Change: -8.92255892255892<br><br>Year: 2015<br>Percent Change: -0.9242144177449174<br><br>Year: 2016<br>Percent Change: 0.4664179104477695<br><br>Year: 2017<br>Percent Change: -5.292479108635096<br><br>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_371d403960fd241d8576f0f0576dd9a5 = L.marker(
+                [0.46662520495726495, 25.130253260797723],
+                {
+}
+            ).addTo(map_9f97ec13ca4c16fd93b0a56573e01cd2);
+        
+    
+            var icon_99b3abe04364efeb7fd7242d714f955b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_371d403960fd241d8576f0f0576dd9a5.setIcon(icon_99b3abe04364efeb7fd7242d714f955b);
+        
+    
+            marker_371d403960fd241d8576f0f0576dd9a5.bindTooltip(
+                `<div>
+                     Region: Sub-Saharan Africa<br>Year: 1971<br>Percent Change: -33.333333333333336<br><br>Year: 1972<br>Percent Change: 100.0<br><br>Year: 1973<br>Percent Change: 0.0<br><br>Year: 1974<br>Percent Change: 75.0<br><br>Year: 1975<br>Percent Change: 71.42857142857142<br><br>Year: 1976<br>Percent Change: -8.333333333333337<br><br>Year: 1977<br>Percent Change: 163.63636363636363<br><br>Year: 1978<br>Percent Change: 58.62068965517242<br><br>Year: 1979<br>Percent Change: 169.56521739130434<br><br>Year: 1980<br>Percent Change: -53.2258064516129<br><br>Year: 1981<br>Percent Change: 68.96551724137932<br><br>Year: 1982<br>Percent Change: -38.775510204081634<br><br>Year: 1983<br>Percent Change: 76.66666666666666<br><br>Year: 1984<br>Percent Change: 18.867924528301884<br><br>Year: 1985<br>Percent Change: 11.904761904761907<br><br>Year: 1986<br>Percent Change: 31.20567375886525<br><br>Year: 1987<br>Percent Change: -5.94594594594594<br><br>Year: 1988<br>Percent Change: 93.67816091954022<br><br>Year: 1989<br>Percent Change: -13.649851632047483<br><br>Year: 1990<br>Percent Change: 54.639175257731964<br><br>Year: 1991<br>Percent Change: -39.77777777777778<br><br>Year: 1992<br>Percent Change: 110.3321033210332<br><br>Year: 1994<br>Percent Change: -24.210526315789473<br><br>Year: 1995<br>Percent Change: -44.67592592592593<br><br>Year: 1996<br>Percent Change: -9.205020920502093<br><br>Year: 1997<br>Percent Change: 28.57142857142858<br><br>Year: 1998<br>Percent Change: -68.81720430107528<br><br>Year: 1999<br>Percent Change: 64.36781609195404<br><br>Year: 2000<br>Percent Change: 33.56643356643356<br><br>Year: 2001<br>Percent Change: -15.18324607329843<br><br>Year: 2002<br>Percent Change: -25.308641975308642<br><br>Year: 2003<br>Percent Change: -39.66942148760331<br><br>Year: 2004<br>Percent Change: -53.42465753424658<br><br>Year: 2005<br>Percent Change: 76.47058823529412<br><br>Year: 2006<br>Percent Change: 89.99999999999999<br><br>Year: 2007<br>Percent Change: 164.91228070175436<br><br>Year: 2008<br>Percent Change: 25.82781456953642<br><br>Year: 2009<br>Percent Change: -25.526315789473685<br><br>Year: 2010<br>Percent Change: 16.96113074204948<br><br>Year: 2011<br>Percent Change: 49.244712990936556<br><br>Year: 2012<br>Percent Change: 136.43724696356276<br><br>Year: 2013<br>Percent Change: -14.46917808219178<br><br>Year: 2014<br>Percent Change: 132.33233233233236<br><br>Year: 2015<br>Percent Change: -15.381301163291683<br><br>Year: 2016<br>Percent Change: 5.753564154786162<br><br>Year: 2017<br>Percent Change: -5.151661049590761<br><br>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b76b56f785817f1d4cf1bbf6ee266979 = L.marker(
+                [46.910329545765975, 2.793806687000421],
+                {
+}
+            ).addTo(map_9f97ec13ca4c16fd93b0a56573e01cd2);
+        
+    
+            var icon_a893fd5b90b15fcd20f3adc456dfc1d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b76b56f785817f1d4cf1bbf6ee266979.setIcon(icon_a893fd5b90b15fcd20f3adc456dfc1d8);
+        
+    
+            marker_b76b56f785817f1d4cf1bbf6ee266979.bindTooltip(
+                `<div>
+                     Region: Western Europe<br>Year: 1971<br>Percent Change: 150.0<br><br>Year: 1972<br>Percent Change: 200.8<br><br>Year: 1973<br>Percent Change: -22.872340425531913<br><br>Year: 1974<br>Percent Change: 9.310344827586214<br><br>Year: 1975<br>Percent Change: 38.17034700315458<br><br>Year: 1976<br>Percent Change: 31.963470319634713<br><br>Year: 1977<br>Percent Change: 33.3910034602076<br><br>Year: 1978<br>Percent Change: -5.447470817120625<br><br>Year: 1979<br>Percent Change: 39.91769547325104<br><br>Year: 1980<br>Percent Change: -41.666666666666664<br><br>Year: 1981<br>Percent Change: -18.65546218487395<br><br>Year: 1982<br>Percent Change: -16.94214876033058<br><br>Year: 1983<br>Percent Change: 18.15920398009949<br><br>Year: 1984<br>Percent Change: 13.89473684210527<br><br>Year: 1985<br>Percent Change: -13.863216266173751<br><br>Year: 1986<br>Percent Change: -2.3605150214592308<br><br>Year: 1987<br>Percent Change: -8.571428571428575<br><br>Year: 1988<br>Percent Change: 17.548076923076916<br><br>Year: 1989<br>Percent Change: -9.202453987730063<br><br>Year: 1990<br>Percent Change: -12.16216216216216<br><br>Year: 1991<br>Percent Change: 78.46153846153847<br><br>Year: 1992<br>Percent Change: 10.488505747126432<br><br>Year: 1994<br>Percent Change: -24.057217165149545<br><br>Year: 1995<br>Percent Change: -42.294520547945204<br><br>Year: 1996<br>Percent Change: 41.24629080118694<br><br>Year: 1997<br>Percent Change: -26.680672268907568<br><br>Year: 1998<br>Percent Change: -59.59885386819484<br><br>Year: 1999<br>Percent Change: 67.37588652482269<br><br>Year: 2000<br>Percent Change: 7.203389830508478<br><br>Year: 2001<br>Percent Change: -7.509881422924902<br><br>Year: 2002<br>Percent Change: -48.71794871794872<br><br>Year: 2003<br>Percent Change: 0.8333333333333304<br><br>Year: 2004<br>Percent Change: -51.23966942148761<br><br>Year: 2005<br>Percent Change: 76.27118644067797<br><br>Year: 2006<br>Percent Change: -5.769230769230771<br><br>Year: 2007<br>Percent Change: -26.530612244897956<br><br>Year: 2008<br>Percent Change: 126.38888888888889<br><br>Year: 2009<br>Percent Change: 11.65644171779141<br><br>Year: 2010<br>Percent Change: -26.923076923076927<br><br>Year: 2011<br>Percent Change: -28.57142857142857<br><br>Year: 2012<br>Percent Change: 103.15789473684211<br><br>Year: 2013<br>Percent Change: 35.23316062176165<br><br>Year: 2014<br>Percent Change: -17.624521072796938<br><br>Year: 2015<br>Percent Change: 54.88372093023255<br><br>Year: 2016<br>Percent Change: -18.018018018018022<br><br>Year: 2017<br>Percent Change: 6.593406593406592<br><br>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
