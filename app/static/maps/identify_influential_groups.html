@@ -1,0 +1,5654 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bc7ccb09f02f5b7094a76a7a6c716b5e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bc7ccb09f02f5b7094a76a7a6c716b5e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bc7ccb09f02f5b7094a76a7a6c716b5e = L.map(
+                "map_bc7ccb09f02f5b7094a76a7a6c716b5e",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8947abdb4994e3e3d7e332e782c43fc2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_8947abdb4994e3e3d7e332e782c43fc2.addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var marker_abe9274c222d8e1951ca6a78d5ff92ac = L.marker(
+                [33.80960741945477, 66.89687917769517],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_0e0fca2f5a9c9f42234f604d3ee6c112 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_abe9274c222d8e1951ca6a78d5ff92ac.setIcon(icon_0e0fca2f5a9c9f42234f604d3ee6c112);
+        
+    
+            marker_abe9274c222d8e1951ca6a78d5ff92ac.bindTooltip(
+                `<div>
+                     <b>Region:</b> Afghanistan<br><b>Total Influence:</b> 7469<br><b>Influential Group:</b> Taliban
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f83aeee2a6335bb60a5ee9e2ac7bf5c2 = L.marker(
+                [40.464987, 19.484994],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_725930c7e07f4c52b02d056bf92f778d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f83aeee2a6335bb60a5ee9e2ac7bf5c2.setIcon(icon_725930c7e07f4c52b02d056bf92f778d);
+        
+    
+            marker_f83aeee2a6335bb60a5ee9e2ac7bf5c2.bindTooltip(
+                `<div>
+                     <b>Region:</b> Albania<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Muslim extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8bbd1dbb04e8bf9518cdb34cd6a9d5db = L.marker(
+                [34.76964725606641, 3.3909885676883778],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_361290bb3724a368b40c2982dda5f6d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8bbd1dbb04e8bf9518cdb34cd6a9d5db.setIcon(icon_361290bb3724a368b40c2982dda5f6d1);
+        
+    
+            marker_8bbd1dbb04e8bf9518cdb34cd6a9d5db.bindTooltip(
+                `<div>
+                     <b>Region:</b> Algeria<br><b>Total Influence:</b> 379<br><b>Influential Group:</b> Algerian Islamic Extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e9b6a1c0e80db5b7e2f35fca1156583b = L.marker(
+                [0.0, 0.0],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_b6fe7126b5bfcb09a4e2b411b80c3b0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e9b6a1c0e80db5b7e2f35fca1156583b.setIcon(icon_b6fe7126b5bfcb09a4e2b411b80c3b0d);
+        
+    
+            marker_e9b6a1c0e80db5b7e2f35fca1156583b.bindTooltip(
+                `<div>
+                     <b>Region:</b> Andorra<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> International Revolutionary Action Group (GARI)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_00f17c059d23527290d61e9140b3d162 = L.marker(
+                [-9.385290520547946, 13.830650157534246],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_61e8014fdb91cb811c63c3aa586cda06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_00f17c059d23527290d61e9140b3d162.setIcon(icon_61e8014fdb91cb811c63c3aa586cda06);
+        
+    
+            marker_00f17c059d23527290d61e9140b3d162.bindTooltip(
+                `<div>
+                     <b>Region:</b> Angola<br><b>Total Influence:</b> 402<br><b>Influential Group:</b> National Union for the Total Independence of Angola (UNITA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fe1b501fd94fda1db81bf13081fb3b9d = L.marker(
+                [-33.6856874691358, -59.33354005864197],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_c3bbcfc7655e3d8173303a8c688dec61 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fe1b501fd94fda1db81bf13081fb3b9d.setIcon(icon_c3bbcfc7655e3d8173303a8c688dec61);
+        
+    
+            marker_fe1b501fd94fda1db81bf13081fb3b9d.bindTooltip(
+                `<div>
+                     <b>Region:</b> Argentina<br><b>Total Influence:</b> 123<br><b>Influential Group:</b> Montoneros (Argentina)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bdd950c75d4bc6ef2a0d6ef828529ea7 = L.marker(
+                [39.969146, 44.821423],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_9bf6ab65394a738747c08b1912c5a0af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bdd950c75d4bc6ef2a0d6ef828529ea7.setIcon(icon_9bf6ab65394a738747c08b1912c5a0af);
+        
+    
+            marker_bdd950c75d4bc6ef2a0d6ef828529ea7.bindTooltip(
+                `<div>
+                     <b>Region:</b> Armenia<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Armenian Guerrillas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b914827c86c715c40fd9ffa8ad5200cf = L.marker(
+                [-28.491912914285713, 125.44095514285715],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_651e5cd1f938e493c17afff1e7d106d4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b914827c86c715c40fd9ffa8ad5200cf.setIcon(icon_651e5cd1f938e493c17afff1e7d106d4);
+        
+    
+            marker_b914827c86c715c40fd9ffa8ad5200cf.bindTooltip(
+                `<div>
+                     <b>Region:</b> Australia<br><b>Total Influence:</b> 8<br><b>Influential Group:</b> Jihadi-inspired extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_202722d026f9600498d93b901f31ddea = L.marker(
+                [47.28503867741936, 15.203283790322581],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_5685192f73b3abd5b6546610dd772a0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_202722d026f9600498d93b901f31ddea.setIcon(icon_5685192f73b3abd5b6546610dd772a0a);
+        
+    
+            marker_202722d026f9600498d93b901f31ddea.bindTooltip(
+                `<div>
+                     <b>Region:</b> Austria<br><b>Total Influence:</b> 15<br><b>Influential Group:</b> Neo-Nazi extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_eed495962ce06d4ee5e3aff531ea9b6f = L.marker(
+                [37.444875333333336, 44.789983533333334],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_a834d5057088700ba0c888cd33170391 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_eed495962ce06d4ee5e3aff531ea9b6f.setIcon(icon_a834d5057088700ba0c888cd33170391);
+        
+    
+            marker_eed495962ce06d4ee5e3aff531ea9b6f.bindTooltip(
+                `<div>
+                     <b>Region:</b> Azerbaijan<br><b>Total Influence:</b> 9<br><b>Influential Group:</b> Azerbaijan Guerrillas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5e2869a0e442cd7f9b69ab21aed80e26 = L.marker(
+                [26.201337731707316, 50.54448565853658],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_c92c9175aa5859f4ac48cdd66617d500 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5e2869a0e442cd7f9b69ab21aed80e26.setIcon(icon_c92c9175aa5859f4ac48cdd66617d500);
+        
+    
+            marker_5e2869a0e442cd7f9b69ab21aed80e26.bindTooltip(
+                `<div>
+                     <b>Region:</b> Bahrain<br><b>Total Influence:</b> 14<br><b>Influential Group:</b> Al-Ashtar Brigades
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5dedf8db9c3ce0dc501a7437175498aa = L.marker(
+                [22.157024984924625, 85.19559276381909],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_d1c84c70888bd0f4f7b5770ae1afc1a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5dedf8db9c3ce0dc501a7437175498aa.setIcon(icon_d1c84c70888bd0f4f7b5770ae1afc1a3);
+        
+    
+            marker_5dedf8db9c3ce0dc501a7437175498aa.bindTooltip(
+                `<div>
+                     <b>Region:</b> Bangladesh<br><b>Total Influence:</b> 105<br><b>Influential Group:</b> Shanti Bahini - Peace Force
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ae556a876ca12533cfe0b33a5b582d54 = L.marker(
+                [13.088666499999999, -59.554837500000005],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_7ac61d083883b8cf39594a07ef0c9aaf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ae556a876ca12533cfe0b33a5b582d54.setIcon(icon_7ac61d083883b8cf39594a07ef0c9aaf);
+        
+    
+            marker_ae556a876ca12533cfe0b33a5b582d54.bindTooltip(
+                `<div>
+                     <b>Region:</b> Barbados<br><b>Total Influence:</b> 3<br><b>Influential Group:</b> Coordination of the United Revolutionary Organization (CORU)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_14e88770ee8198248dd8ab579b10951e = L.marker(
+                [53.9, 27.566667],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_cbdd6183dc30f09e14c29aa960333210 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_14e88770ee8198248dd8ab579b10951e.setIcon(icon_cbdd6183dc30f09e14c29aa960333210);
+        
+    
+            marker_14e88770ee8198248dd8ab579b10951e.bindTooltip(
+                `<div>
+                     <b>Region:</b> Belarus<br><b>Total Influence:</b> 3<br><b>Influential Group:</b> Friends of Freedom
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2ba5594e2c23fd2bb425cdc3bd2f6d43 = L.marker(
+                [50.845021578947375, 4.408007747368421],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_eacd81a97614ba11cc13bb132a9dca10 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2ba5594e2c23fd2bb425cdc3bd2f6d43.setIcon(icon_eacd81a97614ba11cc13bb132a9dca10);
+        
+    
+            marker_2ba5594e2c23fd2bb425cdc3bd2f6d43.bindTooltip(
+                `<div>
+                     <b>Region:</b> Belgium<br><b>Total Influence:</b> 22<br><b>Influential Group:</b> Communist Combattant Cells (CCC) (Belgium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1e135d1172047dcecd7dfbce1754dd55 = L.marker(
+                [26.88102166666667, 90.142208],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_c765bb241432e3329073f82825c41ac1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1e135d1172047dcecd7dfbce1754dd55.setIcon(icon_c765bb241432e3329073f82825c41ac1);
+        
+    
+            marker_1e135d1172047dcecd7dfbce1754dd55.bindTooltip(
+                `<div>
+                     <b>Region:</b> Bhutan<br><b>Total Influence:</b> 3<br><b>Influential Group:</b> The United Revolutionary Front of Bhutan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_687e4fda83a6332bde82101b7ed95797 = L.marker(
+                [-15.821663215053762, -62.01050056989247],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_d270431c058724bdfcd7ed5d60e76770 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_687e4fda83a6332bde82101b7ed95797.setIcon(icon_d270431c058724bdfcd7ed5d60e76770);
+        
+    
+            marker_687e4fda83a6332bde82101b7ed95797.bindTooltip(
+                `<div>
+                     <b>Region:</b> Bolivia<br><b>Total Influence:</b> 25<br><b>Influential Group:</b> Tupac Katari Guerrilla Army (EGTK)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c87affca6dcea0424054fc46eb62274f = L.marker(
+                [42.489948999999996, 17.34254922222222],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_6a5b6da162339015553cd84ce31fcf11 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c87affca6dcea0424054fc46eb62274f.setIcon(icon_6a5b6da162339015553cd84ce31fcf11);
+        
+    
+            marker_c87affca6dcea0424054fc46eb62274f.bindTooltip(
+                `<div>
+                     <b>Region:</b> Bosnia-Herzegovina<br><b>Total Influence:</b> 10<br><b>Influential Group:</b> Serbian guerrillas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3910c0ba2d4f0a08f658e53849cd2939 = L.marker(
+                [-12.3282385, 12.9556275],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_6c27bfbe5976a900633fba22ba34b9bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3910c0ba2d4f0a08f658e53849cd2939.setIcon(icon_6c27bfbe5976a900633fba22ba34b9bc);
+        
+    
+            marker_3910c0ba2d4f0a08f658e53849cd2939.bindTooltip(
+                `<div>
+                     <b>Region:</b> Botswana<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> African National Congress (South Africa)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2197e0a162c4e29c3c738f45248e4a32 = L.marker(
+                [-17.909708535714284, -43.711098190476186],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_7fa1bf0aa4cc05a8233a4ba81391e303 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2197e0a162c4e29c3c738f45248e4a32.setIcon(icon_7fa1bf0aa4cc05a8233a4ba81391e303);
+        
+    
+            marker_2197e0a162c4e29c3c738f45248e4a32.bindTooltip(
+                `<div>
+                     <b>Region:</b> Brazil<br><b>Total Influence:</b> 17<br><b>Influential Group:</b> Death Squad
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_73c538257d8ec156c03b3a5e75962a33 = L.marker(
+                [45.420943, -75.698945],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_662c5ad68d08e17b148f16968aa4fe63 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_73c538257d8ec156c03b3a5e75962a33.setIcon(icon_662c5ad68d08e17b148f16968aa4fe63);
+        
+    
+            marker_73c538257d8ec156c03b3a5e75962a33.bindTooltip(
+                `<div>
+                     <b>Region:</b> Brunei<br><b>Total Influence:</b> 6<br><b>Influential Group:</b> Black September
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bb0652736cd34457e08bce024b966cf2 = L.marker(
+                [42.60313716666666, 26.4052865],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_e2e497182056b064188c49817bb11049 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bb0652736cd34457e08bce024b966cf2.setIcon(icon_e2e497182056b064188c49817bb11049);
+        
+    
+            marker_bb0652736cd34457e08bce024b966cf2.bindTooltip(
+                `<div>
+                     <b>Region:</b> Bulgaria<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Anti-Muslim extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0ab86f3a9ce7eb3f4e22153385014f56 = L.marker(
+                [13.48926837142857, -1.2945548],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_04458a1b9cf7b7db0fe56d77f0a6718c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0ab86f3a9ce7eb3f4e22153385014f56.setIcon(icon_04458a1b9cf7b7db0fe56d77f0a6718c);
+        
+    
+            marker_0ab86f3a9ce7eb3f4e22153385014f56.bindTooltip(
+                `<div>
+                     <b>Region:</b> Burkina Faso<br><b>Total Influence:</b> 16<br><b>Influential Group:</b> Ansar al-Islam (Burkina Faso)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c6850338a36a2e675281fb6e0906fe2e = L.marker(
+                [-3.2259795622317595, 28.270656364806868],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_b2801547500935878012f76fa2e1999a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c6850338a36a2e675281fb6e0906fe2e.setIcon(icon_b2801547500935878012f76fa2e1999a);
+        
+    
+            marker_c6850338a36a2e675281fb6e0906fe2e.bindTooltip(
+                `<div>
+                     <b>Region:</b> Burundi<br><b>Total Influence:</b> 113<br><b>Influential Group:</b> Hutu extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d8293fbdbf0eba1677ffada5d0ac6d89 = L.marker(
+                [8.945406966850829, 73.77453935359117],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_d13c2bd24482d5c3346391d0dd9f2e30 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d8293fbdbf0eba1677ffada5d0ac6d89.setIcon(icon_d13c2bd24482d5c3346391d0dd9f2e30);
+        
+    
+            marker_d8293fbdbf0eba1677ffada5d0ac6d89.bindTooltip(
+                `<div>
+                     <b>Region:</b> Cambodia<br><b>Total Influence:</b> 165<br><b>Influential Group:</b> Khmer Rouge
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4da05f7a33c611cd99e7c928217ef99d = L.marker(
+                [10.25726993661972, 13.52050203169014],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_09ae4e68bfc8d87fe2c7d51a1d4d4103 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4da05f7a33c611cd99e7c928217ef99d.setIcon(icon_09ae4e68bfc8d87fe2c7d51a1d4d4103);
+        
+    
+            marker_4da05f7a33c611cd99e7c928217ef99d.bindTooltip(
+                `<div>
+                     <b>Region:</b> Cameroon<br><b>Total Influence:</b> 241<br><b>Influential Group:</b> Boko Haram
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b590da82fa9f520a1b788e30487f0ebd = L.marker(
+                [44.582961294117645, -82.35437972549019],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_c482da678727ae6358ae881b59729f58 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b590da82fa9f520a1b788e30487f0ebd.setIcon(icon_c482da678727ae6358ae881b59729f58);
+        
+    
+            marker_b590da82fa9f520a1b788e30487f0ebd.bindTooltip(
+                `<div>
+                     <b>Region:</b> Canada<br><b>Total Influence:</b> 11<br><b>Influential Group:</b> Jihadi-inspired extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_833147eeb6ffc0908136ae48369548a1 = L.marker(
+                [5.450143024271844, 19.49716044174757],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_7689eba12a6fcaebe896bf637e884e48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_833147eeb6ffc0908136ae48369548a1.setIcon(icon_7689eba12a6fcaebe896bf637e884e48);
+        
+    
+            marker_833147eeb6ffc0908136ae48369548a1.bindTooltip(
+                `<div>
+                     <b>Region:</b> Central African Republic<br><b>Total Influence:</b> 78<br><b>Influential Group:</b> Anti-Balaka Militia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_daf3f79f125e6de87037ebeb36f88acf = L.marker(
+                [11.615634646153847, 14.461922107692308],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_5bade1630f125c3bce1cbc9882900cd6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_daf3f79f125e6de87037ebeb36f88acf.setIcon(icon_5bade1630f125c3bce1cbc9882900cd6);
+        
+    
+            marker_daf3f79f125e6de87037ebeb36f88acf.bindTooltip(
+                `<div>
+                     <b>Region:</b> Chad<br><b>Total Influence:</b> 38<br><b>Influential Group:</b> Boko Haram
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_599e2ad047990dc3b398964d5a487261 = L.marker(
+                [-33.23826305068791, -69.78715313685736],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_9aad845385259334cf6af18a2c530567 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_599e2ad047990dc3b398964d5a487261.setIcon(icon_9aad845385259334cf6af18a2c530567);
+        
+    
+            marker_599e2ad047990dc3b398964d5a487261.bindTooltip(
+                `<div>
+                     <b>Region:</b> Chile<br><b>Total Influence:</b> 837<br><b>Influential Group:</b> Manuel Rodriguez Patriotic Front (FPMR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_96221ca0a36dc6a364535a6648670e0b = L.marker(
+                [39.537706309090915, 87.93198318181818],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_a080fb42bbebe707773da97409746011 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_96221ca0a36dc6a364535a6648670e0b.setIcon(icon_a080fb42bbebe707773da97409746011);
+        
+    
+            marker_96221ca0a36dc6a364535a6648670e0b.bindTooltip(
+                `<div>
+                     <b>Region:</b> China<br><b>Total Influence:</b> 93<br><b>Influential Group:</b> Uighur Separatists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a76643bed4720c0b6094e3aca3157b15 = L.marker(
+                [5.132760224570257, -70.04160779735058],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_1aa44f6e60131f8867cd268170e810b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a76643bed4720c0b6094e3aca3157b15.setIcon(icon_1aa44f6e60131f8867cd268170e810b2);
+        
+    
+            marker_a76643bed4720c0b6094e3aca3157b15.bindTooltip(
+                `<div>
+                     <b>Region:</b> Colombia<br><b>Total Influence:</b> 2501<br><b>Influential Group:</b> Revolutionary Armed Forces of Colombia (FARC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_568a558c8319a00e98bb98f843ee1800 = L.marker(
+                [-12.094911999999999, 43.576852333333335],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_68d544de08b99f4164da4f1ff9e8a020 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_568a558c8319a00e98bb98f843ee1800.setIcon(icon_68d544de08b99f4164da4f1ff9e8a020);
+        
+    
+            marker_568a558c8319a00e98bb98f843ee1800.bindTooltip(
+                `<div>
+                     <b>Region:</b> Comoros<br><b>Total Influence:</b> 3<br><b>Influential Group:</b> Separatists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_47f3f63d1677e6825b79260741726b4c = L.marker(
+                [10.037671517241378, -84.16562013793103],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_c09d7273c0cd87a8540e34205114c22b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_47f3f63d1677e6825b79260741726b4c.setIcon(icon_c09d7273c0cd87a8540e34205114c22b);
+        
+    
+            marker_47f3f63d1677e6825b79260741726b4c.bindTooltip(
+                `<div>
+                     <b>Region:</b> Costa Rica<br><b>Total Influence:</b> 6<br><b>Influential Group:</b> Coordination of the United Revolutionary Organization (CORU)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b80c210cf9132a2269d0a307491f6607 = L.marker(
+                [45.31799721052632, 16.55984994736842],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_019dfdf38f2d6b029b7e11547ca8ba6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b80c210cf9132a2269d0a307491f6607.setIcon(icon_019dfdf38f2d6b029b7e11547ca8ba6f);
+        
+    
+            marker_b80c210cf9132a2269d0a307491f6607.bindTooltip(
+                `<div>
+                     <b>Region:</b> Croatia<br><b>Total Influence:</b> 8<br><b>Influential Group:</b> Serbian extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_72aab5797538cda5cf712b2031966cfe = L.marker(
+                [23.0365705, -81.84189533333333],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_b1f519a2414fcf28614860dc2ccbf486 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_72aab5797538cda5cf712b2031966cfe.setIcon(icon_b1f519a2414fcf28614860dc2ccbf486);
+        
+    
+            marker_72aab5797538cda5cf712b2031966cfe.bindTooltip(
+                `<div>
+                     <b>Region:</b> Cuba<br><b>Total Influence:</b> 4<br><b>Influential Group:</b> Raul Ernesto Cruz Leon, Salvadorian
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0637ad4af289bc547206a67936f354db = L.marker(
+                [33.2654277948718, 31.632561512820512],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_6be9d6130000437c35f3d344c4eb7c77 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0637ad4af289bc547206a67936f354db.setIcon(icon_6be9d6130000437c35f3d344c4eb7c77);
+        
+    
+            marker_0637ad4af289bc547206a67936f354db.bindTooltip(
+                `<div>
+                     <b>Region:</b> Cyprus<br><b>Total Influence:</b> 10<br><b>Influential Group:</b> National Organization of Cypriot Fighters (EOKA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_615b47f9215127beb3c9248e0444ce2a = L.marker(
+                [50.2776712, 14.6130453],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_4bff4a18f4961e808d1d440279ed8c81 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_615b47f9215127beb3c9248e0444ce2a.setIcon(icon_4bff4a18f4961e808d1d440279ed8c81);
+        
+    
+            marker_615b47f9215127beb3c9248e0444ce2a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Czech Republic<br><b>Total Influence:</b> 6<br><b>Influential Group:</b> Neo-Nazi extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b402a611638757eac857bcfd9ce3f8a8 = L.marker(
+                [32.785934, 10.979978666666666],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_baef30e4da41d47a2295708c8d38128a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b402a611638757eac857bcfd9ce3f8a8.setIcon(icon_baef30e4da41d47a2295708c8d38128a);
+        
+    
+            marker_b402a611638757eac857bcfd9ce3f8a8.bindTooltip(
+                `<div>
+                     <b>Region:</b> Czechoslovakia<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Croatian Nationalists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e1307df6d256d2346b56ff35040b37cb = L.marker(
+                [-0.37485219658119656, 28.07348543162393],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_d9576c89fe379171e491dcbdd9145c8f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e1307df6d256d2346b56ff35040b37cb.setIcon(icon_d9576c89fe379171e491dcbdd9145c8f);
+        
+    
+            marker_e1307df6d256d2346b56ff35040b37cb.bindTooltip(
+                `<div>
+                     <b>Region:</b> Democratic Republic of the Congo<br><b>Total Influence:</b> 175<br><b>Influential Group:</b> Allied Democratic Forces (ADF)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b692150bf886f05e3ceaad8a8c3e5bd0 = L.marker(
+                [53.2765532173913, 11.920821869565216],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_97e8f3a5fffdea0b1e73bce6311d65c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b692150bf886f05e3ceaad8a8c3e5bd0.setIcon(icon_97e8f3a5fffdea0b1e73bce6311d65c3);
+        
+    
+            marker_b692150bf886f05e3ceaad8a8c3e5bd0.bindTooltip(
+                `<div>
+                     <b>Region:</b> Denmark<br><b>Total Influence:</b> 6<br><b>Influential Group:</b> Armenian Secret Army for the Liberation of Armenia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_52f5545e5494a5cd7faba9bc15a9b3d6 = L.marker(
+                [10.5040351, 38.417029],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_fa90c250cf769f003888380fcbe6989f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_52f5545e5494a5cd7faba9bc15a9b3d6.setIcon(icon_fa90c250cf769f003888380fcbe6989f);
+        
+    
+            marker_52f5545e5494a5cd7faba9bc15a9b3d6.bindTooltip(
+                `<div>
+                     <b>Region:</b> Djibouti<br><b>Total Influence:</b> 8<br><b>Influential Group:</b> Front for the Restoration of Unity and Democracy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_10a95a9c85471e21a17c3ea228595ecf = L.marker(
+                [15.304193, -61.384225],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_65fcfbd9c0e3e2b0ef17faa49ac35947 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_10a95a9c85471e21a17c3ea228595ecf.setIcon(icon_65fcfbd9c0e3e2b0ef17faa49ac35947);
+        
+    
+            marker_10a95a9c85471e21a17c3ea228595ecf.bindTooltip(
+                `<div>
+                     <b>Region:</b> Dominica<br><b>Total Influence:</b> 3<br><b>Influential Group:</b> Anti-Government Group
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c5e327227660b5f4d1eba87696e1bb30 = L.marker(
+                [18.536647764705883, -70.13538517647059],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_e012b1e0a2fef9226003c20a4c3ae76c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c5e327227660b5f4d1eba87696e1bb30.setIcon(icon_e012b1e0a2fef9226003c20a4c3ae76c);
+        
+    
+            marker_c5e327227660b5f4d1eba87696e1bb30.bindTooltip(
+                `<div>
+                     <b>Region:</b> Dominican Republic<br><b>Total Influence:</b> 15<br><b>Influential Group:</b> Maximiliano Gomez Revolutionary Brigade
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bef6f30ca0e8b48f70b748201f84304b = L.marker(
+                [52.47683306666667, 13.284166466666667],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_a33e93b2f9584b6c91aab17ee5a13419 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bef6f30ca0e8b48f70b748201f84304b.setIcon(icon_a33e93b2f9584b6c91aab17ee5a13419);
+        
+    
+            marker_bef6f30ca0e8b48f70b748201f84304b.bindTooltip(
+                `<div>
+                     <b>Region:</b> East Germany (GDR)<br><b>Total Influence:</b> 5<br><b>Influential Group:</b> Extraparliamentary Opposition (APO)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bbdaa591f87cc888df18a14e4cdaaa07 = L.marker(
+                [-8.925, 125.375833],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_7f4b9501a37738c81c80d6348b5036c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bbdaa591f87cc888df18a14e4cdaaa07.setIcon(icon_7f4b9501a37738c81c80d6348b5036c1);
+        
+    
+            marker_bbdaa591f87cc888df18a14e4cdaaa07.bindTooltip(
+                `<div>
+                     <b>Region:</b> East Timor<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Pro-Indonesia extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a1d1b19217b96c57f3b494bd1259ab49 = L.marker(
+                [-0.9202722820512821, -73.81980958974358],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_cd9dab579e5b76b74a1283d8c6b7a4e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a1d1b19217b96c57f3b494bd1259ab49.setIcon(icon_cd9dab579e5b76b74a1283d8c6b7a4e3);
+        
+    
+            marker_a1d1b19217b96c57f3b494bd1259ab49.bindTooltip(
+                `<div>
+                     <b>Region:</b> Ecuador<br><b>Total Influence:</b> 30<br><b>Influential Group:</b> Alfaro Vive
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b40085ad21512f86b8997b10d56d0823 = L.marker(
+                [29.589139685308844, 32.23324042654424],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_06eaac03248d4e048b7ba9873060530e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b40085ad21512f86b8997b10d56d0823.setIcon(icon_06eaac03248d4e048b7ba9873060530e);
+        
+    
+            marker_b40085ad21512f86b8997b10d56d0823.bindTooltip(
+                `<div>
+                     <b>Region:</b> Egypt<br><b>Total Influence:</b> 450<br><b>Influential Group:</b> Sinai Province of the Islamic State
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_200f6e3c685d88ae44f7431cccea6a72 = L.marker(
+                [12.361806205844323, -80.08015850374969],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_77736813d18bd93cf70a05a7b52621d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_200f6e3c685d88ae44f7431cccea6a72.setIcon(icon_77736813d18bd93cf70a05a7b52621d5);
+        
+    
+            marker_200f6e3c685d88ae44f7431cccea6a72.bindTooltip(
+                `<div>
+                     <b>Region:</b> El Salvador<br><b>Total Influence:</b> 3337<br><b>Influential Group:</b> Farabundo Marti National Liberation Front (FMLN)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_195137bf386f04060ed541d1557f29cf = L.marker(
+                [3.758429, 8.785311],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_59fdf90ef7431f4cc0752f7e67e37db9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_195137bf386f04060ed541d1557f29cf.setIcon(icon_59fdf90ef7431f4cc0752f7e67e37db9);
+        
+    
+            marker_195137bf386f04060ed541d1557f29cf.bindTooltip(
+                `<div>
+                     <b>Region:</b> Equatorial Guinea<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Movement for the Emancipation of the Niger Delta (MEND)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_97d43d759888ed318a05affb5245d01f = L.marker(
+                [9.268019625, 24.44641425],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_fdc1de766bb0da621f5d2410e8b49aff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_97d43d759888ed318a05affb5245d01f.setIcon(icon_fdc1de766bb0da621f5d2410e8b49aff);
+        
+    
+            marker_97d43d759888ed318a05affb5245d01f.bindTooltip(
+                `<div>
+                     <b>Region:</b> Eritrea<br><b>Total Influence:</b> 7<br><b>Influential Group:</b> Red Sea Afar Democratic Organization (RSADO)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bbf1e21ddd8da42ed8aaec728c47d9c2 = L.marker(
+                [59.352523500000004, 24.313685],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_40f830346137526b4ff3677b52163c3c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bbf1e21ddd8da42ed8aaec728c47d9c2.setIcon(icon_40f830346137526b4ff3677b52163c3c);
+        
+    
+            marker_bbf1e21ddd8da42ed8aaec728c47d9c2.bindTooltip(
+                `<div>
+                     <b>Region:</b> Estonia<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Fatherland
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_15e6a0d3e90864fa2309505ebb5701ff = L.marker(
+                [8.417752575471699, 31.620971603773587],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_ea3bfdbc7c518dbe66d742de36e93535 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_15e6a0d3e90864fa2309505ebb5701ff.setIcon(icon_ea3bfdbc7c518dbe66d742de36e93535);
+        
+    
+            marker_15e6a0d3e90864fa2309505ebb5701ff.bindTooltip(
+                `<div>
+                     <b>Region:</b> Ethiopia<br><b>Total Influence:</b> 25<br><b>Influential Group:</b> Eritrean Liberation Front
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bc194779c04912d9bad9b668233d3615 = L.marker(
+                [-51.692214, -57.8589],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_950e4e439077b4d1c52833419e20e98c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bc194779c04912d9bad9b668233d3615.setIcon(icon_950e4e439077b4d1c52833419e20e98c);
+        
+    
+            marker_bc194779c04912d9bad9b668233d3615.bindTooltip(
+                `<div>
+                     <b>Region:</b> Falkland Islands<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Artigas-Giachino Command
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fec362460312da1845023c09d871a51d = L.marker(
+                [-17.519989799999998, 178.8055112],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_5128792f1a49f7716ae19666a7ebaa17 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fec362460312da1845023c09d871a51d.setIcon(icon_5128792f1a49f7716ae19666a7ebaa17);
+        
+    
+            marker_fec362460312da1845023c09d871a51d.bindTooltip(
+                `<div>
+                     <b>Region:</b> Fiji<br><b>Total Influence:</b> 3<br><b>Influential Group:</b> Anti-Government extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_581187e04851bc2513523b6b46d217ad = L.marker(
+                [60.412081799999996, 24.8221608],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_4e6d29dcd96222d8fffe00c344a15c93 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_581187e04851bc2513523b6b46d217ad.setIcon(icon_4e6d29dcd96222d8fffe00c344a15c93);
+        
+    
+            marker_581187e04851bc2513523b6b46d217ad.bindTooltip(
+                `<div>
+                     <b>Region:</b> Finland<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Animal Liberation Front (ALF)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d11ea595c33c99cbddeee93748f97049 = L.marker(
+                [44.028111063408964, 5.642735769633508],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_011076cdf33ee982d62c6201120664f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d11ea595c33c99cbddeee93748f97049.setIcon(icon_011076cdf33ee982d62c6201120664f1);
+        
+    
+            marker_d11ea595c33c99cbddeee93748f97049.bindTooltip(
+                `<div>
+                     <b>Region:</b> France<br><b>Total Influence:</b> 644<br><b>Influential Group:</b> Corsican National Liberation Front (FLNC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0c5c66be3619be582fa0b51d5487d501 = L.marker(
+                [5.113727333333333, -52.89492833333333],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_5347c69d0b63489f4e08d7bff0d638a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0c5c66be3619be582fa0b51d5487d501.setIcon(icon_5347c69d0b63489f4e08d7bff0d638a4);
+        
+    
+            marker_0c5c66be3619be582fa0b51d5487d501.bindTooltip(
+                `<div>
+                     <b>Region:</b> French Guiana<br><b>Total Influence:</b> 4<br><b>Influential Group:</b> Caribbean Revolutionary Alliance (ARC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_759a10b344a344eb4ce5d9a1fc50d6b1 = L.marker(
+                [-17.534984, -149.569504],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_9c0b39a56fe57f96fe5f38cd7d629bed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_759a10b344a344eb4ce5d9a1fc50d6b1.setIcon(icon_9c0b39a56fe57f96fe5f38cd7d629bed);
+        
+    
+            marker_759a10b344a344eb4ce5d9a1fc50d6b1.bindTooltip(
+                `<div>
+                     <b>Region:</b> French Polynesia<br><b>Total Influence:</b> 5<br><b>Influential Group:</b> Anti-Nuclear extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1681a1cda6d067868d65e019b99a7f4d = L.marker(
+                [-1.826427, 13.014556],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_51770f2d0555f93c50b895c81d67cc8a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1681a1cda6d067868d65e019b99a7f4d.setIcon(icon_51770f2d0555f93c50b895c81d67cc8a);
+        
+    
+            marker_1681a1cda6d067868d65e019b99a7f4d.bindTooltip(
+                `<div>
+                     <b>Region:</b> Gabon<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Convention of Liberal Reformers (CLR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5e2107c97744d8df76a3a6c1641b9bfe = L.marker(
+                [41.57801311764706, 41.814927980392156],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_ab0a80a6c036afd3a7fb16e1057098f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5e2107c97744d8df76a3a6c1641b9bfe.setIcon(icon_ab0a80a6c036afd3a7fb16e1057098f9);
+        
+    
+            marker_5e2107c97744d8df76a3a6c1641b9bfe.bindTooltip(
+                `<div>
+                     <b>Region:</b> Georgia<br><b>Total Influence:</b> 15<br><b>Influential Group:</b> Supporters of Ex-President Gamsakhurdial
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_18f5c121449d6e40339bacec1148a013 = L.marker(
+                [49.23482097515528, 9.87111738716356],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_e606c1dd052c7d258fb1eea1e9017473 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_18f5c121449d6e40339bacec1148a013.setIcon(icon_e606c1dd052c7d258fb1eea1e9017473);
+        
+    
+            marker_18f5c121449d6e40339bacec1148a013.bindTooltip(
+                `<div>
+                     <b>Region:</b> Germany<br><b>Total Influence:</b> 174<br><b>Influential Group:</b> Neo-Nazi extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a38f48b6ca36b4d0c0c2924d45eaabf3 = L.marker(
+                [6.005800499999999, -0.494293875],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_8bee689d0b7dd5a5060d85cb28b7e558 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a38f48b6ca36b4d0c0c2924d45eaabf3.setIcon(icon_8bee689d0b7dd5a5060d85cb28b7e558);
+        
+    
+            marker_a38f48b6ca36b4d0c0c2924d45eaabf3.bindTooltip(
+                `<div>
+                     <b>Region:</b> Ghana<br><b>Total Influence:</b> 4<br><b>Influential Group:</b> Farighan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a2e208625f7e0dc71f76dd8ecccb80b2 = L.marker(
+                [37.953605249999995, 23.57806738061798],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_78c323dafe78d7fa80d05649a402ba55 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a2e208625f7e0dc71f76dd8ecccb80b2.setIcon(icon_78c323dafe78d7fa80d05649a402ba55);
+        
+    
+            marker_a2e208625f7e0dc71f76dd8ecccb80b2.bindTooltip(
+                `<div>
+                     <b>Region:</b> Greece<br><b>Total Influence:</b> 119<br><b>Influential Group:</b> November 17 Revolutionary Organization (N17RO)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b36eb574d94bdc7047242fc69f5693f6 = L.marker(
+                [11.297505424242424, -42.895876242424244],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_daab52fe09eb80e89355bd7fed7ee206 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b36eb574d94bdc7047242fc69f5693f6.setIcon(icon_daab52fe09eb80e89355bd7fed7ee206);
+        
+    
+            marker_b36eb574d94bdc7047242fc69f5693f6.bindTooltip(
+                `<div>
+                     <b>Region:</b> Guadeloupe<br><b>Total Influence:</b> 21<br><b>Influential Group:</b> Caribbean Revolutionary Alliance (ARC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bb26a9b01d26df46f4e43b881572eaea = L.marker(
+                [13.650092664050236, -83.07304450863423],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_c2052577690d0538e2f973aa4ae57f44 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bb26a9b01d26df46f4e43b881572eaea.setIcon(icon_c2052577690d0538e2f973aa4ae57f44);
+        
+    
+            marker_bb26a9b01d26df46f4e43b881572eaea.bindTooltip(
+                `<div>
+                     <b>Region:</b> Guatemala<br><b>Total Influence:</b> 162<br><b>Influential Group:</b> Guerrilla Army of the Poor (EGP)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_49215c3a84da2f92cf7fe42024a1fffd = L.marker(
+                [8.798833727272728, -10.373143],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_608f874258ccaaf60583f18e8bf8459f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_49215c3a84da2f92cf7fe42024a1fffd.setIcon(icon_608f874258ccaaf60583f18e8bf8459f);
+        
+    
+            marker_49215c3a84da2f92cf7fe42024a1fffd.bindTooltip(
+                `<div>
+                     <b>Region:</b> Guinea<br><b>Total Influence:</b> 7<br><b>Influential Group:</b> Rebels
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2b775cdd809a19281887fbcf8d1fe55f = L.marker(
+                [7.047859, -58.5905015],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_4f297072cff7a1b1fd35357ef9dff48e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2b775cdd809a19281887fbcf8d1fe55f.setIcon(icon_4f297072cff7a1b1fd35357ef9dff48e);
+        
+    
+            marker_2b775cdd809a19281887fbcf8d1fe55f.bindTooltip(
+                `<div>
+                     <b>Region:</b> Guyana<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Gunmen
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cd1a22be0c6792cb34aa632509cab65c = L.marker(
+                [18.856237564102564, -72.45064561538462],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_7e18377914702105a984a06fc91dbb97 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cd1a22be0c6792cb34aa632509cab65c.setIcon(icon_7e18377914702105a984a06fc91dbb97);
+        
+    
+            marker_cd1a22be0c6792cb34aa632509cab65c.bindTooltip(
+                `<div>
+                     <b>Region:</b> Haiti<br><b>Total Influence:</b> 8<br><b>Influential Group:</b> Aristide supporters
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b69fdabd06e581a581100e3bb73b5c22 = L.marker(
+                [14.306089939759037, -86.81790398795181],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_3935db9e9d0c756babcd00455f03bb6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b69fdabd06e581a581100e3bb73b5c22.setIcon(icon_3935db9e9d0c756babcd00455f03bb6f);
+        
+    
+            marker_b69fdabd06e581a581100e3bb73b5c22.bindTooltip(
+                `<div>
+                     <b>Region:</b> Honduras<br><b>Total Influence:</b> 47<br><b>Influential Group:</b> Lorenzo Zelaya Revolutionary Front (LZRF)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a5c4b8cc80b5eb8e26679ac00631659c = L.marker(
+                [22.25688625, 114.19682775],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_a131f8c5b6979e7364f36892517e2eb4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a5c4b8cc80b5eb8e26679ac00631659c.setIcon(icon_a131f8c5b6979e7364f36892517e2eb4);
+        
+    
+            marker_a5c4b8cc80b5eb8e26679ac00631659c.bindTooltip(
+                `<div>
+                     <b>Region:</b> Hong Kong<br><b>Total Influence:</b> 3<br><b>Influential Group:</b> Pirates
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c74047e8e22ad30f456ce9b7f3d1e66f = L.marker(
+                [47.498406, 19.040758],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_f11d3e683f2645c75c8971a6509db08c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c74047e8e22ad30f456ce9b7f3d1e66f.setIcon(icon_f11d3e683f2645c75c8971a6509db08c);
+        
+    
+            marker_c74047e8e22ad30f456ce9b7f3d1e66f.bindTooltip(
+                `<div>
+                     <b>Region:</b> Hungary<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Armenian Secret Army for the Liberation of Armenia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e89599abcdd53e3a3d189815f71a578b = L.marker(
+                [64.398307, -21.458725],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_38e4e1f573a2b1ec1dc85a739a4f1937 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e89599abcdd53e3a3d189815f71a578b.setIcon(icon_38e4e1f573a2b1ec1dc85a739a4f1937);
+        
+    
+            marker_e89599abcdd53e3a3d189815f71a578b.bindTooltip(
+                `<div>
+                     <b>Region:</b> Iceland<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Sea Shepherd Conservation Society
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6fd81dd5114dc7c2e0f9259e3dd6cede = L.marker(
+                [24.708748982254434, 82.2435434580105],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_e086e4f66a33ee2b8b05d120e980e07b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6fd81dd5114dc7c2e0f9259e3dd6cede.setIcon(icon_e086e4f66a33ee2b8b05d120e980e07b);
+        
+    
+            marker_6fd81dd5114dc7c2e0f9259e3dd6cede.bindTooltip(
+                `<div>
+                     <b>Region:</b> India<br><b>Total Influence:</b> 1891<br><b>Influential Group:</b> Communist Party of India - Maoist (CPI-Maoist)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_17b6e97c4539b39fcb576900b45d1bcb = L.marker(
+                [-2.2034221903719913, 109.2683620393873],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_59bdec5d735af7217b6ed09fdfc16a5f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_17b6e97c4539b39fcb576900b45d1bcb.setIcon(icon_59bdec5d735af7217b6ed09fdfc16a5f);
+        
+    
+            marker_17b6e97c4539b39fcb576900b45d1bcb.bindTooltip(
+                `<div>
+                     <b>Region:</b> Indonesia<br><b>Total Influence:</b> 122<br><b>Influential Group:</b> Free Aceh Movement (GAM)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e58c2c2b98b7992b2205b5670121a1ba = L.marker(
+                [12.533136, 47.922339],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_5628f8193eb9f4ae9698cefe1c7d04a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e58c2c2b98b7992b2205b5670121a1ba.setIcon(icon_5628f8193eb9f4ae9698cefe1c7d04a5);
+        
+    
+            marker_e58c2c2b98b7992b2205b5670121a1ba.bindTooltip(
+                `<div>
+                     <b>Region:</b> International<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Adan Abyan Islamic Army (AAIA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cae85b00f7b51278c57282c817b06ecd = L.marker(
+                [32.25840928025478, 49.1857307133758],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_fdac84a1e7032e64470f246dd873e4cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cae85b00f7b51278c57282c817b06ecd.setIcon(icon_fdac84a1e7032e64470f246dd873e4cf);
+        
+    
+            marker_cae85b00f7b51278c57282c817b06ecd.bindTooltip(
+                `<div>
+                     <b>Region:</b> Iran<br><b>Total Influence:</b> 105<br><b>Influential Group:</b> Mujahedin-e Khalq (MEK)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8422e2483e90336d23f2983cb9622112 = L.marker(
+                [34.04567481199743, 43.40267649195883],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_501ad11bc028cfbbccb0f91a49730abe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8422e2483e90336d23f2983cb9622112.setIcon(icon_501ad11bc028cfbbccb0f91a49730abe);
+        
+    
+            marker_8422e2483e90336d23f2983cb9622112.bindTooltip(
+                `<div>
+                     <b>Region:</b> Iraq<br><b>Total Influence:</b> 4819<br><b>Influential Group:</b> Islamic State of Iraq and the Levant (ISIL)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2ae458bd005d790632c19d4e888ccc56 = L.marker(
+                [53.154973553956836, -6.669823151079137],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_697f8da7e18ba31d28be48cdf83d598e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2ae458bd005d790632c19d4e888ccc56.setIcon(icon_697f8da7e18ba31d28be48cdf83d598e);
+        
+    
+            marker_2ae458bd005d790632c19d4e888ccc56.bindTooltip(
+                `<div>
+                     <b>Region:</b> Ireland<br><b>Total Influence:</b> 58<br><b>Influential Group:</b> Irish Republican Army (IRA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_95f70474782d053709052b0f85869eaf = L.marker(
+                [30.966704204787234, 33.97211389228723],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_042b8e138ae8c61318e716fdcacefcd1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_95f70474782d053709052b0f85869eaf.setIcon(icon_042b8e138ae8c61318e716fdcacefcd1);
+        
+    
+            marker_95f70474782d053709052b0f85869eaf.bindTooltip(
+                `<div>
+                     <b>Region:</b> Israel<br><b>Total Influence:</b> 480<br><b>Influential Group:</b> Palestinians
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8ad5dd016abc26843a1e8387cd284172 = L.marker(
+                [43.13622932963374, 10.981572284128747],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_4342b13429a37f9e18c1ab62c8f62e88 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8ad5dd016abc26843a1e8387cd284172.setIcon(icon_4342b13429a37f9e18c1ab62c8f62e88);
+        
+    
+            marker_8ad5dd016abc26843a1e8387cd284172.bindTooltip(
+                `<div>
+                     <b>Region:</b> Italy<br><b>Total Influence:</b> 225<br><b>Influential Group:</b> Red Brigades
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8b882abd30b42ba9796cfbba2b234a72 = L.marker(
+                [5.040870148148149, -4.454895888888889],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_2f581804c5e6cdd6fe21df266cbcac91 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8b882abd30b42ba9796cfbba2b234a72.setIcon(icon_2f581804c5e6cdd6fe21df266cbcac91);
+        
+    
+            marker_8b882abd30b42ba9796cfbba2b234a72.bindTooltip(
+                `<div>
+                     <b>Region:</b> Ivory Coast<br><b>Total Influence:</b> 21<br><b>Influential Group:</b> Gbagbo Loyalists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_596b7a0bf39a7e5412369ce66e16ebb0 = L.marker(
+                [18.015146625, -76.79434512499999],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_1ed3b3c2bd9feec3840c6a00dcf5bd3a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_596b7a0bf39a7e5412369ce66e16ebb0.setIcon(icon_1ed3b3c2bd9feec3840c6a00dcf5bd3a);
+        
+    
+            marker_596b7a0bf39a7e5412369ce66e16ebb0.bindTooltip(
+                `<div>
+                     <b>Region:</b> Jamaica<br><b>Total Influence:</b> 4<br><b>Influential Group:</b> National Front for the Liberation of Cuba (FLNC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4139240af315eb09cc0c599a6bc24cb9 = L.marker(
+                [35.218063639175256, 137.30413228350514],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_d364b47339e1726b48cf6a15ecb14d85 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4139240af315eb09cc0c599a6bc24cb9.setIcon(icon_d364b47339e1726b48cf6a15ecb14d85);
+        
+    
+            marker_4139240af315eb09cc0c599a6bc24cb9.bindTooltip(
+                `<div>
+                     <b>Region:</b> Japan<br><b>Total Influence:</b> 64<br><b>Influential Group:</b> Chukakuha (Middle Core Faction)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_41c92f64e0d4fde5db5271f6eb1dfaf9 = L.marker(
+                [29.945999333333333, 33.906142352941174],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_06cabcbceeaef9e1b888f17fa15180c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_41c92f64e0d4fde5db5271f6eb1dfaf9.setIcon(icon_06cabcbceeaef9e1b888f17fa15180c1);
+        
+    
+            marker_41c92f64e0d4fde5db5271f6eb1dfaf9.bindTooltip(
+                `<div>
+                     <b>Region:</b> Jordan<br><b>Total Influence:</b> 12<br><b>Influential Group:</b> Black September
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1f01f7326009aa21236248f205ec7998 = L.marker(
+                [47.6771884, 66.0216881],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_e9447795d66f5ad6ea70b6dce9a5162a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1f01f7326009aa21236248f205ec7998.setIcon(icon_e9447795d66f5ad6ea70b6dce9a5162a);
+        
+    
+            marker_1f01f7326009aa21236248f205ec7998.bindTooltip(
+                `<div>
+                     <b>Region:</b> Kazakhstan<br><b>Total Influence:</b> 5<br><b>Influential Group:</b> Kazakhstan Liberation Army
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0cc7964f1dd41048c3ba78fd82c1cdeb = L.marker(
+                [0.03743672279260784, 38.93391408213553],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_a4925a74f2649671c9f9bd51819117e4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0cc7964f1dd41048c3ba78fd82c1cdeb.setIcon(icon_a4925a74f2649671c9f9bd51819117e4);
+        
+    
+            marker_0cc7964f1dd41048c3ba78fd82c1cdeb.bindTooltip(
+                `<div>
+                     <b>Region:</b> Kenya<br><b>Total Influence:</b> 417<br><b>Influential Group:</b> Al-Shabaab
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1bef8f84bfac8e5de50e53945f63a21d = L.marker(
+                [42.597699125000005, 21.128021999999998],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_a35822b8897db717eb51c60fbaa383d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1bef8f84bfac8e5de50e53945f63a21d.setIcon(icon_a35822b8897db717eb51c60fbaa383d8);
+        
+    
+            marker_1bef8f84bfac8e5de50e53945f63a21d.bindTooltip(
+                `<div>
+                     <b>Region:</b> Kosovo<br><b>Total Influence:</b> 33<br><b>Influential Group:</b> Albanian extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5a1f41bad93539653e1e9d2f1e4f89e6 = L.marker(
+                [20.490355636363635, 33.38477436363637],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_b236b0e8c244f80e2560c625aad89d72 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5a1f41bad93539653e1e9d2f1e4f89e6.setIcon(icon_b236b0e8c244f80e2560c625aad89d72);
+        
+    
+            marker_5a1f41bad93539653e1e9d2f1e4f89e6.bindTooltip(
+                `<div>
+                     <b>Region:</b> Kuwait<br><b>Total Influence:</b> 12<br><b>Influential Group:</b> Hezbollah
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_740c857590fa86b61d6ec5ec521ebe23 = L.marker(
+                [35.99944075, 63.513214874999996],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_c5e5fee25154986221a6333dcba45efe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_740c857590fa86b61d6ec5ec521ebe23.setIcon(icon_c5e5fee25154986221a6333dcba45efe);
+        
+    
+            marker_740c857590fa86b61d6ec5ec521ebe23.bindTooltip(
+                `<div>
+                     <b>Region:</b> Kyrgyzstan<br><b>Total Influence:</b> 5<br><b>Influential Group:</b> Muslim extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d81c7d9a093a525ba4f6d1b837a0a915 = L.marker(
+                [18.210442666666665, 102.27091166666666],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_578f603d404a7d0483e8d680af2b4b63 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d81c7d9a093a525ba4f6d1b837a0a915.setIcon(icon_578f603d404a7d0483e8d680af2b4b63);
+        
+    
+            marker_d81c7d9a093a525ba4f6d1b837a0a915.bindTooltip(
+                `<div>
+                     <b>Region:</b> Laos<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Bandits
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_332cf6542824b0b434a6957d7cccd2e7 = L.marker(
+                [56.979977, 24.209616999999998],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_1d762294be5e850dfde077859e02e782 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_332cf6542824b0b434a6957d7cccd2e7.setIcon(icon_1d762294be5e850dfde077859e02e782);
+        
+    
+            marker_332cf6542824b0b434a6957d7cccd2e7.bindTooltip(
+                `<div>
+                     <b>Region:</b> Latvia<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Fighters of Democratic Latvia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e546e131d6b01d608cec3ecbafc70dfe = L.marker(
+                [31.097878510186007, 32.80396193179806],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_ae5d07a38f41e6358de2951fa1be47e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e546e131d6b01d608cec3ecbafc70dfe.setIcon(icon_ae5d07a38f41e6358de2951fa1be47e6);
+        
+    
+            marker_e546e131d6b01d608cec3ecbafc70dfe.bindTooltip(
+                `<div>
+                     <b>Region:</b> Lebanon<br><b>Total Influence:</b> 312<br><b>Influential Group:</b> Hezbollah
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1929d13cb760c4fa1ea8fb200e3159ed = L.marker(
+                [-24.829380153846156, 23.337776846153847],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_4006f8d71461fab0aa4261d3ccdfc770 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1929d13cb760c4fa1ea8fb200e3159ed.setIcon(icon_4006f8d71461fab0aa4261d3ccdfc770);
+        
+    
+            marker_1929d13cb760c4fa1ea8fb200e3159ed.bindTooltip(
+                `<div>
+                     <b>Region:</b> Lesotho<br><b>Total Influence:</b> 14<br><b>Influential Group:</b> Lesotho Liberation Army (LLA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ee29fa5fdc061ac05feb63b8b8b5e8b2 = L.marker(
+                [6.923917625, -10.2637204375],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_a9aff787e8ca3b2b53ad1b941237e5c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ee29fa5fdc061ac05feb63b8b8b5e8b2.setIcon(icon_a9aff787e8ca3b2b53ad1b941237e5c0);
+        
+    
+            marker_ee29fa5fdc061ac05feb63b8b8b5e8b2.bindTooltip(
+                `<div>
+                     <b>Region:</b> Liberia<br><b>Total Influence:</b> 10<br><b>Influential Group:</b> Liberians United for Reconciliation and Democracy (LURD)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_595788f1440b358fc3e75ca8fcb23d9d = L.marker(
+                [31.41535470767613, 17.494881885383805],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_c6d386765fbaf9113c5c582099e5e384 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_595788f1440b358fc3e75ca8fcb23d9d.setIcon(icon_c6d386765fbaf9113c5c582099e5e384);
+        
+    
+            marker_595788f1440b358fc3e75ca8fcb23d9d.bindTooltip(
+                `<div>
+                     <b>Region:</b> Libya<br><b>Total Influence:</b> 358<br><b>Influential Group:</b> Tripoli Province of the Islamic State
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f03bc56ce21a97eb6a253c741492cb3a = L.marker(
+                [54.861864, 23.963158],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_f8f1f246bc6d4775cea285006eb4470b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f03bc56ce21a97eb6a253c741492cb3a.setIcon(icon_f8f1f246bc6d4775cea285006eb4470b);
+        
+    
+            marker_f03bc56ce21a97eb6a253c741492cb3a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Lithuania<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Lithuanian Land Guard
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9955578745dc7584844fdad9a835b7f3 = L.marker(
+                [24.8058105, 3.0659675],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_a65795a10b44302c23c6e56ba7fdf3f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9955578745dc7584844fdad9a835b7f3.setIcon(icon_a65795a10b44302c23c6e56ba7fdf3f1);
+        
+    
+            marker_9955578745dc7584844fdad9a835b7f3.bindTooltip(
+                `<div>
+                     <b>Region:</b> Luxembourg<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Fighting Ecologist Movement
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a2035473dbee1d9522093ed7b61e84b0 = L.marker(
+                [22.192266, 113.547631],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_70987519cdc9b8b6e347bd560d897b52 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a2035473dbee1d9522093ed7b61e84b0.setIcon(icon_70987519cdc9b8b6e347bd560d897b52);
+        
+    
+            marker_a2035473dbee1d9522093ed7b61e84b0.bindTooltip(
+                `<div>
+                     <b>Region:</b> Macau<br><b>Total Influence:</b> 5<br><b>Influential Group:</b> 14 K Triad
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_35ecf6d9302b95a30e54ac5b4b7863a5 = L.marker(
+                [41.983262448275866, 21.144494862068964],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_275758f608c82d8d19ac116cb6471127 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_35ecf6d9302b95a30e54ac5b4b7863a5.setIcon(icon_275758f608c82d8d19ac116cb6471127);
+        
+    
+            marker_35ecf6d9302b95a30e54ac5b4b7863a5.bindTooltip(
+                `<div>
+                     <b>Region:</b> Macedonia<br><b>Total Influence:</b> 40<br><b>Influential Group:</b> National Liberation Army (NLA) (Macedonia)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bd9332f565d3a9ed347f97f7a5be500e = L.marker(
+                [-16.466517, 47.665088],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_b4c13758755f289a42260ac1f21977b0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bd9332f565d3a9ed347f97f7a5be500e.setIcon(icon_b4c13758755f289a42260ac1f21977b0);
+        
+    
+            marker_bd9332f565d3a9ed347f97f7a5be500e.bindTooltip(
+                `<div>
+                     <b>Region:</b> Madagascar<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Anti-Government Demonstrators
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d7f9fc87d927468b4eae49c59cefd486 = L.marker(
+                [-14.884904500000001, 34.393255],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_3f8d6cdcda409530fbf1b3eb70695279 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d7f9fc87d927468b4eae49c59cefd486.setIcon(icon_3f8d6cdcda409530fbf1b3eb70695279);
+        
+    
+            marker_d7f9fc87d927468b4eae49c59cefd486.bindTooltip(
+                `<div>
+                     <b>Region:</b> Malawi<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Anti-government rioters
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e930f9e51fd883f7a2ee3586114796d9 = L.marker(
+                [4.6630704, 112.05469816666667],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_08b22c33779cb51c80317040b60b80cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e930f9e51fd883f7a2ee3586114796d9.setIcon(icon_08b22c33779cb51c80317040b60b80cc);
+        
+    
+            marker_e930f9e51fd883f7a2ee3586114796d9.bindTooltip(
+                `<div>
+                     <b>Region:</b> Malaysia<br><b>Total Influence:</b> 22<br><b>Influential Group:</b> Abu Sayyaf Group (ASG)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_48393d383cc2566d3342bdcb38509b9e = L.marker(
+                [4.1751582, 73.50898199999999],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_ddc615a3c1a708f26c8b36b7ca74e860 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_48393d383cc2566d3342bdcb38509b9e.setIcon(icon_ddc615a3c1a708f26c8b36b7ca74e860);
+        
+    
+            marker_48393d383cc2566d3342bdcb38509b9e.bindTooltip(
+                `<div>
+                     <b>Region:</b> Maldives<br><b>Total Influence:</b> 5<br><b>Influential Group:</b> Muslim extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a60463a14fb1de75945d28996a2e0848 = L.marker(
+                [15.80085513258427, -1.675044391011236],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_0626479fb3fd026063a663fd93d2caa5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a60463a14fb1de75945d28996a2e0848.setIcon(icon_0626479fb3fd026063a663fd93d2caa5);
+        
+    
+            marker_a60463a14fb1de75945d28996a2e0848.bindTooltip(
+                `<div>
+                     <b>Region:</b> Mali<br><b>Total Influence:</b> 70<br><b>Influential Group:</b> Ansar al-Dine (Mali)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4030d856fd5c73bd3e3a2f025aa19eae = L.marker(
+                [35.859981, 14.489218],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_54825a4cc0eb326c36f84dfc08fa6b14 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4030d856fd5c73bd3e3a2f025aa19eae.setIcon(icon_54825a4cc0eb326c36f84dfc08fa6b14);
+        
+    
+            marker_4030d856fd5c73bd3e3a2f025aa19eae.bindTooltip(
+                `<div>
+                     <b>Region:</b> Malta<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Turkish radicals
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6e95dd8dd82990f394f40a23e33660c3 = L.marker(
+                [14.609856, -61.06873099999999],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_8962f2148a6ecec0310b5542d4a233aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6e95dd8dd82990f394f40a23e33660c3.setIcon(icon_8962f2148a6ecec0310b5542d4a233aa);
+        
+    
+            marker_6e95dd8dd82990f394f40a23e33660c3.bindTooltip(
+                `<div>
+                     <b>Region:</b> Martinique<br><b>Total Influence:</b> 4<br><b>Influential Group:</b> Caribbean Revolutionary Alliance (ARC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_73a1cfffcca1f4284a24e040456f27e3 = L.marker(
+                [15.977551466666666, -10.029073333333335],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_a630e199d8cc0188ac5b84751393a9da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_73a1cfffcca1f4284a24e040456f27e3.setIcon(icon_a630e199d8cc0188ac5b84751393a9da);
+        
+    
+            marker_73a1cfffcca1f4284a24e040456f27e3.bindTooltip(
+                `<div>
+                     <b>Region:</b> Mauritania<br><b>Total Influence:</b> 13<br><b>Influential Group:</b> Al-Qaida in the Islamic Maghreb (AQIM)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_70bd76128a3215bf5200858dfe8782b0 = L.marker(
+                [18.774580255605382, -97.09281630941703],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_0706c5371c4d5f6ca3ebd09934414c49 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_70bd76128a3215bf5200858dfe8782b0.setIcon(icon_0706c5371c4d5f6ca3ebd09934414c49);
+        
+    
+            marker_70bd76128a3215bf5200858dfe8782b0.bindTooltip(
+                `<div>
+                     <b>Region:</b> Mexico<br><b>Total Influence:</b> 49<br><b>Influential Group:</b> 23rd of September Communist League
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3920e2c94ef2ae497c81faadc396e600 = L.marker(
+                [46.930986857142855, 29.444228857142857],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_e72266ef5c612deea41027c3ddab82f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3920e2c94ef2ae497c81faadc396e600.setIcon(icon_e72266ef5c612deea41027c3ddab82f7);
+        
+    
+            marker_3920e2c94ef2ae497c81faadc396e600.bindTooltip(
+                `<div>
+                     <b>Region:</b> Moldova<br><b>Total Influence:</b> 3<br><b>Influential Group:</b> Dnestr Republic Separatists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_70ef78fbeda49fe6367bd1d89bbc8121 = L.marker(
+                [26.151016652173915, -6.269709304347827],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_288f6fd1c11aa8e21b399267fbfaba73 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_70ef78fbeda49fe6367bd1d89bbc8121.setIcon(icon_288f6fd1c11aa8e21b399267fbfaba73);
+        
+    
+            marker_70ef78fbeda49fe6367bd1d89bbc8121.bindTooltip(
+                `<div>
+                     <b>Region:</b> Morocco<br><b>Total Influence:</b> 13<br><b>Influential Group:</b> Polisario Front
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_522538f6cfe02a98350f58a32ada40bc = L.marker(
+                [-18.60861884126984, 31.673058768253966],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_1b0d62ce26e645620b2626c4afc111de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_522538f6cfe02a98350f58a32ada40bc.setIcon(icon_1b0d62ce26e645620b2626c4afc111de);
+        
+    
+            marker_522538f6cfe02a98350f58a32ada40bc.bindTooltip(
+                `<div>
+                     <b>Region:</b> Mozambique<br><b>Total Influence:</b> 300<br><b>Influential Group:</b> Mozambique National Resistance Movement (MNR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_55d5707fb1e00754b169a64c82efe4b9 = L.marker(
+                [18.999810119158877, 89.29200242523363],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_d96323ff0463226bed189617a69a3b6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_55d5707fb1e00754b169a64c82efe4b9.setIcon(icon_d96323ff0463226bed189617a69a3b6d);
+        
+    
+            marker_55d5707fb1e00754b169a64c82efe4b9.bindTooltip(
+                `<div>
+                     <b>Region:</b> Myanmar<br><b>Total Influence:</b> 91<br><b>Influential Group:</b> Karen National Union
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f50a08125de4d39e373de1af222466d6 = L.marker(
+                [-16.023288666666666, 14.777248377777777],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_9a206a3666a5d96110112a09285b6fc0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f50a08125de4d39e373de1af222466d6.setIcon(icon_9a206a3666a5d96110112a09285b6fc0);
+        
+    
+            marker_f50a08125de4d39e373de1af222466d6.bindTooltip(
+                `<div>
+                     <b>Region:</b> Namibia<br><b>Total Influence:</b> 65<br><b>Influential Group:</b> South-West Africa People's Organization (SWAPO)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2b2676eeedfab45266fd8c833fe8aa29 = L.marker(
+                [27.349967104930467, 84.35150222123895],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_80da4e49e6cf0ab9b76da2006535f61d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2b2676eeedfab45266fd8c833fe8aa29.setIcon(icon_80da4e49e6cf0ab9b76da2006535f61d);
+        
+    
+            marker_2b2676eeedfab45266fd8c833fe8aa29.bindTooltip(
+                `<div>
+                     <b>Region:</b> Nepal<br><b>Total Influence:</b> 236<br><b>Influential Group:</b> Maoists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0c30d39b2ddcddfacbfc8869d590ddec = L.marker(
+                [50.22793844303798, 4.8135773417721515],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_fcf067b79c59f5d8d67799c3289e8cd7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0c30d39b2ddcddfacbfc8869d590ddec.setIcon(icon_fcf067b79c59f5d8d67799c3289e8cd7);
+        
+    
+            marker_0c30d39b2ddcddfacbfc8869d590ddec.bindTooltip(
+                `<div>
+                     <b>Region:</b> Netherlands<br><b>Total Influence:</b> 12<br><b>Influential Group:</b> Kurdistan Workers' Party (PKK)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fa039fe711725c9e23ce9e122d414e6d = L.marker(
+                [-20.168676857142856, 154.107652],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_ec2bb4f2feb7e6c99deaa308d6c2e8e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fa039fe711725c9e23ce9e122d414e6d.setIcon(icon_ec2bb4f2feb7e6c99deaa308d6c2e8e8);
+        
+    
+            marker_fa039fe711725c9e23ce9e122d414e6d.bindTooltip(
+                `<div>
+                     <b>Region:</b> New Caledonia<br><b>Total Influence:</b> 9<br><b>Influential Group:</b> Kanak Socialist National Liberation Front
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_81d6f5fbe312fb8ccc59feebabb8a25a = L.marker(
+                [-17.734818, 168.322029],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_f9433e58e2b9fee7e23194acfe2bc229 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_81d6f5fbe312fb8ccc59feebabb8a25a.setIcon(icon_f9433e58e2b9fee7e23194acfe2bc229);
+        
+    
+            marker_81d6f5fbe312fb8ccc59feebabb8a25a.bindTooltip(
+                `<div>
+                     <b>Region:</b> New Hebrides<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Secessionists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c44653ea4cc646799344e525cb59c613 = L.marker(
+                [-39.780122166666665, 174.82102583333335],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_02da8389a362c81c22864ce9c236ea0b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c44653ea4cc646799344e525cb59c613.setIcon(icon_02da8389a362c81c22864ce9c236ea0b);
+        
+    
+            marker_c44653ea4cc646799344e525cb59c613.bindTooltip(
+                `<div>
+                     <b>Region:</b> New Zealand<br><b>Total Influence:</b> 6<br><b>Influential Group:</b> September 11
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7578b211a3e0c4f718375b0a31a46c61 = L.marker(
+                [10.029414832490163, -48513.36994842214],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_2480a22579d031ae6262a431f0a42bba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7578b211a3e0c4f718375b0a31a46c61.setIcon(icon_2480a22579d031ae6262a431f0a42bba);
+        
+    
+            marker_7578b211a3e0c4f718375b0a31a46c61.bindTooltip(
+                `<div>
+                     <b>Region:</b> Nicaragua<br><b>Total Influence:</b> 893<br><b>Influential Group:</b> Nicaraguan Democratic Force (FDN)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7c4bdc611ab441b1be568471febb2c21 = L.marker(
+                [14.901497836879432, 8.85607335460993],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_222e06c1273f2730dbda8f2126fc2e37 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7c4bdc611ab441b1be568471febb2c21.setIcon(icon_222e06c1273f2730dbda8f2126fc2e37);
+        
+    
+            marker_7c4bdc611ab441b1be568471febb2c21.bindTooltip(
+                `<div>
+                     <b>Region:</b> Niger<br><b>Total Influence:</b> 69<br><b>Influential Group:</b> Boko Haram
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7d09f973266d6640a286751396b623f9 = L.marker(
+                [10.329567703933748, 10.996889295721187],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_bf4072d6c5d2c2c4c15b3cab1a14ae76 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7d09f973266d6640a286751396b623f9.setIcon(icon_bf4072d6c5d2c2c4c15b3cab1a14ae76);
+        
+    
+            marker_7d09f973266d6640a286751396b623f9.bindTooltip(
+                `<div>
+                     <b>Region:</b> Nigeria<br><b>Total Influence:</b> 2110<br><b>Influential Group:</b> Boko Haram
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d28ce7dc4308c59415245814007a595f = L.marker(
+                [39.031859, 125.753765],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_44e265df14a38c347dc6eccf501c1369 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d28ce7dc4308c59415245814007a595f.setIcon(icon_44e265df14a38c347dc6eccf501c1369);
+        
+    
+            marker_d28ce7dc4308c59415245814007a595f.bindTooltip(
+                `<div>
+                     <b>Region:</b> North Korea<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Kim Pyongnil Supporters
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ca8b3ce6b6959227c9ed6560e0fe89d0 = L.marker(
+                [59.931748071428565, 10.749007714285714],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_dd887e2da85bdc390cbf1f90581928c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ca8b3ce6b6959227c9ed6560e0fe89d0.setIcon(icon_dd887e2da85bdc390cbf1f90581928c1);
+        
+    
+            marker_ca8b3ce6b6959227c9ed6560e0fe89d0.bindTooltip(
+                `<div>
+                     <b>Region:</b> Norway<br><b>Total Influence:</b> 4<br><b>Influential Group:</b> Neo-Nazi extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_41cf21f612abb2d552073d60cfb8c965 = L.marker(
+                [30.310563321341625, 68.96492391939411],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_060ce0daa3b94137855803c124d4e0d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_41cf21f612abb2d552073d60cfb8c965.setIcon(icon_060ce0daa3b94137855803c124d4e0d3);
+        
+    
+            marker_41cf21f612abb2d552073d60cfb8c965.bindTooltip(
+                `<div>
+                     <b>Region:</b> Pakistan<br><b>Total Influence:</b> 1381<br><b>Influential Group:</b> Tehrik-i-Taliban Pakistan (TTP)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bfe15d0a0b0709638befbf8f5ae55569 = L.marker(
+                [8.944680333333332, -79.41401751851852],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_60061634fb190c6d429e8093d9079884 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bfe15d0a0b0709638befbf8f5ae55569.setIcon(icon_60061634fb190c6d429e8093d9079884);
+        
+    
+            marker_bfe15d0a0b0709638befbf8f5ae55569.bindTooltip(
+                `<div>
+                     <b>Region:</b> Panama<br><b>Total Influence:</b> 17<br><b>Influential Group:</b> 20 December Movement (M-20)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_811b4301ea5b572ed2294c93fd05cb26 = L.marker(
+                [-6.125644111111111, 153.7995329722222],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_6f1d4080f668c021b67d29fdf7539395 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_811b4301ea5b572ed2294c93fd05cb26.setIcon(icon_6f1d4080f668c021b67d29fdf7539395);
+        
+    
+            marker_811b4301ea5b572ed2294c93fd05cb26.bindTooltip(
+                `<div>
+                     <b>Region:</b> Papua New Guinea<br><b>Total Influence:</b> 36<br><b>Influential Group:</b> Bougainville Revolutionary Army (BRA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ed3c0d318d1c05b4626d624edc6ac1a0 = L.marker(
+                [-22.569535109890108, -53.76640391208791],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_79659fa6bd1967ac0444e182606c0ce5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ed3c0d318d1c05b4626d624edc6ac1a0.setIcon(icon_79659fa6bd1967ac0444e182606c0ce5);
+        
+    
+            marker_ed3c0d318d1c05b4626d624edc6ac1a0.bindTooltip(
+                `<div>
+                     <b>Region:</b> Paraguay<br><b>Total Influence:</b> 78<br><b>Influential Group:</b> Paraguayan People's Army (EPP)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f907c0e0f2312b912e2b045bd9420f3c = L.marker(
+                [-3.3688967499999998, 10.712127],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_ef18ed7053a895c23aba008668ff2466 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f907c0e0f2312b912e2b045bd9420f3c.setIcon(icon_ef18ed7053a895c23aba008668ff2466);
+        
+    
+            marker_f907c0e0f2312b912e2b045bd9420f3c.bindTooltip(
+                `<div>
+                     <b>Region:</b> People's Republic of the Congo<br><b>Total Influence:</b> 3<br><b>Influential Group:</b> Front for the Liberation of the Enclave of Cabinda (FLEC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b911c170dbf2cb35fbafceae955b2b58 = L.marker(
+                [-11.353635765134099, -72.03923603218391],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_fcf7a328f3be55fd8739d92edd49b2a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b911c170dbf2cb35fbafceae955b2b58.setIcon(icon_fcf7a328f3be55fd8739d92edd49b2a2);
+        
+    
+            marker_b911c170dbf2cb35fbafceae955b2b58.bindTooltip(
+                `<div>
+                     <b>Region:</b> Peru<br><b>Total Influence:</b> 4550<br><b>Influential Group:</b> Shining Path (SL)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7d52ec746214706cc19c89984fd2299e = L.marker(
+                [8.824157597133075, 114.70201181065468],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_2111cb63bc2f287d0afd3a50a4a11167 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7d52ec746214706cc19c89984fd2299e.setIcon(icon_2111cb63bc2f287d0afd3a50a4a11167);
+        
+    
+            marker_7d52ec746214706cc19c89984fd2299e.bindTooltip(
+                `<div>
+                     <b>Region:</b> Philippines<br><b>Total Influence:</b> 2791<br><b>Influential Group:</b> New People's Army (NPA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b97c5187dfa41acd1d026dab502a9a8a = L.marker(
+                [52.3427872, 18.9146171],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_c58a7a59c5ee07a012f98ea67b9f92e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b97c5187dfa41acd1d026dab502a9a8a.setIcon(icon_c58a7a59c5ee07a012f98ea67b9f92e6);
+        
+    
+            marker_b97c5187dfa41acd1d026dab502a9a8a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Poland<br><b>Total Influence:</b> 4<br><b>Influential Group:</b> December 13 Independent Group
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1ea455ea84b2a4894f6a7b92af330b42 = L.marker(
+                [38.754732215189875, -10.679930455696203],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_94102d7b4fb38b740e8deae3d8ab8f08 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1ea455ea84b2a4894f6a7b92af330b42.setIcon(icon_94102d7b4fb38b740e8deae3d8ab8f08);
+        
+    
+            marker_1ea455ea84b2a4894f6a7b92af330b42.bindTooltip(
+                `<div>
+                     <b>Region:</b> Portugal<br><b>Total Influence:</b> 52<br><b>Influential Group:</b> Popular Forces of April 25
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_50e6b9ce58b1cdfb91bb7af4228bc944 = L.marker(
+                [25.284220249999997, 51.546407],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_3cc0b58cace997efdadcce802b12c8fc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_50e6b9ce58b1cdfb91bb7af4228bc944.setIcon(icon_3cc0b58cace997efdadcce802b12c8fc);
+        
+    
+            marker_50e6b9ce58b1cdfb91bb7af4228bc944.bindTooltip(
+                `<div>
+                     <b>Region:</b> Qatar<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Iraqi extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_28b31561a193e9434a430d4b29256f9a = L.marker(
+                [-3.5764719, 16.0542811],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_9424f48db8017821c51fbc39ca008547 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_28b31561a193e9434a430d4b29256f9a.setIcon(icon_9424f48db8017821c51fbc39ca008547);
+        
+    
+            marker_28b31561a193e9434a430d4b29256f9a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Republic of the Congo<br><b>Total Influence:</b> 9<br><b>Influential Group:</b> Ninjas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_aab79519a82d81bee938105ef4d847c6 = L.marker(
+                [-12.496733714285716, 20.4727273877551],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_60c12a533c69b8b6134e85c1bf3d644b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_aab79519a82d81bee938105ef4d847c6.setIcon(icon_60c12a533c69b8b6134e85c1bf3d644b);
+        
+    
+            marker_aab79519a82d81bee938105ef4d847c6.bindTooltip(
+                `<div>
+                     <b>Region:</b> Rhodesia<br><b>Total Influence:</b> 15<br><b>Influential Group:</b> Zimbabwe African Nationalist Union (ZANU)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_de9d610242bab03e80356c172616ae39 = L.marker(
+                [44.433333, 26.1],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_f3d836b1f81ab7edb0ec658b75a3579b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_de9d610242bab03e80356c172616ae39.setIcon(icon_f3d836b1f81ab7edb0ec658b75a3579b);
+        
+    
+            marker_de9d610242bab03e80356c172616ae39.bindTooltip(
+                `<div>
+                     <b>Region:</b> Romania<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Bavarian Liberation Army
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_16de200b2b3a50f8e6565ac901c53cea = L.marker(
+                [44.65286094455067, 45.33196650286807],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_27c4d03879e592516acbb2731edb4f14 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_16de200b2b3a50f8e6565ac901c53cea.setIcon(icon_27c4d03879e592516acbb2731edb4f14);
+        
+    
+            marker_16de200b2b3a50f8e6565ac901c53cea.bindTooltip(
+                `<div>
+                     <b>Region:</b> Russia<br><b>Total Influence:</b> 332<br><b>Influential Group:</b> Chechen Rebels
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_93507373e159ba8b8c2259a9ff6cbc89 = L.marker(
+                [-1.7689963333333334, 27.53542807246377],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_6d62bbbfdd1c4e20cef85fac6f0be1e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_93507373e159ba8b8c2259a9ff6cbc89.setIcon(icon_6d62bbbfdd1c4e20cef85fac6f0be1e2);
+        
+    
+            marker_93507373e159ba8b8c2259a9ff6cbc89.bindTooltip(
+                `<div>
+                     <b>Region:</b> Rwanda<br><b>Total Influence:</b> 50<br><b>Influential Group:</b> Hutu extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a9abc7bc9f277c4761320e89ef8fca7e = L.marker(
+                [18.846374684684687, 42.50278618468469],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_b93591db77b3b6b9c575409169e356a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a9abc7bc9f277c4761320e89ef8fca7e.setIcon(icon_b93591db77b3b6b9c575409169e356a8);
+        
+    
+            marker_a9abc7bc9f277c4761320e89ef8fca7e.bindTooltip(
+                `<div>
+                     <b>Region:</b> Saudi Arabia<br><b>Total Influence:</b> 159<br><b>Influential Group:</b> Houthi extremists (Ansar Allah)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_992cdf240e415382bb39fa593c70a819 = L.marker(
+                [8.796189255813953, -11.111483953488372],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_1b68906f25dcb9766c477ad70d5ffa53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_992cdf240e415382bb39fa593c70a819.setIcon(icon_1b68906f25dcb9766c477ad70d5ffa53);
+        
+    
+            marker_992cdf240e415382bb39fa593c70a819.bindTooltip(
+                `<div>
+                     <b>Region:</b> Senegal<br><b>Total Influence:</b> 87<br><b>Influential Group:</b> Movement of Democratic Forces of Casamance
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f40289ce29cfa35022be50f1e918e107 = L.marker(
+                [43.625026000000005, 21.049787000000002],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_39320dd6c9b51955482a9da45abda304 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f40289ce29cfa35022be50f1e918e107.setIcon(icon_39320dd6c9b51955482a9da45abda304);
+        
+    
+            marker_f40289ce29cfa35022be50f1e918e107.bindTooltip(
+                `<div>
+                     <b>Region:</b> Serbia<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Liberation Army for Presevo, Medvedja and Bujanovac (UCPMB)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fc0dbb16e75d9dea60599e828a9b6088 = L.marker(
+                [43.626298000000006, 21.050186],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_d9b0cba8530b567021ba4bb93138a033 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fc0dbb16e75d9dea60599e828a9b6088.setIcon(icon_d9b0cba8530b567021ba4bb93138a033);
+        
+    
+            marker_fc0dbb16e75d9dea60599e828a9b6088.bindTooltip(
+                `<div>
+                     <b>Region:</b> Serbia-Montenegro<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Albanian National Army (ANA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a8411f882bfbf5f9ea2fae196503402d = L.marker(
+                [-4.616858, 55.44939],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_d044d4e4123322c87b6a6571cfb93f2b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a8411f882bfbf5f9ea2fae196503402d.setIcon(icon_d044d4e4123322c87b6a6571cfb93f2b);
+        
+    
+            marker_a8411f882bfbf5f9ea2fae196503402d.bindTooltip(
+                `<div>
+                     <b>Region:</b> Seychelles<br><b>Total Influence:</b> 4<br><b>Influential Group:</b> Mercenaries
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7be9eaea513f5fa7d804c6688aa1488a = L.marker(
+                [7.619537738095238, -10.690622428571428],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_018285a48a5b37b6fd0c47e6e19b7a68 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7be9eaea513f5fa7d804c6688aa1488a.setIcon(icon_018285a48a5b37b6fd0c47e6e19b7a68);
+        
+    
+            marker_7be9eaea513f5fa7d804c6688aa1488a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Sierra Leone<br><b>Total Influence:</b> 71<br><b>Influential Group:</b> Revolutionary United Front (RUF)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_de7c216b7a5e709305951c39f3302777 = L.marker(
+                [1.27986, 103.848989],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_2531dd6ae7801741c682f74e503f58bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_de7c216b7a5e709305951c39f3302777.setIcon(icon_2531dd6ae7801741c682f74e503f58bd);
+        
+    
+            marker_de7c216b7a5e709305951c39f3302777.bindTooltip(
+                `<div>
+                     <b>Region:</b> Singapore<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Al-Zulfikar
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4e2df8ab9f113ffb1bdd170bca4ff47a = L.marker(
+                [48.45547366666667, 17.895145],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_64af3eca9ce10abe5278777624055946 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4e2df8ab9f113ffb1bdd170bca4ff47a.setIcon(icon_64af3eca9ce10abe5278777624055946);
+        
+    
+            marker_4e2df8ab9f113ffb1bdd170bca4ff47a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Slovak Republic<br><b>Total Influence:</b> 4<br><b>Influential Group:</b> Neo-Nazi extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0e6a3f0a24e36d6187cb324943a18ee6 = L.marker(
+                [-9.584336, 160.155603],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_cb866c7733c201308c4baaeb813909e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0e6a3f0a24e36d6187cb324943a18ee6.setIcon(icon_cb866c7733c201308c4baaeb813909e7);
+        
+    
+            marker_0e6a3f0a24e36d6187cb324943a18ee6.bindTooltip(
+                `<div>
+                     <b>Region:</b> Solomon Islands<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Guadalcanal Liberation Army
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a918bee5dbc98453e46d6509cc72c5c4 = L.marker(
+                [2.756540765089723, 44.477730775530176],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_4dcd72d81e419448b6f9e7406339a0fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a918bee5dbc98453e46d6509cc72c5c4.setIcon(icon_4dcd72d81e419448b6f9e7406339a0fd);
+        
+    
+            marker_a918bee5dbc98453e46d6509cc72c5c4.bindTooltip(
+                `<div>
+                     <b>Region:</b> Somalia<br><b>Total Influence:</b> 2883<br><b>Influential Group:</b> Al-Shabaab
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3d532bd610c6ba7e89e3ec4f4398fefe = L.marker(
+                [-26.802076441215323, 26.440069528401587],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_070ee2ac4362d75cfa68ef27cff6a46c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3d532bd610c6ba7e89e3ec4f4398fefe.setIcon(icon_070ee2ac4362d75cfa68ef27cff6a46c);
+        
+    
+            marker_3d532bd610c6ba7e89e3ec4f4398fefe.bindTooltip(
+                `<div>
+                     <b>Region:</b> South Africa<br><b>Total Influence:</b> 606<br><b>Influential Group:</b> African National Congress (South Africa)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dc1b8ca60a2de70d947eb7ac11c4fd67 = L.marker(
+                [36.7000988125, 127.132970625],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_a9b317fa095adb3166f79f35cec34155 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dc1b8ca60a2de70d947eb7ac11c4fd67.setIcon(icon_a9b317fa095adb3166f79f35cec34155);
+        
+    
+            marker_dc1b8ca60a2de70d947eb7ac11c4fd67.bindTooltip(
+                `<div>
+                     <b>Region:</b> South Korea<br><b>Total Influence:</b> 5<br><b>Influential Group:</b> Student Radicals
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_03f400c17fd3f8de885d2df9caafa1b2 = L.marker(
+                [7.3254715586206895, 30.763588193103452],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_785e98cb20f514938c263a2cc2c9b26a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_03f400c17fd3f8de885d2df9caafa1b2.setIcon(icon_785e98cb20f514938c263a2cc2c9b26a);
+        
+    
+            marker_03f400c17fd3f8de885d2df9caafa1b2.bindTooltip(
+                `<div>
+                     <b>Region:</b> South Sudan<br><b>Total Influence:</b> 106<br><b>Influential Group:</b> Sudan People's Liberation Movement in Opposition (SPLM-IO)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bb30ad9bac7db388c7c26e8f5eefa92b = L.marker(
+                [6.4128235, 22.423208],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_65ef63e9099052b073c1c4c83dabc3d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bb30ad9bac7db388c7c26e8f5eefa92b.setIcon(icon_65ef63e9099052b073c1c4c83dabc3d6);
+        
+    
+            marker_bb30ad9bac7db388c7c26e8f5eefa92b.bindTooltip(
+                `<div>
+                     <b>Region:</b> South Yemen<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Palestinians
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_df39ce3a729b7b3bf7a65da75a37777a = L.marker(
+                [41.69977125, 39.81678745],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_7101a0d83f0142d04a05e93a880a1ebe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_df39ce3a729b7b3bf7a65da75a37777a.setIcon(icon_7101a0d83f0142d04a05e93a880a1ebe);
+        
+    
+            marker_df39ce3a729b7b3bf7a65da75a37777a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Soviet Union<br><b>Total Influence:</b> 8<br><b>Influential Group:</b> Armenian Guerrillas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_65193f64dae8bc2735a7c75f5100506c = L.marker(
+                [41.33640288159393, -2.615877574573055],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_d96aa595993d7efe38aa0060e0388f8d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_65193f64dae8bc2735a7c75f5100506c.setIcon(icon_d96aa595993d7efe38aa0060e0388f8d);
+        
+    
+            marker_65193f64dae8bc2735a7c75f5100506c.bindTooltip(
+                `<div>
+                     <b>Region:</b> Spain<br><b>Total Influence:</b> 1982<br><b>Influential Group:</b> Basque Fatherland and Freedom (ETA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1e8684f8bdbc4696f2862ba00fd52c77 = L.marker(
+                [7.761156865580448, 77.82377227372709],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_26337ac893d1de4e060c3e923904f7c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1e8684f8bdbc4696f2862ba00fd52c77.setIcon(icon_26337ac893d1de4e060c3e923904f7c8);
+        
+    
+            marker_1e8684f8bdbc4696f2862ba00fd52c77.bindTooltip(
+                `<div>
+                     <b>Region:</b> Sri Lanka<br><b>Total Influence:</b> 1606<br><b>Influential Group:</b> Liberation Tigers of Tamil Eelam (LTTE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_446408aeed510db6426970ea7c59a72c = L.marker(
+                [17.300063, -62.730877],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_2c231594addbdf46640194521894db0f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_446408aeed510db6426970ea7c59a72c.setIcon(icon_2c231594addbdf46640194521894db0f);
+        
+    
+            marker_446408aeed510db6426970ea7c59a72c.bindTooltip(
+                `<div>
+                     <b>Region:</b> St. Kitts and Nevis<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> St. Kitts Nevis Labor Party
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fd65e33b7eeddf686b0820e2fed8ee1b = L.marker(
+                [14.01011, -60.9875],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_2c7ffc3ed77456817f380ca67ec10e3f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fd65e33b7eeddf686b0820e2fed8ee1b.setIcon(icon_2c7ffc3ed77456817f380ca67ec10e3f);
+        
+    
+            marker_fd65e33b7eeddf686b0820e2fed8ee1b.bindTooltip(
+                `<div>
+                     <b>Region:</b> St. Lucia<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Rastas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ad27e111708c4e8e3afd219625e6118a = L.marker(
+                [11.380402727272728, 25.96754658181818],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_06e5f77de72b872b49f2a6e3e1f7cfed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ad27e111708c4e8e3afd219625e6118a.setIcon(icon_06e5f77de72b872b49f2a6e3e1f7cfed);
+        
+    
+            marker_ad27e111708c4e8e3afd219625e6118a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Sudan<br><b>Total Influence:</b> 220<br><b>Influential Group:</b> Janjaweed
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8de42fb5766220608e408a44d9097e44 = L.marker(
+                [5.100297080000001, -51.54290298],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_0808e1d7ebe8e3010248968a3db2fcc5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8de42fb5766220608e408a44d9097e44.setIcon(icon_0808e1d7ebe8e3010248968a3db2fcc5);
+        
+    
+            marker_8de42fb5766220608e408a44d9097e44.bindTooltip(
+                `<div>
+                     <b>Region:</b> Suriname<br><b>Total Influence:</b> 48<br><b>Influential Group:</b> Brunswijk Jungle Commando
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d10025393b226b6e40f28e8b25a79bb7 = L.marker(
+                [-26.434294285714284, 31.369293142857142],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_7e2a2d748d5b9db5431ac83ad6c882f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d10025393b226b6e40f28e8b25a79bb7.setIcon(icon_7e2a2d748d5b9db5431ac83ad6c882f9);
+        
+    
+            marker_d10025393b226b6e40f28e8b25a79bb7.bindTooltip(
+                `<div>
+                     <b>Region:</b> Swaziland<br><b>Total Influence:</b> 3<br><b>Influential Group:</b> Umbane People's Liberation Army (Swaziland)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b76284e7ca30389dc2418fb816576041 = L.marker(
+                [56.566449594594594, 14.833902945945947],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_a3854305da917e16681c6e01fd523f1e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b76284e7ca30389dc2418fb816576041.setIcon(icon_a3854305da917e16681c6e01fd523f1e);
+        
+    
+            marker_b76284e7ca30389dc2418fb816576041.bindTooltip(
+                `<div>
+                     <b>Region:</b> Sweden<br><b>Total Influence:</b> 8<br><b>Influential Group:</b> Croatian Nationalists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5931b79273c33435c43dc55c4e80731d = L.marker(
+                [46.68605478947368, 7.122895929824561],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_bbeb02bc80559c32c8ebd43fc9cfb3c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5931b79273c33435c43dc55c4e80731d.setIcon(icon_bbeb02bc80559c32c8ebd43fc9cfb3c7);
+        
+    
+            marker_5931b79273c33435c43dc55c4e80731d.bindTooltip(
+                `<div>
+                     <b>Region:</b> Switzerland<br><b>Total Influence:</b> 17<br><b>Influential Group:</b> Armenian Secret Army for the Liberation of Armenia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_26a8c5c51cda89d5e3a4c7082394e8a3 = L.marker(
+                [34.95956818453427, 36.8698371089631],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_fe9dbbb0420cbd7a120537494c7312c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_26a8c5c51cda89d5e3a4c7082394e8a3.setIcon(icon_fe9dbbb0420cbd7a120537494c7312c3);
+        
+    
+            marker_26a8c5c51cda89d5e3a4c7082394e8a3.bindTooltip(
+                `<div>
+                     <b>Region:</b> Syria<br><b>Total Influence:</b> 633<br><b>Influential Group:</b> Islamic State of Iraq and the Levant (ISIL)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6d45325801671b0c5efb3f0a84686696 = L.marker(
+                [24.284591000000002, 120.73430657142856],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_89c401a6b83bddf87ef812e1de0bad5a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6d45325801671b0c5efb3f0a84686696.setIcon(icon_89c401a6b83bddf87ef812e1de0bad5a);
+        
+    
+            marker_6d45325801671b0c5efb3f0a84686696.bindTooltip(
+                `<div>
+                     <b>Region:</b> Taiwan<br><b>Total Influence:</b> 4<br><b>Influential Group:</b> Anti-Nuclear extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6e5b917a8a3959327a1c06a5f1709fc6 = L.marker(
+                [34.98422377272727, 62.84068736363636],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_174b27606b22df1da2bae2882af76280 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6e5b917a8a3959327a1c06a5f1709fc6.setIcon(icon_174b27606b22df1da2bae2882af76280);
+        
+    
+            marker_6e5b917a8a3959327a1c06a5f1709fc6.bindTooltip(
+                `<div>
+                     <b>Region:</b> Tajikistan<br><b>Total Influence:</b> 5<br><b>Influential Group:</b> Jihadi-inspired extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7df3dc53b7ea98916590a854383557e0 = L.marker(
+                [-5.106202052631579, 33.26748773684211],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_9ee523aff67919fb20060d35061204b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7df3dc53b7ea98916590a854383557e0.setIcon(icon_9ee523aff67919fb20060d35061204b1);
+        
+    
+            marker_7df3dc53b7ea98916590a854383557e0.bindTooltip(
+                `<div>
+                     <b>Region:</b> Tanzania<br><b>Total Influence:</b> 5<br><b>Influential Group:</b> The Association for Islamic Mobilisation and Propagation (UAMSHO)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_42bc95a8cd2ffa3139654c8dc90377f3 = L.marker(
+                [7.424930423208192, 99.55983982935153],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_48bf3e4a22837cd7141f13acfabe58b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_42bc95a8cd2ffa3139654c8dc90377f3.setIcon(icon_48bf3e4a22837cd7141f13acfabe58b9);
+        
+    
+            marker_42bc95a8cd2ffa3139654c8dc90377f3.bindTooltip(
+                `<div>
+                     <b>Region:</b> Thailand<br><b>Total Influence:</b> 332<br><b>Influential Group:</b> Separatists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_29f3275ed2cea23271000ad8de8f0f43 = L.marker(
+                [6.1611478, 1.2256647999999999],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_09efe7cd37d4fc6abc384d4057287bd8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_29f3275ed2cea23271000ad8de8f0f43.setIcon(icon_09efe7cd37d4fc6abc384d4057287bd8);
+        
+    
+            marker_29f3275ed2cea23271000ad8de8f0f43.bindTooltip(
+                `<div>
+                     <b>Region:</b> Togo<br><b>Total Influence:</b> 4<br><b>Influential Group:</b> Togolese Dissidents
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_edfb099439f6c882d3004438e41955fe = L.marker(
+                [10.624099166666667, -61.483453499999996],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_57d2c7cdea986b96384d56c37b8cdc6b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_edfb099439f6c882d3004438e41955fe.setIcon(icon_57d2c7cdea986b96384d56c37b8cdc6b);
+        
+    
+            marker_edfb099439f6c882d3004438e41955fe.bindTooltip(
+                `<div>
+                     <b>Region:</b> Trinidad and Tobago<br><b>Total Influence:</b> 4<br><b>Influential Group:</b> Taxi Drivers
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3fc2ab7fc3ce50a9edc1d7fa949fbcd5 = L.marker(
+                [34.959243894736844, 9.44224719736842],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_f834def981e565f02ee5b62137e8830c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3fc2ab7fc3ce50a9edc1d7fa949fbcd5.setIcon(icon_f834def981e565f02ee5b62137e8830c);
+        
+    
+            marker_3fc2ab7fc3ce50a9edc1d7fa949fbcd5.bindTooltip(
+                `<div>
+                     <b>Region:</b> Tunisia<br><b>Total Influence:</b> 23<br><b>Influential Group:</b> Okba Ibn Nafaa Brigade
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a2b69d9fbdbe942481197811142ee31c = L.marker(
+                [37.17505074634478, 36.470444167630056],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_d64c3e73b3f1ff40f452295ad0afc778 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a2b69d9fbdbe942481197811142ee31c.setIcon(icon_d64c3e73b3f1ff40f452295ad0afc778);
+        
+    
+            marker_a2b69d9fbdbe942481197811142ee31c.bindTooltip(
+                `<div>
+                     <b>Region:</b> Turkey<br><b>Total Influence:</b> 2138<br><b>Influential Group:</b> Kurdistan Workers' Party (PKK)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e6def66cdb8f04cc03124ead5d1a74f2 = L.marker(
+                [37.395037, 61.4200195],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_aefe892e14ce9265402acabac11492cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e6def66cdb8f04cc03124ead5d1a74f2.setIcon(icon_aefe892e14ce9265402acabac11492cf);
+        
+    
+            marker_e6def66cdb8f04cc03124ead5d1a74f2.bindTooltip(
+                `<div>
+                     <b>Region:</b> Turkmenistan<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Gunmen
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6d950d776bf7842f93e06acefd3cc756 = L.marker(
+                [1.681924582733813, 31.118121525179856],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_a17c45d037c27636cadc8279362b401e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6d950d776bf7842f93e06acefd3cc756.setIcon(icon_a17c45d037c27636cadc8279362b401e);
+        
+    
+            marker_6d950d776bf7842f93e06acefd3cc756.bindTooltip(
+                `<div>
+                     <b>Region:</b> Uganda<br><b>Total Influence:</b> 137<br><b>Influential Group:</b> Lord's Resistance Army (LRA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_16ddbb6697b0bc7ad22b35abee31204a = L.marker(
+                [48.03987802015678, 37.764419713325864],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_6d4ea400f5336fc913c8b68b09e8ac14 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_16ddbb6697b0bc7ad22b35abee31204a.setIcon(icon_6d4ea400f5336fc913c8b68b09e8ac14);
+        
+    
+            marker_16ddbb6697b0bc7ad22b35abee31204a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Ukraine<br><b>Total Influence:</b> 632<br><b>Influential Group:</b> Donetsk People's Republic
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_357cc7f26ff0cfef3d5d60009b7f8033 = L.marker(
+                [25.2115335, 55.429424833333336],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_403f79f039cdccb145fd4310d18af347 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_357cc7f26ff0cfef3d5d60009b7f8033.setIcon(icon_403f79f039cdccb145fd4310d18af347);
+        
+    
+            marker_357cc7f26ff0cfef3d5d60009b7f8033.bindTooltip(
+                `<div>
+                     <b>Region:</b> United Arab Emirates<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Abdullah Azzam Brigades
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_386f9f8c12beadfd0808bad99c1fec46 = L.marker(
+                [54.20056273728418, -5.637333965935603],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_d05e9d5266bce1e7804127019a331c60 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_386f9f8c12beadfd0808bad99c1fec46.setIcon(icon_d05e9d5266bce1e7804127019a331c60);
+        
+    
+            marker_386f9f8c12beadfd0808bad99c1fec46.bindTooltip(
+                `<div>
+                     <b>Region:</b> United Kingdom<br><b>Total Influence:</b> 2584<br><b>Influential Group:</b> Irish Republican Army (IRA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d5d30d1c2265b004abc2f5a24544274c = L.marker(
+                [36.865336641224665, -91.93989217421303],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_d24a9098998136e8ec79e006dd3f6339 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d5d30d1c2265b004abc2f5a24544274c.setIcon(icon_d24a9098998136e8ec79e006dd3f6339);
+        
+    
+            marker_d5d30d1c2265b004abc2f5a24544274c.bindTooltip(
+                `<div>
+                     <b>Region:</b> United States<br><b>Total Influence:</b> 202<br><b>Influential Group:</b> Anti-Abortion extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_48271e43aed3c993b509c87867ef5502 = L.marker(
+                [-31.16405147368421, -50.28917908771929],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_8c2b79ec5b6ddf84299463ee13a89fa6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_48271e43aed3c993b509c87867ef5502.setIcon(icon_8c2b79ec5b6ddf84299463ee13a89fa6);
+        
+    
+            marker_48271e43aed3c993b509c87867ef5502.bindTooltip(
+                `<div>
+                     <b>Region:</b> Uruguay<br><b>Total Influence:</b> 48<br><b>Influential Group:</b> Tupamaros (Uruguay)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_75796d93bc42dd8b21f374a8a2061cb7 = L.marker(
+                [41.18030327272727, 69.84393963636363],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_f4a98cc3bd5694e159c3824ec988edf4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_75796d93bc42dd8b21f374a8a2061cb7.setIcon(icon_f4a98cc3bd5694e159c3824ec988edf4);
+        
+    
+            marker_75796d93bc42dd8b21f374a8a2061cb7.bindTooltip(
+                `<div>
+                     <b>Region:</b> Uzbekistan<br><b>Total Influence:</b> 4<br><b>Influential Group:</b> Hizb al-Tahrir al-Islami (HT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b685492f1312743f53984e66a57a749c = L.marker(
+                [-17.734818, 168.322029],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_d36f31816ccd2c0b045e9ce0250d073e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b685492f1312743f53984e66a57a749c.setIcon(icon_d36f31816ccd2c0b045e9ce0250d073e);
+        
+    
+            marker_b685492f1312743f53984e66a57a749c.bindTooltip(
+                `<div>
+                     <b>Region:</b> Vanuatu<br><b>Total Influence:</b> 4<br><b>Influential Group:</b> Vanuatu Mobile Force (VMF)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f43894f1cc8d4d80efd54ba4b88e37cb = L.marker(
+                [41.902887, 12.453553],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_f78ba934cd922d3d60fe36abce39d3cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f43894f1cc8d4d80efd54ba4b88e37cb.setIcon(icon_f78ba934cd922d3d60fe36abce39d3cb);
+        
+    
+            marker_f43894f1cc8d4d80efd54ba4b88e37cb.bindTooltip(
+                `<div>
+                     <b>Region:</b> Vatican City<br><b>Total Influence:</b> 2<br><b>Influential Group:</b> Grey Wolves
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_80a01b7125704bb5513438acda4983bd = L.marker(
+                [8.908307902097903, -65.45276860839161],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_7b1075e9b7b9adf8c5ae72b931d8e4db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_80a01b7125704bb5513438acda4983bd.setIcon(icon_7b1075e9b7b9adf8c5ae72b931d8e4db);
+        
+    
+            marker_80a01b7125704bb5513438acda4983bd.bindTooltip(
+                `<div>
+                     <b>Region:</b> Venezuela<br><b>Total Influence:</b> 36<br><b>Influential Group:</b> National Liberation Army of Colombia (ELN)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ae7f88763b5bb8821f2e89668b3e587b = L.marker(
+                [10.888151, 106.7473155],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_eeed7eff2b171e07e39e5797d559c930 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ae7f88763b5bb8821f2e89668b3e587b.setIcon(icon_eeed7eff2b171e07e39e5797d559c930);
+        
+    
+            marker_ae7f88763b5bb8821f2e89668b3e587b.bindTooltip(
+                `<div>
+                     <b>Region:</b> Vietnam<br><b>Total Influence:</b> 3<br><b>Influential Group:</b> Provisional National Government of Vietnam
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c48ae98bdabf545c4c1cc267c760fedb = L.marker(
+                [31.565864033142127, 34.710624038878265],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_0130ffd9b582d5c060b4810f92baa964 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c48ae98bdabf545c4c1cc267c760fedb.setIcon(icon_0130ffd9b582d5c060b4810f92baa964);
+        
+    
+            marker_c48ae98bdabf545c4c1cc267c760fedb.bindTooltip(
+                `<div>
+                     <b>Region:</b> West Bank and Gaza Strip<br><b>Total Influence:</b> 497<br><b>Influential Group:</b> Palestinians
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_42075fc4ff628f3896f9f26a00622239 = L.marker(
+                [48.75664856834533, 9.044529183453237],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_f6313131b2dcc04063cd52f09ac8d8b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_42075fc4ff628f3896f9f26a00622239.setIcon(icon_f6313131b2dcc04063cd52f09ac8d8b4);
+        
+    
+            marker_42075fc4ff628f3896f9f26a00622239.bindTooltip(
+                `<div>
+                     <b>Region:</b> West Germany (FRG)<br><b>Total Influence:</b> 62<br><b>Influential Group:</b> Red Army Faction (RAF)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1b31f660ff94d320194447c519eeea9a = L.marker(
+                [9.051203666666668, -4.401111],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_9946321c29f76599ebd2ae31a2bdceff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1b31f660ff94d320194447c519eeea9a.setIcon(icon_9946321c29f76599ebd2ae31a2bdceff);
+        
+    
+            marker_1b31f660ff94d320194447c519eeea9a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Western Sahara<br><b>Total Influence:</b> 6<br><b>Influential Group:</b> Polisario Front
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5bcdd7d9f7fdb7266f9c43b32b3e6a51 = L.marker(
+                [14.03230236283186, 44.20365359123472],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_f8b268a9637f38c77089b8486e2335c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5bcdd7d9f7fdb7266f9c43b32b3e6a51.setIcon(icon_f8b268a9637f38c77089b8486e2335c0);
+        
+    
+            marker_5bcdd7d9f7fdb7266f9c43b32b3e6a51.bindTooltip(
+                `<div>
+                     <b>Region:</b> Yemen<br><b>Total Influence:</b> 1042<br><b>Influential Group:</b> Al-Qaida in the Arabian Peninsula (AQAP)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c2e084b52a499bed1308ae12bbde6554 = L.marker(
+                [43.144840648648646, 20.419121202702705],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_91e5417791b47ab758333e0c45ff1526 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c2e084b52a499bed1308ae12bbde6554.setIcon(icon_91e5417791b47ab758333e0c45ff1526);
+        
+    
+            marker_c2e084b52a499bed1308ae12bbde6554.bindTooltip(
+                `<div>
+                     <b>Region:</b> Yugoslavia<br><b>Total Influence:</b> 45<br><b>Influential Group:</b> Kosovo Liberation Army (KLA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e8820eb888cdf265f77f35f11fee554f = L.marker(
+                [-3.315808052631579, 16.52561947368421],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_71c797082e5eb7d56295b87c338c34b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e8820eb888cdf265f77f35f11fee554f.setIcon(icon_71c797082e5eb7d56295b87c338c34b6);
+        
+    
+            marker_e8820eb888cdf265f77f35f11fee554f.bindTooltip(
+                `<div>
+                     <b>Region:</b> Zaire<br><b>Total Influence:</b> 6<br><b>Influential Group:</b> Hutu extremists
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_00d15d0322951fc600110b52e391e9bf = L.marker(
+                [-12.1443114375, 22.643785375],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_ecd34f89e00ff797f55b8bbc1447af94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_00d15d0322951fc600110b52e391e9bf.setIcon(icon_ecd34f89e00ff797f55b8bbc1447af94);
+        
+    
+            marker_00d15d0322951fc600110b52e391e9bf.bindTooltip(
+                `<div>
+                     <b>Region:</b> Zambia<br><b>Total Influence:</b> 18<br><b>Influential Group:</b> National Union for the Total Independence of Angola (UNITA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_459674ada88a51671008dfa10908bac7 = L.marker(
+                [-17.646172772727272, 27.95745125],
+                {
+}
+            ).addTo(map_bc7ccb09f02f5b7094a76a7a6c716b5e);
+        
+    
+            var icon_d75e4203e2c26f097506656801ba336e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_459674ada88a51671008dfa10908bac7.setIcon(icon_d75e4203e2c26f097506656801ba336e);
+        
+    
+            marker_459674ada88a51671008dfa10908bac7.bindTooltip(
+                `<div>
+                     <b>Region:</b> Zimbabwe<br><b>Total Influence:</b> 21<br><b>Influential Group:</b> Zimbabwe African Nationalist Union (ZANU)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

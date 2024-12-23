@@ -1,0 +1,5654 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_61568725c0a5419eb293ac01288709a3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_61568725c0a5419eb293ac01288709a3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_61568725c0a5419eb293ac01288709a3 = L.map(
+                "map_61568725c0a5419eb293ac01288709a3",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f4ffc031a974b1953669f416b783ef41 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f4ffc031a974b1953669f416b783ef41.addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var marker_6fd155ce9c6314a37bfa79678c808c46 = L.marker(
+                [33.80960741945477, 66.89687917769517],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_f7af64d6dd0e1bd890ef3f6b46b59bf1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6fd155ce9c6314a37bfa79678c808c46.setIcon(icon_f7af64d6dd0e1bd890ef3f6b46b59bf1);
+        
+    
+            marker_6fd155ce9c6314a37bfa79678c808c46.bindTooltip(
+                `<div>
+                     <b>Region:</b> Afghanistan<br><b>length groups number:</b> 48<br><b>Groups Involved:</b> Khorasan jihadi group, Gholam Yahya Akbar, Guerrillas, Anti-United States extremists, Insurgents...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_30e6ccc63e9749dc262a7fb7de927e58 = L.marker(
+                [40.464987, 19.484994],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_b60abb8df985abec158b8943a44b7d0f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_30e6ccc63e9749dc262a7fb7de927e58.setIcon(icon_b60abb8df985abec158b8943a44b7d0f);
+        
+    
+            marker_30e6ccc63e9749dc262a7fb7de927e58.bindTooltip(
+                `<div>
+                     <b>Region:</b> Albania<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Muslim extremists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4a0ba9facc30a664a8235bd9f35d5f3a = L.marker(
+                [34.76964725606641, 3.3909885676883778],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_fbcd1c462e2e750596d29cdb9be47a2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4a0ba9facc30a664a8235bd9f35d5f3a.setIcon(icon_fbcd1c462e2e750596d29cdb9be47a2d);
+        
+    
+            marker_4a0ba9facc30a664a8235bd9f35d5f3a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Algeria<br><b>length groups number:</b> 49<br><b>Groups Involved:</b> Jund al-Khilafa, El-Feth katibat, Algeria Province of the Islamic State, Salafist Group for Preaching and Fighting (GSPC), Rebels...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_413c46f80dc7d94c204584f68b0ff009 = L.marker(
+                [0.0, 0.0],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_f34bf197a9d0175044f41c44aaa5f6c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_413c46f80dc7d94c204584f68b0ff009.setIcon(icon_f34bf197a9d0175044f41c44aaa5f6c1);
+        
+    
+            marker_413c46f80dc7d94c204584f68b0ff009.bindTooltip(
+                `<div>
+                     <b>Region:</b> Andorra<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> International Revolutionary Action Group (GARI)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_260d888b86d5b3cb1cfca5c16487a451 = L.marker(
+                [-9.385290520547946, 13.830650157534246],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_e7ea201fb2a64e272604d6accd701949 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_260d888b86d5b3cb1cfca5c16487a451.setIcon(icon_e7ea201fb2a64e272604d6accd701949);
+        
+    
+            marker_260d888b86d5b3cb1cfca5c16487a451.bindTooltip(
+                `<div>
+                     <b>Region:</b> Angola<br><b>length groups number:</b> 13<br><b>Groups Involved:</b> Front for the Liberation of Cabinda / Cabinda Armed Forces (FLEC-FAC), Anti-Government extremists, National Union for the Total Independence of Angola (UNITA), Anti-Government Guerrillas, Popular Movement for the Liberation of Angola...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_733d4c5b73f61243f37e24216110444e = L.marker(
+                [-33.6856874691358, -59.33354005864197],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_4fe89701b4859a524f6e7e2521a09ff8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_733d4c5b73f61243f37e24216110444e.setIcon(icon_4fe89701b4859a524f6e7e2521a09ff8);
+        
+    
+            marker_733d4c5b73f61243f37e24216110444e.bindTooltip(
+                `<div>
+                     <b>Region:</b> Argentina<br><b>length groups number:</b> 53<br><b>Groups Involved:</b> Argentine Anticommunist Alliance (AAA), Ana Maria Martinly August 22 Brigade, Former Border Policeman, Hezbollah, Mapuche activists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6e24c875bb0df30d70ffdc81e52ed16b = L.marker(
+                [39.969146, 44.821423],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_25f65e4122028dbb5d5f140f618ace85 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6e24c875bb0df30d70ffdc81e52ed16b.setIcon(icon_25f65e4122028dbb5d5f140f618ace85);
+        
+    
+            marker_6e24c875bb0df30d70ffdc81e52ed16b.bindTooltip(
+                `<div>
+                     <b>Region:</b> Armenia<br><b>length groups number:</b> 4<br><b>Groups Involved:</b> Armenian militants, Armenian Guerrillas, Sasna Tsrer, Armenian nationalists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dae99aeed977938daf16bd24869e346d = L.marker(
+                [-28.491912914285713, 125.44095514285715],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_7e8c08e3822f13fb64eabd3c0dd1138b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dae99aeed977938daf16bd24869e346d.setIcon(icon_7e8c08e3822f13fb64eabd3c0dd1138b);
+        
+    
+            marker_dae99aeed977938daf16bd24869e346d.bindTooltip(
+                `<div>
+                     <b>Region:</b> Australia<br><b>length groups number:</b> 21<br><b>Groups Involved:</b> Palestine Liberation Organization (PLO), Animal Liberation Front (ALF), Combat 18, Islamic State of Iraq and the Levant (ISIL), Anti-Iran Government Exiles...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dd212f6555045f63bd4791b5ecae3fac = L.marker(
+                [47.28503867741936, 15.203283790322581],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_94d3be46b48c4fba732d4fe03df4577b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dd212f6555045f63bd4791b5ecae3fac.setIcon(icon_94d3be46b48c4fba732d4fe03df4577b);
+        
+    
+            marker_dd212f6555045f63bd4791b5ecae3fac.bindTooltip(
+                `<div>
+                     <b>Region:</b> Austria<br><b>length groups number:</b> 28<br><b>Groups Involved:</b> Palestine Liberation Organization (PLO), Devrimici Halk Kurtulus Cephesi (DHKP/C), Justice Commandos for the Armenian Genocide, Cell for Internationalism, Abu Nidal Organization (ANO)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6e9350ee9c31f4cbdf1be6af6dd757bf = L.marker(
+                [37.444875333333336, 44.789983533333334],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_1d0dee6fa70d15df52280670750db312 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6e9350ee9c31f4cbdf1be6af6dd757bf.setIcon(icon_1d0dee6fa70d15df52280670750db312);
+        
+    
+            marker_6e9350ee9c31f4cbdf1be6af6dd757bf.bindTooltip(
+                `<div>
+                     <b>Region:</b> Azerbaijan<br><b>length groups number:</b> 7<br><b>Groups Involved:</b> Armenian Guerrillas, Forest Brothers, Separatists, Sandval (union) Movement, Yekbun...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_717274400f84e49cf3f1fa82122576c1 = L.marker(
+                [26.201337731707316, 50.54448565853658],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_c6ed1e84645e8553eeb7e6f61eeeb618 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_717274400f84e49cf3f1fa82122576c1.setIcon(icon_c6ed1e84645e8553eeb7e6f61eeeb618);
+        
+    
+            marker_717274400f84e49cf3f1fa82122576c1.bindTooltip(
+                `<div>
+                     <b>Region:</b> Bahrain<br><b>length groups number:</b> 13<br><b>Groups Involved:</b> Islamic Front for the Liberation of Bahrain, Islamist extremists, Muslim extremists, Hezbollah, Organization of the Sons of Occupied Territories...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c2cd734cfecab569fd3518bc610df948 = L.marker(
+                [22.157024984924625, 85.19559276381909],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_bf1ea341cc837830e1d98e834f1c9be5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellowgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c2cd734cfecab569fd3518bc610df948.setIcon(icon_bf1ea341cc837830e1d98e834f1c9be5);
+        
+    
+            marker_c2cd734cfecab569fd3518bc610df948.bindTooltip(
+                `<div>
+                     <b>Region:</b> Bangladesh<br><b>length groups number:</b> 78<br><b>Groups Involved:</b> Ohabi Islamic Sect, Muslims, Bangalee Somo Odhikar Andolon, Muslim Fundamentalists, Islamist extremists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ce6af78e42437576decaf9c6cebc68f3 = L.marker(
+                [13.088666499999999, -59.554837500000005],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_17af07252ca8b3c21336ba7f73a3b465 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ce6af78e42437576decaf9c6cebc68f3.setIcon(icon_17af07252ca8b3c21336ba7f73a3b465);
+        
+    
+            marker_ce6af78e42437576decaf9c6cebc68f3.bindTooltip(
+                `<div>
+                     <b>Region:</b> Barbados<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Coordination of the United Revolutionary Organization (CORU)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f26e25112ed2b0cd825c0676b3197b1c = L.marker(
+                [53.9, 27.566667],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_01f795a9ad40ab301e7f26c45054ab9e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f26e25112ed2b0cd825c0676b3197b1c.setIcon(icon_01f795a9ad40ab301e7f26c45054ab9e);
+        
+    
+            marker_f26e25112ed2b0cd825c0676b3197b1c.bindTooltip(
+                `<div>
+                     <b>Region:</b> Belarus<br><b>length groups number:</b> 2<br><b>Groups Involved:</b> Friends of Freedom, Belarusian Liberation Army...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c4ffd5cb36eb145af0a8ddcf6344c987 = L.marker(
+                [50.845021578947375, 4.408007747368421],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_5e3f052df6cc1347d3b8ad5feea61bc9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c4ffd5cb36eb145af0a8ddcf6344c987.setIcon(icon_5e3f052df6cc1347d3b8ad5feea61bc9);
+        
+    
+            marker_c4ffd5cb36eb145af0a8ddcf6344c987.bindTooltip(
+                `<div>
+                     <b>Region:</b> Belgium<br><b>length groups number:</b> 46<br><b>Groups Involved:</b> Animal Liberation Front (ALF), Arabian Peninsula Freemen, Pro-Palestinian Immigrants, New Armenian Resistance, Islamic State of Iraq and the Levant (ISIL)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ce0d84ccf596cac71fda1ce202320bf4 = L.marker(
+                [26.88102166666667, 90.142208],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_0ee63f0533cb723938ea276d435b8771 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ce0d84ccf596cac71fda1ce202320bf4.setIcon(icon_0ee63f0533cb723938ea276d435b8771);
+        
+    
+            marker_ce0d84ccf596cac71fda1ce202320bf4.bindTooltip(
+                `<div>
+                     <b>Region:</b> Bhutan<br><b>length groups number:</b> 2<br><b>Groups Involved:</b> National Democratic Front of Bodoland (NDFB), The United Revolutionary Front of Bhutan...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bf68d85b545998d91ebc3cdb40b9bc98 = L.marker(
+                [-15.821663215053762, -62.01050056989247],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_2970935ce404c6a4bb20c0c45fc9383a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bf68d85b545998d91ebc3cdb40b9bc98.setIcon(icon_2970935ce404c6a4bb20c0c45fc9383a);
+        
+    
+            marker_bf68d85b545998d91ebc3cdb40b9bc98.bindTooltip(
+                `<div>
+                     <b>Region:</b> Bolivia<br><b>length groups number:</b> 35<br><b>Groups Involved:</b> Ejercito de Liberacion Nacional (Bolivia), Tupac Amaru Revolutionary Movement (MRTA), Bolivian Socialist Falange, Workers of the Company, Extreme Left...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ea01596a433e5271d720d41702a1e1f2 = L.marker(
+                [42.489948999999996, 17.34254922222222],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_9c579c1356aa3d3d78a23f91b30e376d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ea01596a433e5271d720d41702a1e1f2.setIcon(icon_9c579c1356aa3d3d78a23f91b30e376d);
+        
+    
+            marker_ea01596a433e5271d720d41702a1e1f2.bindTooltip(
+                `<div>
+                     <b>Region:</b> Bosnia-Herzegovina<br><b>length groups number:</b> 12<br><b>Groups Involved:</b> Bosnian Serbs, Muslim extremists, Serb demonstrators, Croatians, Serb Radical Party...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1ab5162adf00641abcb3a7ff90c22f24 = L.marker(
+                [-12.3282385, 12.9556275],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_cb71f1aa89d280644eb89e4f5a5026ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1ab5162adf00641abcb3a7ff90c22f24.setIcon(icon_cb71f1aa89d280644eb89e4f5a5026ea);
+        
+    
+            marker_1ab5162adf00641abcb3a7ff90c22f24.bindTooltip(
+                `<div>
+                     <b>Region:</b> Botswana<br><b>length groups number:</b> 2<br><b>Groups Involved:</b> African National Congress (South Africa), Students...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fc2ae2a887aee3a91acf40a39bb0cba0 = L.marker(
+                [-17.909708535714284, -43.711098190476186],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_8184c740bf5e401f236f09de051d4dde = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fc2ae2a887aee3a91acf40a39bb0cba0.setIcon(icon_8184c740bf5e401f236f09de051d4dde);
+        
+    
+            marker_fc2ae2a887aee3a91acf40a39bb0cba0.bindTooltip(
+                `<div>
+                     <b>Region:</b> Brazil<br><b>length groups number:</b> 40<br><b>Groups Involved:</b> Kaingang Indians, Civil Servants and Unionists, Guaycaipuro Indians, Revolutionary Armed Forces of Colombia (FARC), Pareci Indians...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fef537f0866acdd92ab2c7f898e149e2 = L.marker(
+                [45.420943, -75.698945],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_de030c11092a0a6f4edb1f2862ee621f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fef537f0866acdd92ab2c7f898e149e2.setIcon(icon_de030c11092a0a6f4edb1f2862ee621f);
+        
+    
+            marker_fef537f0866acdd92ab2c7f898e149e2.bindTooltip(
+                `<div>
+                     <b>Region:</b> Brunei<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Black September...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9a9c5cd15fd8b41f45be35d2c1be85b5 = L.marker(
+                [42.60313716666666, 26.4052865],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_7c2469d9fcd807bc3b702235c87bdfe5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9a9c5cd15fd8b41f45be35d2c1be85b5.setIcon(icon_7c2469d9fcd807bc3b702235c87bdfe5);
+        
+    
+            marker_9a9c5cd15fd8b41f45be35d2c1be85b5.bindTooltip(
+                `<div>
+                     <b>Region:</b> Bulgaria<br><b>length groups number:</b> 6<br><b>Groups Involved:</b> Elos security firm, Armenian Secret Army for the Liberation of Armenia, Hezbollah, Justice Commandos for the Armenian Genocide, Turks...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9a0d3ee54fb46ed47ace9e7f44359a8d = L.marker(
+                [13.48926837142857, -1.2945548],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_220d5d0dc8089a382b88edebd79cbb9d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9a0d3ee54fb46ed47ace9e7f44359a8d.setIcon(icon_220d5d0dc8089a382b88edebd79cbb9d);
+        
+    
+            marker_9a0d3ee54fb46ed47ace9e7f44359a8d.bindTooltip(
+                `<div>
+                     <b>Region:</b> Burkina Faso<br><b>length groups number:</b> 8<br><b>Groups Involved:</b> Muslim extremists, Al-Qaida in the Islamic Maghreb (AQIM), Islamic State in the Greater Sahara (ISGS), Al-Mua'qi'oon Biddam Brigade (Those who Sign with Blood), Movement for Oneness and Jihad in West Africa (MUJAO)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_05931085fa7e98686a0ed6ea311dffb3 = L.marker(
+                [-3.2259795622317595, 28.270656364806868],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_cffd96d2b0022e190bdfb2b743f425e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_05931085fa7e98686a0ed6ea311dffb3.setIcon(icon_cffd96d2b0022e190bdfb2b743f425e1);
+        
+    
+            marker_05931085fa7e98686a0ed6ea311dffb3.bindTooltip(
+                `<div>
+                     <b>Region:</b> Burundi<br><b>length groups number:</b> 13<br><b>Groups Involved:</b> Mayi Mayi, Anti-Government Guerrillas, Rebels, National Liberation Front (FNL) (Burundi), Forces for the Defense of Democracy (FDD)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d58d8475da94a0da38250f11600b5ec8 = L.marker(
+                [8.945406966850829, 73.77453935359117],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_87a97aa535f53d017fbf72e416bd31eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d58d8475da94a0da38250f11600b5ec8.setIcon(icon_87a97aa535f53d017fbf72e416bd31eb);
+        
+    
+            marker_d58d8475da94a0da38250f11600b5ec8.bindTooltip(
+                `<div>
+                     <b>Region:</b> Cambodia<br><b>length groups number:</b> 12<br><b>Groups Involved:</b> Gunmen, Cambodian Freedom Fighters (CFF), Khmer Rouge, National United Front for an Independent, Neutral, Peaceful, and Cooperative Cambodia (FUNCINPEC), Cambodian People's Party (CPP)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6fc98cdcbaaff734db75c350b578c205 = L.marker(
+                [10.25726993661972, 13.52050203169014],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_be6b074e21577b91b4fdbc1d0d517c6a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6fc98cdcbaaff734db75c350b578c205.setIcon(icon_be6b074e21577b91b4fdbc1d0d517c6a);
+        
+    
+            marker_6fc98cdcbaaff734db75c350b578c205.bindTooltip(
+                `<div>
+                     <b>Region:</b> Cameroon<br><b>length groups number:</b> 20<br><b>Groups Involved:</b> Muslim Youth, Pirates, Baya Tribe, Muslim Militants, Tribal Clash...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f58015355fdb5542542fd047b8201b0e = L.marker(
+                [44.582961294117645, -82.35437972549019],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_ef508052a0b62f222c4f47aa528c2ba0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f58015355fdb5542542fd047b8201b0e.setIcon(icon_ef508052a0b62f222c4f47aa528c2ba0);
+        
+    
+            marker_f58015355fdb5542542fd047b8201b0e.bindTooltip(
+                `<div>
+                     <b>Region:</b> Canada<br><b>length groups number:</b> 32<br><b>Groups Involved:</b> Animal Liberation Front (ALF), Action Directe, Anti-Iran Government Exiles, Justice Commandos for the Armenian Genocide, Fighting For Freedom Coalition (FFFC-Ottawa)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3fd8c71899d33a94a7940bfec34335af = L.marker(
+                [5.450143024271844, 19.49716044174757],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_e907e8e150d5c6ceec56d20c2715f311 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3fd8c71899d33a94a7940bfec34335af.setIcon(icon_e907e8e150d5c6ceec56d20c2715f311);
+        
+    
+            marker_3fd8c71899d33a94a7940bfec34335af.bindTooltip(
+                `<div>
+                     <b>Region:</b> Central African Republic<br><b>length groups number:</b> 20<br><b>Groups Involved:</b> Popular Front for Recovery (FPR), Lord's Resistance Army (LRA), Popular Front for the Renaissance of the Central African Republic (FPRC), Group of the Fatima Church Attack, Union for Peace in Central Africa (UPC)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4b3c1cc81f5461d42ac36165301198f9 = L.marker(
+                [11.615634646153847, 14.461922107692308],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_3078fd19252e15ecc5ac1f967b92a882 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4b3c1cc81f5461d42ac36165301198f9.setIcon(icon_3078fd19252e15ecc5ac1f967b92a882);
+        
+    
+            marker_4b3c1cc81f5461d42ac36165301198f9.bindTooltip(
+                `<div>
+                     <b>Region:</b> Chad<br><b>length groups number:</b> 24<br><b>Groups Involved:</b> Movement for Democracy and Justice in Chad (MDJT), Armed Forces for a Federal Republic (FARF), United Front for Democratic Change (FUC), Rebels, Justice and Equality Movement (JEM)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4da6121a16eef9daa03329b1aff0543f = L.marker(
+                [-33.23826305068791, -69.78715313685736],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_4d629cd0af08e0f6145126285dcd44ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellowgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4da6121a16eef9daa03329b1aff0543f.setIcon(icon_4d629cd0af08e0f6145126285dcd44ed);
+        
+    
+            marker_4da6121a16eef9daa03329b1aff0543f.bindTooltip(
+                `<div>
+                     <b>Region:</b> Chile<br><b>length groups number:</b> 62<br><b>Groups Involved:</b> Tupac Amaru Revolutionary Movement (MRTA), Manuel Gonzales Patriotic Front, Right-Wing Group, People's Guerrilla Movement, Red Dawn Front (Frente Amanecer Rojo)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d5bcf9c9bfb8a1390503168c1783d37d = L.marker(
+                [39.537706309090915, 87.93198318181818],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_d95fc213e3e68567ada4e5145823d6db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d5bcf9c9bfb8a1390503168c1783d37d.setIcon(icon_d95fc213e3e68567ada4e5145823d6db);
+        
+    
+            marker_d5bcf9c9bfb8a1390503168c1783d37d.bindTooltip(
+                `<div>
+                     <b>Region:</b> China<br><b>length groups number:</b> 11<br><b>Groups Involved:</b> Turkestan Islamic Party, Mob, Tibetan separatists, Kachin Independence Army (KIA), Eastern Turkistan Islamic Movement (ETIM)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f69aeab9b502aaf7ada0984650573773 = L.marker(
+                [5.132760224570257, -70.04160779735058],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_898cf4025a4a51aadb357e2133267493 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f69aeab9b502aaf7ada0984650573773.setIcon(icon_898cf4025a4a51aadb357e2133267493);
+        
+    
+            marker_f69aeab9b502aaf7ada0984650573773.bindTooltip(
+                `<div>
+                     <b>Region:</b> Colombia<br><b>length groups number:</b> 109<br><b>Groups Involved:</b> Popular Liberation Army (EPL), Left-Wing Guerrillas, Revolutionary Armed Forces for the Liberation of Colombia (FALCO), People's Revolutionary Movement (MRP), Coca Farmers...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cda8626e41e4f215b2e872ff1e2e725a = L.marker(
+                [-12.094911999999999, 43.576852333333335],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_6185e7d8728015ac8b69702786a01b49 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cda8626e41e4f215b2e872ff1e2e725a.setIcon(icon_6185e7d8728015ac8b69702786a01b49);
+        
+    
+            marker_cda8626e41e4f215b2e872ff1e2e725a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Comoros<br><b>length groups number:</b> 2<br><b>Groups Involved:</b> Separatists, Rebel Military Unit...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5ccf76562829dae137b8f17a93ca33ca = L.marker(
+                [10.037671517241378, -84.16562013793103],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_64cdb40faa28a771b923d45f0119e7df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5ccf76562829dae137b8f17a93ca33ca.setIcon(icon_64cdb40faa28a771b923d45f0119e7df);
+        
+    
+            marker_5ccf76562829dae137b8f17a93ca33ca.bindTooltip(
+                `<div>
+                     <b>Region:</b> Costa Rica<br><b>length groups number:</b> 16<br><b>Groups Involved:</b> Revolutionary Commandos of Solidarity, Homeland and Freedom Group, Costa Rican Peoples' Army (EPC), Gunmen, Sandinista National Liberation Front (FSLN)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e9fe8e9940cedef18832a1b56c30e862 = L.marker(
+                [45.31799721052632, 16.55984994736842],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_43d54c137e394d313a5b79d5577e12ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e9fe8e9940cedef18832a1b56c30e862.setIcon(icon_43d54c137e394d313a5b79d5577e12ff);
+        
+    
+            marker_e9fe8e9940cedef18832a1b56c30e862.bindTooltip(
+                `<div>
+                     <b>Region:</b> Croatia<br><b>length groups number:</b> 8<br><b>Groups Involved:</b> Serbian Nationalists, Serbian extremists, Croatian Militia, Serbs, Former Soldiers/Police...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cef8f67c3938f92c26ee5bbad825873a = L.marker(
+                [23.0365705, -81.84189533333333],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_719a902044cf84a03c10ec70525c9369 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cef8f67c3938f92c26ee5bbad825873a.setIcon(icon_719a902044cf84a03c10ec70525c9369);
+        
+    
+            marker_cef8f67c3938f92c26ee5bbad825873a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Cuba<br><b>length groups number:</b> 4<br><b>Groups Involved:</b> National Democratic Party, Cubans seeking escape from Cuba, Counter-revolutionaries, Raul Ernesto Cruz Leon, Salvadorian...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fc5b0bb833951da65392db0ebcbf74ed = L.marker(
+                [33.2654277948718, 31.632561512820512],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_27cbe01c07088ee54dc4c8d074bd6e90 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fc5b0bb833951da65392db0ebcbf74ed.setIcon(icon_27cbe01c07088ee54dc4c8d074bd6e90);
+        
+    
+            marker_fc5b0bb833951da65392db0ebcbf74ed.bindTooltip(
+                `<div>
+                     <b>Region:</b> Cyprus<br><b>length groups number:</b> 18<br><b>Groups Involved:</b> Palestine Liberation Organization (PLO), National Organization of Cypriot Fighters (EOKA), Turkish Revenge Brigade, Eagles of the Palestinian Revolution, Iranians...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_28171e93292f2ced480b1d35aaa4608a = L.marker(
+                [50.2776712, 14.6130453],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_54dc430f758bb54dc9d6b88fcdd1ec2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_28171e93292f2ced480b1d35aaa4608a.setIcon(icon_54dc430f758bb54dc9d6b88fcdd1ec2f);
+        
+    
+            marker_28171e93292f2ced480b1d35aaa4608a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Czech Republic<br><b>length groups number:</b> 5<br><b>Groups Involved:</b> Neo-Nazi extremists, Neo-Fascists, Anti-Immigrant extremists, Revolutionary Cells Network (SRN), Proletarian Solidarity...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b36b8c8aae184095b712e3920846b34a = L.marker(
+                [32.785934, 10.979978666666666],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_2c2d00547783943fcb9decc7a22b710e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b36b8c8aae184095b712e3920846b34a.setIcon(icon_2c2d00547783943fcb9decc7a22b710e);
+        
+    
+            marker_b36b8c8aae184095b712e3920846b34a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Czechoslovakia<br><b>length groups number:</b> 3<br><b>Groups Involved:</b> Neo-Nazi extremists, Skinhead group, Croatian Nationalists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_eb81e8f95fe33756db515e1a3e4ae176 = L.marker(
+                [-0.37485219658119656, 28.07348543162393],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_a538cc936adcdeec03bd2ad834c0d397 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_eb81e8f95fe33756db515e1a3e4ae176.setIcon(icon_a538cc936adcdeec03bd2ad834c0d397);
+        
+    
+            marker_eb81e8f95fe33756db515e1a3e4ae176.bindTooltip(
+                `<div>
+                     <b>Region:</b> Democratic Republic of the Congo<br><b>length groups number:</b> 49<br><b>Groups Involved:</b> Allied Democratic Forces (ADF), Banyamulenge rebels, Mai Mai Manu Militia, Rastas, Congolese Rally for Democracy (RCD)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0c2d78171af28bdd03684fb985e93113 = L.marker(
+                [53.2765532173913, 11.920821869565216],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_da4eee11b15924bf1c5a66c7cf71791a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0c2d78171af28bdd03684fb985e93113.setIcon(icon_da4eee11b15924bf1c5a66c7cf71791a);
+        
+    
+            marker_0c2d78171af28bdd03684fb985e93113.bindTooltip(
+                `<div>
+                     <b>Region:</b> Denmark<br><b>length groups number:</b> 13<br><b>Groups Involved:</b> Anarchists, BZers, Kurdish Separatists, Jihadi-inspired extremists, Armenian Secret Army for the Liberation of Armenia...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_53960ab0db428e2f8e2b5be6a25c9568 = L.marker(
+                [10.5040351, 38.417029],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_39a32c5492265a514eb9f58f93fe0252 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_53960ab0db428e2f8e2b5be6a25c9568.setIcon(icon_39a32c5492265a514eb9f58f93fe0252);
+        
+    
+            marker_53960ab0db428e2f8e2b5be6a25c9568.bindTooltip(
+                `<div>
+                     <b>Region:</b> Djibouti<br><b>length groups number:</b> 5<br><b>Groups Involved:</b> Armed Subversives, Extremist Nat'list Group, Al-Shabaab, Front for the Restoration of Unity and Democracy, Afar rebels...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7ffae5c1feba7319b706abc37fa63d71 = L.marker(
+                [15.304193, -61.384225],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_13690a9b6c4ee6d36fc0aec4c395da5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7ffae5c1feba7319b706abc37fa63d71.setIcon(icon_13690a9b6c4ee6d36fc0aec4c395da5b);
+        
+    
+            marker_7ffae5c1feba7319b706abc37fa63d71.bindTooltip(
+                `<div>
+                     <b>Region:</b> Dominica<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Anti-Government Group...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fb844e9deee509b6d56bd00b9dae0c0d = L.marker(
+                [18.536647764705883, -70.13538517647059],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_e4069faffb83c1fb886a783a8f1f8190 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fb844e9deee509b6d56bd00b9dae0c0d.setIcon(icon_e4069faffb83c1fb886a783a8f1f8190);
+        
+    
+            marker_fb844e9deee509b6d56bd00b9dae0c0d.bindTooltip(
+                `<div>
+                     <b>Region:</b> Dominican Republic<br><b>length groups number:</b> 11<br><b>Groups Involved:</b> M12J, Dominican Popular Movement (MPD), Strikers, Tony El Pelou Band, Maximiliano Gomez Revolutionary Brigade...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4090ed41ca05965b13f143373bc11dcc = L.marker(
+                [52.47683306666667, 13.284166466666667],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_c8c02aa7e62e6b914f0ac5ffdbaf8090 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4090ed41ca05965b13f143373bc11dcc.setIcon(icon_c8c02aa7e62e6b914f0ac5ffdbaf8090);
+        
+    
+            marker_4090ed41ca05965b13f143373bc11dcc.bindTooltip(
+                `<div>
+                     <b>Region:</b> East Germany (GDR)<br><b>length groups number:</b> 8<br><b>Groups Involved:</b> Neo-Nazi extremists, Commune 1, SFT, Extraparliamentary Opposition (APO), Revolutionary Flames...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_706e5344cad6d3e7cb6fba6ea1c12235 = L.marker(
+                [-8.925, 125.375833],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_ac53889d1fb4e300c4e1463f42b06ef9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_706e5344cad6d3e7cb6fba6ea1c12235.setIcon(icon_ac53889d1fb4e300c4e1463f42b06ef9);
+        
+    
+            marker_706e5344cad6d3e7cb6fba6ea1c12235.bindTooltip(
+                `<div>
+                     <b>Region:</b> East Timor<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Pro-Indonesia extremists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_20bff6710d387c03888b0ebfbaca3162 = L.marker(
+                [-0.9202722820512821, -73.81980958974358],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_b9701b969642aa59fae8b8b5ab415bcc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_20bff6710d387c03888b0ebfbaca3162.setIcon(icon_b9701b969642aa59fae8b8b5ab415bcc);
+        
+    
+            marker_20bff6710d387c03888b0ebfbaca3162.bindTooltip(
+                `<div>
+                     <b>Region:</b> Ecuador<br><b>length groups number:</b> 31<br><b>Groups Involved:</b> Grupo Libertad, Ruminahui Front, Revolutionary Armed Forces of Colombia (FARC), Social Christian Party (PSC), National Liberation Front (Ecuador)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_26cf5294ee4983906ed88805f90caa7c = L.marker(
+                [29.589139685308844, 32.23324042654424],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_24152c64bda4566d4d95eea0bc36d7de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_26cf5294ee4983906ed88805f90caa7c.setIcon(icon_24152c64bda4566d4d95eea0bc36d7de);
+        
+    
+            marker_26cf5294ee4983906ed88805f90caa7c.bindTooltip(
+                `<div>
+                     <b>Region:</b> Egypt<br><b>length groups number:</b> 51<br><b>Groups Involved:</b> Youth of the Land of Egypt, Palestine Liberation Front (PLF), Arab Steadfastness Front, Egyptian Islamic Jihad (Al-Jihad), Bani Hilal Tribe...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_864c93f09e18630444309bb651d0dfb3 = L.marker(
+                [12.361806205844323, -80.08015850374969],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_684a27c4e90b582f8cb323b7c931ad30 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_864c93f09e18630444309bb651d0dfb3.setIcon(icon_684a27c4e90b582f8cb323b7c931ad30);
+        
+    
+            marker_864c93f09e18630444309bb651d0dfb3.bindTooltip(
+                `<div>
+                     <b>Region:</b> El Salvador<br><b>length groups number:</b> 49<br><b>Groups Involved:</b> Guerrillas, Right-Wing Group, Revolutionary Coordination of the Masses, Extreme Right Commando Brigade, Left-Wing Guerrillas...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a7ed3554fc62e8f648a02fabde7ae395 = L.marker(
+                [3.758429, 8.785311],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_9dd034a6e54ed533f8340c9f84f1196f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a7ed3554fc62e8f648a02fabde7ae395.setIcon(icon_9dd034a6e54ed533f8340c9f84f1196f);
+        
+    
+            marker_a7ed3554fc62e8f648a02fabde7ae395.bindTooltip(
+                `<div>
+                     <b>Region:</b> Equatorial Guinea<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Movement for the Emancipation of the Niger Delta (MEND)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e80799c7765dcd515518844a4b098e29 = L.marker(
+                [9.268019625, 24.44641425],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_ea5cccbe10efb4f4c152db7be8bf00b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e80799c7765dcd515518844a4b098e29.setIcon(icon_ea5cccbe10efb4f4c152db7be8bf00b6);
+        
+    
+            marker_e80799c7765dcd515518844a4b098e29.bindTooltip(
+                `<div>
+                     <b>Region:</b> Eritrea<br><b>length groups number:</b> 4<br><b>Groups Involved:</b> Nomadic AFARS, Democratic Movement for the Liberation of the Eritrean Kunamas (DMLEK), Red Sea Afar Democratic Organization (RSADO), Eritrean Salvation Front (ESF)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a1ba90d396a1c1e7c306cd17a3c4fc37 = L.marker(
+                [59.352523500000004, 24.313685],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_3cb85920800f8998f4b5475a1c79df8c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a1ba90d396a1c1e7c306cd17a3c4fc37.setIcon(icon_3cb85920800f8998f4b5475a1c79df8c);
+        
+    
+            marker_a1ba90d396a1c1e7c306cd17a3c4fc37.bindTooltip(
+                `<div>
+                     <b>Region:</b> Estonia<br><b>length groups number:</b> 2<br><b>Groups Involved:</b> Fatherland, Kaitseliit Paramiltary Group...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_85ce15ad21e05560550efce614e6a2c1 = L.marker(
+                [8.417752575471699, 31.620971603773587],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_299e2fcbb1cb642b714406106d4cb30e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_85ce15ad21e05560550efce614e6a2c1.setIcon(icon_299e2fcbb1cb642b714406106d4cb30e);
+        
+    
+            marker_85ce15ad21e05560550efce614e6a2c1.bindTooltip(
+                `<div>
+                     <b>Region:</b> Ethiopia<br><b>length groups number:</b> 24<br><b>Groups Involved:</b> Egyptian Islamic Jihad (Al-Jihad), Western Somalia Liberation Front, Murle Tribe, Ogaden National Liberation Front (ONLF), Al-Gama'at al-Islamiyya (IG)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2678e0afa19905d1e4049220addc0d69 = L.marker(
+                [-51.692214, -57.8589],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_ddd07907119295861c70b7659481e2f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2678e0afa19905d1e4049220addc0d69.setIcon(icon_ddd07907119295861c70b7659481e2f3);
+        
+    
+            marker_2678e0afa19905d1e4049220addc0d69.bindTooltip(
+                `<div>
+                     <b>Region:</b> Falkland Islands<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Artigas-Giachino Command...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d22376c80087e41d0ef2b90d49ecba02 = L.marker(
+                [-17.519989799999998, 178.8055112],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_130ca603fc4a03df127f8dd76075d7ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d22376c80087e41d0ef2b90d49ecba02.setIcon(icon_130ca603fc4a03df127f8dd76075d7ea);
+        
+    
+            marker_d22376c80087e41d0ef2b90d49ecba02.bindTooltip(
+                `<div>
+                     <b>Region:</b> Fiji<br><b>length groups number:</b> 3<br><b>Groups Involved:</b> Anti-Government extremists, Rebel Military Unit, Christian extremists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_27ba667dc11735fbb45c80b60813cb35 = L.marker(
+                [60.412081799999996, 24.8221608],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_16da42ff93a45acb86637aa3ffcd3387 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_27ba667dc11735fbb45c80b60813cb35.setIcon(icon_16da42ff93a45acb86637aa3ffcd3387);
+        
+    
+            marker_27ba667dc11735fbb45c80b60813cb35.bindTooltip(
+                `<div>
+                     <b>Region:</b> Finland<br><b>length groups number:</b> 5<br><b>Groups Involved:</b> Neo-Fascists, Animal Liberation Front (ALF), Jihadi-inspired extremists, Anti-Immigrant extremists, Kurdistan Workers' Party (PKK)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c8ddb98b47dcbff063be895475ab24bd = L.marker(
+                [44.028111063408964, 5.642735769633508],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_c0f5fde452aa5a8bf1dd43b88f04e6c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkorange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c8ddb98b47dcbff063be895475ab24bd.setIcon(icon_c0f5fde452aa5a8bf1dd43b88f04e6c0);
+        
+    
+            marker_c8ddb98b47dcbff063be895475ab24bd.bindTooltip(
+                `<div>
+                     <b>Region:</b> France<br><b>length groups number:</b> 208<br><b>Groups Involved:</b> Movement for the Supremacy of Reason, Internal Front, Anarchist Revolt Against Exiled Gendarmes, The Ordinary Men, New Armenian Resistance...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_90f5541781a1842b412f088753da620a = L.marker(
+                [5.113727333333333, -52.89492833333333],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_edc8379945be8f396c201de7e1f027f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_90f5541781a1842b412f088753da620a.setIcon(icon_edc8379945be8f396c201de7e1f027f1);
+        
+    
+            marker_90f5541781a1842b412f088753da620a.bindTooltip(
+                `<div>
+                     <b>Region:</b> French Guiana<br><b>length groups number:</b> 3<br><b>Groups Involved:</b> Farmers, Separatists, Caribbean Revolutionary Alliance (ARC)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5a30f110bfa071440f789e619d2900bd = L.marker(
+                [-17.534984, -149.569504],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_720da57f327375cbf45ab3a3f91af29b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5a30f110bfa071440f789e619d2900bd.setIcon(icon_720da57f327375cbf45ab3a3f91af29b);
+        
+    
+            marker_5a30f110bfa071440f789e619d2900bd.bindTooltip(
+                `<div>
+                     <b>Region:</b> French Polynesia<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Anti-Nuclear extremists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b5053c1f3621765ef32cbd67fc20e5b7 = L.marker(
+                [-1.826427, 13.014556],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_b00fbc231c8b17d8176166933dd80955 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b5053c1f3621765ef32cbd67fc20e5b7.setIcon(icon_b00fbc231c8b17d8176166933dd80955);
+        
+    
+            marker_b5053c1f3621765ef32cbd67fc20e5b7.bindTooltip(
+                `<div>
+                     <b>Region:</b> Gabon<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Convention of Liberal Reformers (CLR)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_874762ff69ffed746ecec999f4af7ab3 = L.marker(
+                [41.57801311764706, 41.814927980392156],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_6a98059bc78f07826946bf61f33fbbcf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_874762ff69ffed746ecec999f4af7ab3.setIcon(icon_6a98059bc78f07826946bf61f33fbbcf);
+        
+    
+            marker_874762ff69ffed746ecec999f4af7ab3.bindTooltip(
+                `<div>
+                     <b>Region:</b> Georgia<br><b>length groups number:</b> 18<br><b>Groups Involved:</b> Rebels backing deposed Pres. Zviad Gamsakhurdia, Georgian extremists, Gunmen, Georgian Sabotage Group, Abkhazian Separatists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e7543a6660bdd37c237d93d76589b6e6 = L.marker(
+                [49.23482097515528, 9.87111738716356],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_72ee449663197acb4e1cc2f9c36a0d34 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellowgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e7543a6660bdd37c237d93d76589b6e6.setIcon(icon_72ee449663197acb4e1cc2f9c36a0d34);
+        
+    
+            marker_e7543a6660bdd37c237d93d76589b6e6.bindTooltip(
+                `<div>
+                     <b>Region:</b> Germany<br><b>length groups number:</b> 69<br><b>Groups Involved:</b> Friends of Loukanikos, Autonomen, Patriotic Europeans against the Islamization of the West (PEGIDA), Animal Liberation Front (ALF), Demonstration led by French Anti-Nazi Hunters...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cfa3ed9d9a2029abb4833c92e355b39a = L.marker(
+                [6.005800499999999, -0.494293875],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_4b19b92c56eee8360b67a3cd2055762c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cfa3ed9d9a2029abb4833c92e355b39a.setIcon(icon_4b19b92c56eee8360b67a3cd2055762c);
+        
+    
+            marker_cfa3ed9d9a2029abb4833c92e355b39a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Ghana<br><b>length groups number:</b> 5<br><b>Groups Involved:</b> Ningo Tribe, Al-Sunni muslim sect, New Patriotic Party (NPP), Farighan, Muslims...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c0169201949fc13782736e66b93d296f = L.marker(
+                [37.953605249999995, 23.57806738061798],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_bdcff9fe3856eca245132d09f5be9f68 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c0169201949fc13782736e66b93d296f.setIcon(icon_bdcff9fe3856eca245132d09f5be9f68);
+        
+    
+            marker_c0169201949fc13782736e66b93d296f.bindTooltip(
+                `<div>
+                     <b>Region:</b> Greece<br><b>length groups number:</b> 174<br><b>Groups Involved:</b> 4 August National Organization, Popular Front for the Liberation of Palestine, Gen Cmd (PFLP-GC), Qaddafi loyalists, October-80, Massive escape...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f004bd8b2b5e73b61aa3caaf25589dc8 = L.marker(
+                [11.297505424242424, -42.895876242424244],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_bf129b3d8ecd1cf425dc45a66edc0b11 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f004bd8b2b5e73b61aa3caaf25589dc8.setIcon(icon_bf129b3d8ecd1cf425dc45a66edc0b11);
+        
+    
+            marker_f004bd8b2b5e73b61aa3caaf25589dc8.bindTooltip(
+                `<div>
+                     <b>Region:</b> Guadeloupe<br><b>length groups number:</b> 5<br><b>Groups Involved:</b> Guadeloupe Liberation Army, Revolutionary Armed Organization, Armed Group for the Liberation of Guadeloupe (GLAG), Separatists, Caribbean Revolutionary Alliance (ARC)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_04fe634f7d07823d4036484e132522df = L.marker(
+                [13.650092664050236, -83.07304450863423],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_f8a84e907c42fa86dc9bed32b4267e1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_04fe634f7d07823d4036484e132522df.setIcon(icon_f8a84e907c42fa86dc9bed32b4267e1c);
+        
+    
+            marker_04fe634f7d07823d4036484e132522df.bindTooltip(
+                `<div>
+                     <b>Region:</b> Guatemala<br><b>length groups number:</b> 46<br><b>Groups Involved:</b> Guerrillas, Anti-Communist Commando of the South, 31 January People's Front (FP-31), Left-Wing Guerrillas, Armed Action Force (FADA)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_042e213d02d2d1004104ab6accae5929 = L.marker(
+                [8.798833727272728, -10.373143],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_4dbd414c9e191ee3d13e978b8aae28a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_042e213d02d2d1004104ab6accae5929.setIcon(icon_4dbd414c9e191ee3d13e978b8aae28a4);
+        
+    
+            marker_042e213d02d2d1004104ab6accae5929.bindTooltip(
+                `<div>
+                     <b>Region:</b> Guinea<br><b>length groups number:</b> 6<br><b>Groups Involved:</b> U/I Liberian Gunmen, Rebels, United Liberation Movement for Democracy in Liberia (ULIMO), National Patriotic Front of Liberia (NPFL), Revolutionary United Front (RUF)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dc64f3cd8182700d4d30141499b40d4a = L.marker(
+                [7.047859, -58.5905015],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_64e91f476f32df9681b22e24ffa8001c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dc64f3cd8182700d4d30141499b40d4a.setIcon(icon_64e91f476f32df9681b22e24ffa8001c);
+        
+    
+            marker_dc64f3cd8182700d4d30141499b40d4a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Guyana<br><b>length groups number:</b> 4<br><b>Groups Involved:</b> Working People's Alliance (WPA), Unk (men in army uniforms with arms and gas masks), Gunmen, People's Temple...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_730c4c7a742cff4814aa143caadf7d0a = L.marker(
+                [18.856237564102564, -72.45064561538462],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_3f5737378b8ec65eb44f4188ba729fc0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_730c4c7a742cff4814aa143caadf7d0a.setIcon(icon_3f5737378b8ec65eb44f4188ba729fc0);
+        
+    
+            marker_730c4c7a742cff4814aa143caadf7d0a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Haiti<br><b>length groups number:</b> 21<br><b>Groups Involved:</b> Aristide supporters, Drug-Related Terrorists, Revolutionary Front for Hatian Advancement and Progress (FRAPH), Armed People, Charlot Jacquelin Militant Front...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3e66a5f1116eeab21c590185dbf6ebb5 = L.marker(
+                [14.306089939759037, -86.81790398795181],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_cf1b0c43937738e2b4ddbf51b08cec7e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3e66a5f1116eeab21c590185dbf6ebb5.setIcon(icon_cf1b0c43937738e2b4ddbf51b08cec7e);
+        
+    
+            marker_3e66a5f1116eeab21c590185dbf6ebb5.bindTooltip(
+                `<div>
+                     <b>Region:</b> Honduras<br><b>length groups number:</b> 34<br><b>Groups Involved:</b> Guerrillas, Contras, Martyrs of La Talanguera, Lorenzo Zelaya Revolutionary Front (LZRF), Patriotic Morazanista Front (FPM)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5942644b9032419bdfa8da7544732eda = L.marker(
+                [22.25688625, 114.19682775],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_7ede640ec195653da690be2bf3b49427 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5942644b9032419bdfa8da7544732eda.setIcon(icon_7ede640ec195653da690be2bf3b49427);
+        
+    
+            marker_5942644b9032419bdfa8da7544732eda.bindTooltip(
+                `<div>
+                     <b>Region:</b> Hong Kong<br><b>length groups number:</b> 3<br><b>Groups Involved:</b> Vietnamese Detainees, Chinese Pirates, Pirates...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a5fb24c1bcc8eae726c672602ab34b19 = L.marker(
+                [47.498406, 19.040758],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_9c631eef9b7b5af34de35847742a2102 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a5fb24c1bcc8eae726c672602ab34b19.setIcon(icon_9c631eef9b7b5af34de35847742a2102);
+        
+    
+            marker_a5fb24c1bcc8eae726c672602ab34b19.bindTooltip(
+                `<div>
+                     <b>Region:</b> Hungary<br><b>length groups number:</b> 4<br><b>Groups Involved:</b> Hungarian Skin Head Group, Armenian Secret Army for the Liberation of Armenia, Movement for the Protection of Jerusalem, Serbian Gangsters...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_220a50c67b3aba8f2b9c625d38faa963 = L.marker(
+                [64.398307, -21.458725],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_c1e8428dc1374428e1cae005767854d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_220a50c67b3aba8f2b9c625d38faa963.setIcon(icon_c1e8428dc1374428e1cae005767854d7);
+        
+    
+            marker_220a50c67b3aba8f2b9c625d38faa963.bindTooltip(
+                `<div>
+                     <b>Region:</b> Iceland<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Sea Shepherd Conservation Society...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0b63ef5b710c0362622a0a45b93a3bc1 = L.marker(
+                [24.708748982254434, 82.2435434580105],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_a467f40bf723e45454a7cb74a98959d9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0b63ef5b710c0362622a0a45b93a3bc1.setIcon(icon_a467f40bf723e45454a7cb74a98959d9);
+        
+    
+            marker_0b63ef5b710c0362622a0a45b93a3bc1.bindTooltip(
+                `<div>
+                     <b>Region:</b> India<br><b>length groups number:</b> 309<br><b>Groups Involved:</b> Telangana Separatists, Zeliangrong United Front, Maoist Communist Party of Manipur, Akali Dal Party, Gunmen...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e954885680613884d0bbb60b04b0b4eb = L.marker(
+                [-2.2034221903719913, 109.2683620393873],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_f86065819c296df7f977df2ad535a044 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e954885680613884d0bbb60b04b0b4eb.setIcon(icon_f86065819c296df7f977df2ad535a044);
+        
+    
+            marker_e954885680613884d0bbb60b04b0b4eb.bindTooltip(
+                `<div>
+                     <b>Region:</b> Indonesia<br><b>length groups number:</b> 54<br><b>Groups Involved:</b> Mob, Timorese guerrillas, Aitarak Militia, Mujahidin Indonesia Timur (MIT), Muslim Youth...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_78cdd6459d85922fc02cac449fea8c1c = L.marker(
+                [12.533136, 47.922339],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_862793f39ea8493d94dbc8ca83c104fa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_78cdd6459d85922fc02cac449fea8c1c.setIcon(icon_862793f39ea8493d94dbc8ca83c104fa);
+        
+    
+            marker_78cdd6459d85922fc02cac449fea8c1c.bindTooltip(
+                `<div>
+                     <b>Region:</b> International<br><b>length groups number:</b> 2<br><b>Groups Involved:</b> Al-Qaida, Adan Abyan Islamic Army (AAIA)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f4a9305632480faea8102a710ff7ba17 = L.marker(
+                [32.25840928025478, 49.1857307133758],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_d0cdf8c0ed7fa4171351f3a77cd54c94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellowgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f4a9305632480faea8102a710ff7ba17.setIcon(icon_d0cdf8c0ed7fa4171351f3a77cd54c94);
+        
+    
+            marker_f4a9305632480faea8102a710ff7ba17.bindTooltip(
+                `<div>
+                     <b>Region:</b> Iran<br><b>length groups number:</b> 74<br><b>Groups Involved:</b> Black Wednesday, National Movement of Iranian Resistance, Ultra Conservative Clerical Group, Guerrillas, Kurdistan Freedom Hawks (TAK)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9cc3545548a8696369fd430166efa48a = L.marker(
+                [34.04567481199743, 43.40267649195883],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_08f4dbef28101e5531cf2def06abdf92 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9cc3545548a8696369fd430166efa48a.setIcon(icon_08f4dbef28101e5531cf2def06abdf92);
+        
+    
+            marker_9cc3545548a8696369fd430166efa48a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Iraq<br><b>length groups number:</b> 106<br><b>Groups Involved:</b> Unified Kurdish Socialist Party, Liberals of Galilee, Military Council of the Tribal Revolutionaries (MCTR), National Accord Movement, Banner of Islam...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_67867703d9fe5a4f96988c3c85243b09 = L.marker(
+                [53.154973553956836, -6.669823151079137],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_4acb9fb0788ebb49a79a2168d8f240f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_67867703d9fe5a4f96988c3c85243b09.setIcon(icon_4acb9fb0788ebb49a79a2168d8f240f0);
+        
+    
+            marker_67867703d9fe5a4f96988c3c85243b09.bindTooltip(
+                `<div>
+                     <b>Region:</b> Ireland<br><b>length groups number:</b> 14<br><b>Groups Involved:</b> Loyalist Volunteer Forces (LVF), Saor Eire (Irish Republican Group), Dissident Republicans, Real Irish Republican Army (RIRA), Ulster Volunteer Force (UVF)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_663b3323efa4277bb516b20dcf8d5b26 = L.marker(
+                [30.966704204787234, 33.97211389228723],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_6fc2ad760d4c5f3ea6bd46cf353c3026 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellowgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_663b3323efa4277bb516b20dcf8d5b26.setIcon(icon_6fc2ad760d4c5f3ea6bd46cf353c3026);
+        
+    
+            marker_663b3323efa4277bb516b20dcf8d5b26.bindTooltip(
+                `<div>
+                     <b>Region:</b> Israel<br><b>length groups number:</b> 84<br><b>Groups Involved:</b> Popular Front for the Liberation of Palestine, Gen Cmd (PFLP-GC), South Lebanon Army, Terrorists, Popular Front for the Liberation of Palestine (PFLP), Arabs...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b8bb2036835ffd9716663aa55b26a4e8 = L.marker(
+                [43.13622932963374, 10.981572284128747],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_c6e869252efa7e94361baa25925eb29b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b8bb2036835ffd9716663aa55b26a4e8.setIcon(icon_c6e869252efa7e94361baa25925eb29b);
+        
+    
+            marker_b8bb2036835ffd9716663aa55b26a4e8.bindTooltip(
+                `<div>
+                     <b>Region:</b> Italy<br><b>length groups number:</b> 223<br><b>Groups Involved:</b> Southern Nucleus of Communist Counterpower, Al-Borkan Liberation Organization, Revolutionary Action Groups, Worker's Brigade, Continuing Struggle...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1e02784b4791c1e94a1479abacacf990 = L.marker(
+                [5.040870148148149, -4.454895888888889],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_4662156d91b36329683868c1d93212b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1e02784b4791c1e94a1479abacacf990.setIcon(icon_4662156d91b36329683868c1d93212b3);
+        
+    
+            marker_1e02784b4791c1e94a1479abacacf990.bindTooltip(
+                `<div>
+                     <b>Region:</b> Ivory Coast<br><b>length groups number:</b> 9<br><b>Groups Involved:</b> U/I Liberian Gunmen, Al-Qaida in the Islamic Maghreb (AQIM), Federation of Students and Scholars of Cote d'Ivoire (FESCI), U/I Liberians, Manatari Brotherhood...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5271302c6682c21416a177fb1bb2a83f = L.marker(
+                [18.015146625, -76.79434512499999],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_78ede1bb6a4438029614b909342dfd4b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5271302c6682c21416a177fb1bb2a83f.setIcon(icon_78ede1bb6a4438029614b909342dfd4b);
+        
+    
+            marker_5271302c6682c21416a177fb1bb2a83f.bindTooltip(
+                `<div>
+                     <b>Region:</b> Jamaica<br><b>length groups number:</b> 4<br><b>Groups Involved:</b> National Front for the Liberation of Cuba (FLNC), Right-wing extremists, Gunmen, Jamaica Labor Party...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bc244c7d53842480afd89c36ba972b5a = L.marker(
+                [35.218063639175256, 137.30413228350514],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_f2ece2b9c2d43ff9da6eae3273dc9325 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bc244c7d53842480afd89c36ba972b5a.setIcon(icon_f2ece2b9c2d43ff9da6eae3273dc9325);
+        
+    
+            marker_bc244c7d53842480afd89c36ba972b5a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Japan<br><b>length groups number:</b> 48<br><b>Groups Involved:</b> Chukakuha (Middle Core Faction), Right-Wing Group, Anti-United States extremists, Hiroyuki Jo, Yamaguchi-Gumi Gang...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ea394c6ce50ac75b5c7cb1fe56aa5268 = L.marker(
+                [29.945999333333333, 33.906142352941174],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_de07f5b606f9fbd7e7b179113f9e078b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ea394c6ce50ac75b5c7cb1fe56aa5268.setIcon(icon_de07f5b606f9fbd7e7b179113f9e078b);
+        
+    
+            marker_ea394c6ce50ac75b5c7cb1fe56aa5268.bindTooltip(
+                `<div>
+                     <b>Region:</b> Jordan<br><b>length groups number:</b> 24<br><b>Groups Involved:</b> Palestine Liberation Organization (PLO), Islamic Renewal Movement, Nobles of Jordan, Youth of Islamic Awakening, Islamic State of Iraq and the Levant (ISIL)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a3928a699defbda00196b52d8e698ae9 = L.marker(
+                [47.6771884, 66.0216881],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_18e94ac7a61a49bcfda5f5fc36f2973e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a3928a699defbda00196b52d8e698ae9.setIcon(icon_18e94ac7a61a49bcfda5f5fc36f2973e);
+        
+    
+            marker_a3928a699defbda00196b52d8e698ae9.bindTooltip(
+                `<div>
+                     <b>Region:</b> Kazakhstan<br><b>length groups number:</b> 6<br><b>Groups Involved:</b> Kazakhstan Liberation Army, Gunmen, Muslim extremists, Uighur Liberation Organization, Chechen Rebels...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0c2d56f24fc6005ca270ae0851332dc5 = L.marker(
+                [0.03743672279260784, 38.93391408213553],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_98d1dd5e044a4e6cb61ebbbedb59af61 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0c2d56f24fc6005ca270ae0851332dc5.setIcon(icon_98d1dd5e044a4e6cb61ebbbedb59af61);
+        
+    
+            marker_0c2d56f24fc6005ca270ae0851332dc5.bindTooltip(
+                `<div>
+                     <b>Region:</b> Kenya<br><b>length groups number:</b> 36<br><b>Groups Involved:</b> Muslim Youth, United Somali Congress, Pokot extremists, Merille Militia, Ethiopian Dongiro tribesmen...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d896766f68ee4433b00df6af3afd2eca = L.marker(
+                [42.597699125000005, 21.128021999999998],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_dea02b92df710cf21ba31f976111240e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d896766f68ee4433b00df6af3afd2eca.setIcon(icon_dea02b92df710cf21ba31f976111240e);
+        
+    
+            marker_d896766f68ee4433b00df6af3afd2eca.bindTooltip(
+                `<div>
+                     <b>Region:</b> Kosovo<br><b>length groups number:</b> 12<br><b>Groups Involved:</b> Kosovo Liberation Army (KLA), Rugovasit Group, Gunmen, Serbian extremists, Albanian National Army (ANA)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_de8dd1e625d4c518ad45418523a35ced = L.marker(
+                [20.490355636363635, 33.38477436363637],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_9d417bd002dc31ef5b85b2a437ae58f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_de8dd1e625d4c518ad45418523a35ced.setIcon(icon_9d417bd002dc31ef5b85b2a437ae58f1);
+        
+    
+            marker_de8dd1e625d4c518ad45418523a35ced.bindTooltip(
+                `<div>
+                     <b>Region:</b> Kuwait<br><b>length groups number:</b> 18<br><b>Groups Involved:</b> Muslim Fundamentalists, Arab Revolution/Liberation Vanguard Organization, Iranian Militants, Palestine Liberation Organization (PLO), Najd Province of the Islamic State...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6b85e116a98689b8209834a1abdc35ee = L.marker(
+                [35.99944075, 63.513214874999996],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_6005fc07a5323dee605260e6fa495f08 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6b85e116a98689b8209834a1abdc35ee.setIcon(icon_6005fc07a5323dee605260e6fa495f08);
+        
+    
+            marker_6b85e116a98689b8209834a1abdc35ee.bindTooltip(
+                `<div>
+                     <b>Region:</b> Kyrgyzstan<br><b>length groups number:</b> 5<br><b>Groups Involved:</b> Turkestan Islamic Party, Muslim extremists, Jihadi-inspired extremists, Islamic Movement of Uzbekistan (IMU), Uighur Separatists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a8b31f095dfa0f9cdbf5c773308d2109 = L.marker(
+                [18.210442666666665, 102.27091166666666],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_21f972f9b8f83ba9593a24bf82ae5ad7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a8b31f095dfa0f9cdbf5c773308d2109.setIcon(icon_21f972f9b8f83ba9593a24bf82ae5ad7);
+        
+    
+            marker_a8b31f095dfa0f9cdbf5c773308d2109.bindTooltip(
+                `<div>
+                     <b>Region:</b> Laos<br><b>length groups number:</b> 3<br><b>Groups Involved:</b> Free Democratic People's Government of Laos, Bandits, Gunmen...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ba7aff22dd22b0a31eaafd5274b0e3fa = L.marker(
+                [56.979977, 24.209616999999998],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_339b742e6cedf4f413f4ec25d7a7b0ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ba7aff22dd22b0a31eaafd5274b0e3fa.setIcon(icon_339b742e6cedf4f413f4ec25d7a7b0ba);
+        
+    
+            marker_ba7aff22dd22b0a31eaafd5274b0e3fa.bindTooltip(
+                `<div>
+                     <b>Region:</b> Latvia<br><b>length groups number:</b> 3<br><b>Groups Involved:</b> National Bolshevik Party (Partiya Natsionalnikh Bolshevikov - PNB), Latvian Republic Volunteer Troops, Fighters of Democratic Latvia...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_df62e2d534f93f8b70130dfcfa9915d8 = L.marker(
+                [31.097878510186007, 32.80396193179806],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_03a95378cad8a1aa9b59aa15496cf412 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_df62e2d534f93f8b70130dfcfa9915d8.setIcon(icon_03a95378cad8a1aa9b59aa15496cf412);
+        
+    
+            marker_df62e2d534f93f8b70130dfcfa9915d8.bindTooltip(
+                `<div>
+                     <b>Region:</b> Lebanon<br><b>length groups number:</b> 172<br><b>Groups Involved:</b> Al-Faruo Battalion, Iranian Revolution Organization, Free Syrian Army, Popular Front for the Liberation of Palestine, Gen Cmd (PFLP-GC), Fatah al-Islam...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_728409ebf82663c2b27f28cad963b2f7 = L.marker(
+                [-24.829380153846156, 23.337776846153847],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_803e4a6951b187b91794792b6230817b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_728409ebf82663c2b27f28cad963b2f7.setIcon(icon_803e4a6951b187b91794792b6230817b);
+        
+    
+            marker_728409ebf82663c2b27f28cad963b2f7.bindTooltip(
+                `<div>
+                     <b>Region:</b> Lesotho<br><b>length groups number:</b> 2<br><b>Groups Involved:</b> Opposition Militants, Lesotho Liberation Army (LLA)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_21db328bac16667726a1c1773b428a19 = L.marker(
+                [6.923917625, -10.2637204375],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_be5856d32d6e2534f27315ded87ba191 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_21db328bac16667726a1c1773b428a19.setIcon(icon_be5856d32d6e2534f27315ded87ba191);
+        
+    
+            marker_21db328bac16667726a1c1773b428a19.bindTooltip(
+                `<div>
+                     <b>Region:</b> Liberia<br><b>length groups number:</b> 6<br><b>Groups Involved:</b> National Democratic Front of Liberia, National Patriotic Front of Liberia (NPFL), United Liberation Movement for Democracy in Liberia (ULIMO), Liberian Rebel Group, Liberians United for Reconciliation and Democracy (LURD)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9f1d5acb767627cbe4ab73551f304396 = L.marker(
+                [31.41535470767613, 17.494881885383805],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_e0835183ed37a0739d78667b98553c8a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellowgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9f1d5acb767627cbe4ab73551f304396.setIcon(icon_e0835183ed37a0739d78667b98553c8a);
+        
+    
+            marker_9f1d5acb767627cbe4ab73551f304396.bindTooltip(
+                `<div>
+                     <b>Region:</b> Libya<br><b>length groups number:</b> 77<br><b>Groups Involved:</b> Tabu Tribe, Ghniwah Militia, Bahir Eldeen Brigade, Tawheed Militia, Qaddafi loyalists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_abafca30191f999292fd3b347d9faa16 = L.marker(
+                [54.861864, 23.963158],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_c0eeb7b4f1465192f4749cf86745d8fa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_abafca30191f999292fd3b347d9faa16.setIcon(icon_c0eeb7b4f1465192f4749cf86745d8fa);
+        
+    
+            marker_abafca30191f999292fd3b347d9faa16.bindTooltip(
+                `<div>
+                     <b>Region:</b> Lithuania<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Lithuanian Land Guard...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1221566ef74459501c7cd3c2a0e92b52 = L.marker(
+                [24.8058105, 3.0659675],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_9bf034f2f9d5cb88ca4aa433ff27a84f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1221566ef74459501c7cd3c2a0e92b52.setIcon(icon_9bf034f2f9d5cb88ca4aa433ff27a84f);
+        
+    
+            marker_1221566ef74459501c7cd3c2a0e92b52.bindTooltip(
+                `<div>
+                     <b>Region:</b> Luxembourg<br><b>length groups number:</b> 2<br><b>Groups Involved:</b> Fighting Ecologist Movement, New Armenian Resistance...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c63887cee4ecc1c993a37eb3d5f499ff = L.marker(
+                [22.192266, 113.547631],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_54e509e1d3c2100803190acfe8277020 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c63887cee4ecc1c993a37eb3d5f499ff.setIcon(icon_54e509e1d3c2100803190acfe8277020);
+        
+    
+            marker_c63887cee4ecc1c993a37eb3d5f499ff.bindTooltip(
+                `<div>
+                     <b>Region:</b> Macau<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> 14 K Triad...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e4d6ffc166f6087c068144aaf1428139 = L.marker(
+                [41.983262448275866, 21.144494862068964],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_308453895115198ac08a5006229cd319 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e4d6ffc166f6087c068144aaf1428139.setIcon(icon_308453895115198ac08a5006229cd319);
+        
+    
+            marker_e4d6ffc166f6087c068144aaf1428139.bindTooltip(
+                `<div>
+                     <b>Region:</b> Macedonia<br><b>length groups number:</b> 8<br><b>Groups Involved:</b> Kosovo Liberation Army (KLA), National Liberation Army (NLA) (Macedonia), Serbian extremists, Albanian National Army (ANA), Albanian extremists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8679bbd53b8d2855fcc847bf9ef692a7 = L.marker(
+                [-16.466517, 47.665088],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_eb58a8a8f19ea8cf1389c4736b48f950 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8679bbd53b8d2855fcc847bf9ef692a7.setIcon(icon_eb58a8a8f19ea8cf1389c4736b48f950);
+        
+    
+            marker_8679bbd53b8d2855fcc847bf9ef692a7.bindTooltip(
+                `<div>
+                     <b>Region:</b> Madagascar<br><b>length groups number:</b> 4<br><b>Groups Involved:</b> Anti-Government Demonstrators, Defenders of the Nation's Sovereignty, Militant Movement for Madagascan Socialism (MMSM), Didier Ratsiraka's Militia...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a2abd8d9e743363b21470210cced910e = L.marker(
+                [-14.884904500000001, 34.393255],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_a59bd09a8ade0f8bc0d8dc25dcfdb6c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a2abd8d9e743363b21470210cced910e.setIcon(icon_a59bd09a8ade0f8bc0d8dc25dcfdb6c1);
+        
+    
+            marker_a2abd8d9e743363b21470210cced910e.bindTooltip(
+                `<div>
+                     <b>Region:</b> Malawi<br><b>length groups number:</b> 2<br><b>Groups Involved:</b> Anti-government rioters, Young Pioneers...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_637bc75a8f5741ea6885e0e4ea772cd7 = L.marker(
+                [4.6630704, 112.05469816666667],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_073299810bee161b227ae122b344dcc6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_637bc75a8f5741ea6885e0e4ea772cd7.setIcon(icon_073299810bee161b227ae122b344dcc6);
+        
+    
+            marker_637bc75a8f5741ea6885e0e4ea772cd7.bindTooltip(
+                `<div>
+                     <b>Region:</b> Malaysia<br><b>length groups number:</b> 9<br><b>Groups Involved:</b> Communists, Japanese Red Army (JRA), Malaysian Communist Party, Jihadi-inspired extremists, Islamic State of Iraq and the Levant (ISIL)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2cb57277243108a5a74ed8ad4bad8ba0 = L.marker(
+                [4.1751582, 73.50898199999999],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_cdd3a64078d936805285134a67790ca6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2cb57277243108a5a74ed8ad4bad8ba0.setIcon(icon_cdd3a64078d936805285134a67790ca6);
+        
+    
+            marker_2cb57277243108a5a74ed8ad4bad8ba0.bindTooltip(
+                `<div>
+                     <b>Region:</b> Maldives<br><b>length groups number:</b> 2<br><b>Groups Involved:</b> People's Liberation Organization of Tamil Eelam, Muslim extremists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b795e5b80c7212c01752a0ae3b1e833b = L.marker(
+                [15.80085513258427, -1.675044391011236],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_54e1c93e4abdb776e6c3b6abba919482 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b795e5b80c7212c01752a0ae3b1e833b.setIcon(icon_54e1c93e4abdb776e6c3b6abba919482);
+        
+    
+            marker_b795e5b80c7212c01752a0ae3b1e833b.bindTooltip(
+                `<div>
+                     <b>Region:</b> Mali<br><b>length groups number:</b> 31<br><b>Groups Involved:</b> Black African Vigilantes, Salafist Group for Preaching and Fighting (GSPC), Al-Qaida in the Islamic Maghreb (AQIM), Self-Defense Group of Imghad Tuaregs and Allies (GATIA), Ansar al-Dine (Mali)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6d8c9b0ebf155cf5feeae7a019c8553a = L.marker(
+                [35.859981, 14.489218],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_91098533cbee28e14ad712cbe9d87b3a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6d8c9b0ebf155cf5feeae7a019c8553a.setIcon(icon_91098533cbee28e14ad712cbe9d87b3a);
+        
+    
+            marker_6d8c9b0ebf155cf5feeae7a019c8553a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Malta<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Turkish radicals...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ff7942c4f7046d7ce6b587ff33b1da87 = L.marker(
+                [14.609856, -61.06873099999999],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_c06d02c1ea82325cf6fde482e1bfbcb3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ff7942c4f7046d7ce6b587ff33b1da87.setIcon(icon_c06d02c1ea82325cf6fde482e1bfbcb3);
+        
+    
+            marker_ff7942c4f7046d7ce6b587ff33b1da87.bindTooltip(
+                `<div>
+                     <b>Region:</b> Martinique<br><b>length groups number:</b> 4<br><b>Groups Involved:</b> Caribbean Revolutionary Alliance (ARC), 22 May 1948, Yich Telga, Guadeloupe Liberation Army...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_34827d1c4c89ef04f398a0503d09b237 = L.marker(
+                [15.977551466666666, -10.029073333333335],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_7fa649842bed36e6005efe4882966419 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_34827d1c4c89ef04f398a0503d09b237.setIcon(icon_7fa649842bed36e6005efe4882966419);
+        
+    
+            marker_34827d1c4c89ef04f398a0503d09b237.bindTooltip(
+                `<div>
+                     <b>Region:</b> Mauritania<br><b>length groups number:</b> 4<br><b>Groups Involved:</b> Polisario Front, Salafi Extremists, Salafist Group for Preaching and Fighting (GSPC), Al-Qaida in the Islamic Maghreb (AQIM)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_969113a4faa24051682545f12d047915 = L.marker(
+                [18.774580255605382, -97.09281630941703],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_53c4a3ae501f3455e96d04fd5d0595ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_969113a4faa24051682545f12d047915.setIcon(icon_53c4a3ae501f3455e96d04fd5d0595ba);
+        
+    
+            marker_969113a4faa24051682545f12d047915.bindTooltip(
+                `<div>
+                     <b>Region:</b> Mexico<br><b>length groups number:</b> 57<br><b>Groups Involved:</b> State Council of Indian and Peasant Organization, Mob, Anti-United States extremists, Contras, Revolutionary Worker Clandestine Union of the People Party (PROCUP)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_deccb7a3e40afaf7bdd4eaefc9c96862 = L.marker(
+                [46.930986857142855, 29.444228857142857],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_23e4d69eaa8da1cf2b8f114b5a50e7dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_deccb7a3e40afaf7bdd4eaefc9c96862.setIcon(icon_23e4d69eaa8da1cf2b8f114b5a50e7dc);
+        
+    
+            marker_deccb7a3e40afaf7bdd4eaefc9c96862.bindTooltip(
+                `<div>
+                     <b>Region:</b> Moldova<br><b>length groups number:</b> 6<br><b>Groups Involved:</b> Russian separatists, Dnestr Rebels, Russian Militia, Ethnic Russian Separatists, Dnestr Republic Separatists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9e4af1c1d43545ad8d9db9527761cfa1 = L.marker(
+                [26.151016652173915, -6.269709304347827],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_3cbc6ddbc010ad990c4528ae8be459f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9e4af1c1d43545ad8d9db9527761cfa1.setIcon(icon_3cbc6ddbc010ad990c4528ae8be459f5);
+        
+    
+            marker_9e4af1c1d43545ad8d9db9527761cfa1.bindTooltip(
+                `<div>
+                     <b>Region:</b> Morocco<br><b>length groups number:</b> 6<br><b>Groups Involved:</b> Polisario Front, Al-Qaida in the Islamic Maghreb (AQIM), Patriotic Moroccan Front, Salafia Jihadia, Al-Adl Wal Ihsane...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bbe74e7d337f22c71bbcf8bd69fa121f = L.marker(
+                [-18.60861884126984, 31.673058768253966],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_7d62433a417263454c0e1f0959e97267 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bbe74e7d337f22c71bbcf8bd69fa121f.setIcon(icon_7d62433a417263454c0e1f0959e97267);
+        
+    
+            marker_bbe74e7d337f22c71bbcf8bd69fa121f.bindTooltip(
+                `<div>
+                     <b>Region:</b> Mozambique<br><b>length groups number:</b> 14<br><b>Groups Involved:</b> Anti-Government Guerrillas, Right-Wing Group, Gunmen, Insurgents, Mozambique Liberation Front (FRELIMO)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7cb302b030a6779d21b122c8c26a2786 = L.marker(
+                [18.999810119158877, 89.29200242523363],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_a9338efac3a7c11501cf8cbe5fa09915 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7cb302b030a6779d21b122c8c26a2786.setIcon(icon_a9338efac3a7c11501cf8cbe5fa09915);
+        
+    
+            marker_7cb302b030a6779d21b122c8c26a2786.bindTooltip(
+                `<div>
+                     <b>Region:</b> Myanmar<br><b>length groups number:</b> 39<br><b>Groups Involved:</b> Burma Communist Party, Kachin Independence Army (KIA), All Burma Students' Democratic Front (ABSDF), Democratic Karen Buddhist Army (DKBA), Rohingya extremists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dd934af07cad55630fecb3e13ade86a7 = L.marker(
+                [-16.023288666666666, 14.777248377777777],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_7ee03ab224388476a2030aa1b6c59e8a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dd934af07cad55630fecb3e13ade86a7.setIcon(icon_7ee03ab224388476a2030aa1b6c59e8a);
+        
+    
+            marker_dd934af07cad55630fecb3e13ade86a7.bindTooltip(
+                `<div>
+                     <b>Region:</b> Namibia<br><b>length groups number:</b> 6<br><b>Groups Involved:</b> White Wolves, South-West Africa People's Organization (SWAPO), National Union for the Total Independence of Angola (UNITA), African National Congress (South Africa), Zimbabwe African Nationalist Union (ZANU)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d62ecf993ce6d5925947602f7348e6f3 = L.marker(
+                [27.349967104930467, 84.35150222123895],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_5765e2e755042e000779d1ae20a2a4b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellowgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d62ecf993ce6d5925947602f7348e6f3.setIcon(icon_5765e2e755042e000779d1ae20a2a4b5);
+        
+    
+            marker_d62ecf993ce6d5925947602f7348e6f3.bindTooltip(
+                `<div>
+                     <b>Region:</b> Nepal<br><b>length groups number:</b> 78<br><b>Groups Involved:</b> People's Liberation Army (India), Janatantrik Terai Mukti Morcha- Jwala Singh (JTMM-J), Communist Party of Nepal- Maoist (CPN-M), United Ethnic Liberation Front (UELF), Janatantrik Terai Madhes Mukti Party- Bhagat Singh (JTMMP)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3b761258bf30841ffa66763845e6a4ea = L.marker(
+                [50.22793844303798, 4.8135773417721515],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_2fd2d865da430cfa433dbf1bb214dd47 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3b761258bf30841ffa66763845e6a4ea.setIcon(icon_2fd2d865da430cfa433dbf1bb214dd47);
+        
+    
+            marker_3b761258bf30841ffa66763845e6a4ea.bindTooltip(
+                `<div>
+                     <b>Region:</b> Netherlands<br><b>length groups number:</b> 42<br><b>Groups Involved:</b> Animal Liberation Front (ALF), Schiedam Youth Front, Actiefront Nationalistisch Nederland, Red Revolutionary Front, Anti-Iran Government Exiles...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ec28305eb1dfd7f6c28b3893e1d35765 = L.marker(
+                [-20.168676857142856, 154.107652],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_d8b02bb4f0d7fb1064f0ec489dc87197 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ec28305eb1dfd7f6c28b3893e1d35765.setIcon(icon_d8b02bb4f0d7fb1064f0ec489dc87197);
+        
+    
+            marker_ec28305eb1dfd7f6c28b3893e1d35765.bindTooltip(
+                `<div>
+                     <b>Region:</b> New Caledonia<br><b>length groups number:</b> 5<br><b>Groups Involved:</b> Independence Advocates, National Committee Against Independence (CNCI), Kanak Socialist National Liberation Front, Kanakas, Kanak Separatists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_972f76e2f690c8fe831794e4a49d7a28 = L.marker(
+                [-17.734818, 168.322029],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_b4421aaddabb8f1f2c1621abf8d9176d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_972f76e2f690c8fe831794e4a49d7a28.setIcon(icon_b4421aaddabb8f1f2c1621abf8d9176d);
+        
+    
+            marker_972f76e2f690c8fe831794e4a49d7a28.bindTooltip(
+                `<div>
+                     <b>Region:</b> New Hebrides<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Secessionists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_30bd99accf003a1ce71168103e4d39c3 = L.marker(
+                [-39.780122166666665, 174.82102583333335],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_dcf1f92f8ea519d09cd3a987f3baf9c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_30bd99accf003a1ce71168103e4d39c3.setIcon(icon_dcf1f92f8ea519d09cd3a987f3baf9c6);
+        
+    
+            marker_30bd99accf003a1ce71168103e4d39c3.bindTooltip(
+                `<div>
+                     <b>Region:</b> New Zealand<br><b>length groups number:</b> 3<br><b>Groups Involved:</b> Maori, Animal Liberation Front (ALF), September 11...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1cb766c0256bda09f003786a2909dbfa = L.marker(
+                [10.029414832490163, -48513.36994842214],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_d270a4ee5398800f8031850d1781f26d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1cb766c0256bda09f003786a2909dbfa.setIcon(icon_d270a4ee5398800f8031850d1781f26d);
+        
+    
+            marker_1cb766c0256bda09f003786a2909dbfa.bindTooltip(
+                `<div>
+                     <b>Region:</b> Nicaragua<br><b>length groups number:</b> 48<br><b>Groups Involved:</b> Guerrillas, Contras, Miguel d'Escoto Brockman Community Movement, Somozists, Yatama...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d16f9b8252fd399d4a99592c8b999bcf = L.marker(
+                [14.901497836879432, 8.85607335460993],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_f5382cf5e6e139240aef5c03b3c18845 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d16f9b8252fd399d4a99592c8b999bcf.setIcon(icon_f5382cf5e6e139240aef5c03b3c18845);
+        
+    
+            marker_d16f9b8252fd399d4a99592c8b999bcf.bindTooltip(
+                `<div>
+                     <b>Region:</b> Niger<br><b>length groups number:</b> 17<br><b>Groups Involved:</b> Democratic Front for Renewal (FDR), Air and Azawak Liberation Front, Tuareg extremists, Popular Front for the Liberation of the Sahara, Islamist extremists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8a7c7fedb05c0ee2f776eecc27d4fa85 = L.marker(
+                [10.329567703933748, 10.996889295721187],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_271bda4be2f4eca998fd2e919b8dd1b0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellowgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8a7c7fedb05c0ee2f776eecc27d4fa85.setIcon(icon_271bda4be2f4eca998fd2e919b8dd1b0);
+        
+    
+            marker_8a7c7fedb05c0ee2f776eecc27d4fa85.bindTooltip(
+                `<div>
+                     <b>Region:</b> Nigeria<br><b>length groups number:</b> 67<br><b>Groups Involved:</b> Red Scorpion, Niger Delta People's Volunteer Force (NDPVF), Ansaru (Jama'atu Ansarul Muslimina Fi Biladis Sudan), Niger Delta Forest Army (NDFA), Niger Delta Vigilante (NDV)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c32aaef2215cfdc31291dbbb03e6c2e5 = L.marker(
+                [39.031859, 125.753765],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_123cad37508f2045345319a9dbeb4821 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c32aaef2215cfdc31291dbbb03e6c2e5.setIcon(icon_123cad37508f2045345319a9dbeb4821);
+        
+    
+            marker_c32aaef2215cfdc31291dbbb03e6c2e5.bindTooltip(
+                `<div>
+                     <b>Region:</b> North Korea<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Kim Pyongnil Supporters...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0675dc7fb2391bc862c87c4ef923c082 = L.marker(
+                [59.931748071428565, 10.749007714285714],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_da6a9f1a52b700ff0334a9fa43f84d2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0675dc7fb2391bc862c87c4ef923c082.setIcon(icon_da6a9f1a52b700ff0334a9fa43f84d2d);
+        
+    
+            marker_0675dc7fb2391bc862c87c4ef923c082.bindTooltip(
+                `<div>
+                     <b>Region:</b> Norway<br><b>length groups number:</b> 11<br><b>Groups Involved:</b> Neo-Nazi extremists, Jihadi-inspired extremists, Right-wing extremists, Anti-Iran Government Exiles, Turkish radicals...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f10bcf7668c6a23f38e4357410e95a8e = L.marker(
+                [30.310563321341625, 68.96492391939411],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_aa02682053a0b42855e2478ff868f996 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f10bcf7668c6a23f38e4357410e95a8e.setIcon(icon_aa02682053a0b42855e2478ff868f996);
+        
+    
+            marker_f10bcf7668c6a23f38e4357410e95a8e.bindTooltip(
+                `<div>
+                     <b>Region:</b> Pakistan<br><b>length groups number:</b> 157<br><b>Groups Involved:</b> U/I Snipers, Sindh Liberation Front, Balochistan National Army, Islambouli Brigades of al-Qaida, Baloch Militant Defense Army...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7f6c287395a20fd1fc8e8a2eaea7ece0 = L.marker(
+                [8.944680333333332, -79.41401751851852],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_5bf4014350699927ef8fde6724980eb4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7f6c287395a20fd1fc8e8a2eaea7ece0.setIcon(icon_5bf4014350699927ef8fde6724980eb4);
+        
+    
+            marker_7f6c287395a20fd1fc8e8a2eaea7ece0.bindTooltip(
+                `<div>
+                     <b>Region:</b> Panama<br><b>length groups number:</b> 19<br><b>Groups Involved:</b> Panama Defense Force, Unemployed Persons, Revolutionary Armed Forces of Colombia (FARC), Revolutionary Front for National Liberation, Peasant Self-Defense Group (ACCU)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8dca2a9b003d97af2365343416d7947e = L.marker(
+                [-6.125644111111111, 153.7995329722222],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_a4f03eb78d627b57987ed830a0772560 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8dca2a9b003d97af2365343416d7947e.setIcon(icon_a4f03eb78d627b57987ed830a0772560);
+        
+    
+            marker_8dca2a9b003d97af2365343416d7947e.bindTooltip(
+                `<div>
+                     <b>Region:</b> Papua New Guinea<br><b>length groups number:</b> 7<br><b>Groups Involved:</b> Students  U of PNG, Bougainville Revolutionary Army (BRA), Paupa New Guinea Troops, Lufa Tribesmen, Free Papua Movement (OPM-Organisasi Papua Merdeka)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e50fd23e1fba2e9357fb12235121e86a = L.marker(
+                [-22.569535109890108, -53.76640391208791],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_a5656b3ecad2550b4ae1a919cddaa002 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e50fd23e1fba2e9357fb12235121e86a.setIcon(icon_a5656b3ecad2550b4ae1a919cddaa002);
+        
+    
+            marker_e50fd23e1fba2e9357fb12235121e86a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Paraguay<br><b>length groups number:</b> 11<br><b>Groups Involved:</b> Liga Agraria Campesina, Paraguayan People's Army (EPP), Strikers, Mariscal Lopez Army (EML), Justicieros de la Frontera...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_234b3ba55c19a6d7bb0f3bdf8c099ea5 = L.marker(
+                [-3.3688967499999998, 10.712127],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_9628f55ec9da42d0e31c8947686d9ae2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_234b3ba55c19a6d7bb0f3bdf8c099ea5.setIcon(icon_9628f55ec9da42d0e31c8947686d9ae2);
+        
+    
+            marker_234b3ba55c19a6d7bb0f3bdf8c099ea5.bindTooltip(
+                `<div>
+                     <b>Region:</b> People's Republic of the Congo<br><b>length groups number:</b> 3<br><b>Groups Involved:</b> Congolese Armed Patriotic Group, Black September, Front for the Liberation of the Enclave of Cabinda (FLEC)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_458c5a6149011273afb5957668fd8c15 = L.marker(
+                [-11.353635765134099, -72.03923603218391],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_04afc770446e51a200136390305c7eb0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_458c5a6149011273afb5957668fd8c15.setIcon(icon_04afc770446e51a200136390305c7eb0);
+        
+    
+            marker_458c5a6149011273afb5957668fd8c15.bindTooltip(
+                `<div>
+                     <b>Region:</b> Peru<br><b>length groups number:</b> 40<br><b>Groups Involved:</b> Tupac Amaru Revolutionary Movement (MRTA), National Liberation Army (Peru), Guerrillas, Right-Wing Group, Rebels...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d53782f9d488e4a507a70f00d79cb6a5 = L.marker(
+                [8.824157597133075, 114.70201181065468],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_c66145df2e78f6bdd443255673b3fa9d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellowgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d53782f9d488e4a507a70f00d79cb6a5.setIcon(icon_c66145df2e78f6bdd443255673b3fa9d);
+        
+    
+            marker_d53782f9d488e4a507a70f00d79cb6a5.bindTooltip(
+                `<div>
+                     <b>Region:</b> Philippines<br><b>length groups number:</b> 83<br><b>Groups Involved:</b> Tulawie Clan, Ansar Al-Khilafa (Philippines), Muslims, Armed People, Moro Ghuraba...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5d14c5eb25af18a35be8077aa77e5c2c = L.marker(
+                [52.3427872, 18.9146171],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_41d83523f8fcba4ebdfa36cfc5142a10 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5d14c5eb25af18a35be8077aa77e5c2c.setIcon(icon_41d83523f8fcba4ebdfa36cfc5142a10);
+        
+    
+            marker_5d14c5eb25af18a35be8077aa77e5c2c.bindTooltip(
+                `<div>
+                     <b>Region:</b> Poland<br><b>length groups number:</b> 8<br><b>Groups Involved:</b> Neo-Nazi extremists, Anti-Government extremists, Polish Skinheads, Anarchists, December 13 Independent Group...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e69c1f28367437bf8dfe9ab853c7e308 = L.marker(
+                [38.754732215189875, -10.679930455696203],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_71af59091c327a4bddbf5f2abf5cdbe7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e69c1f28367437bf8dfe9ab853c7e308.setIcon(icon_71af59091c327a4bddbf5f2abf5cdbe7);
+        
+    
+            marker_e69c1f28367437bf8dfe9ab853c7e308.bindTooltip(
+                `<div>
+                     <b>Region:</b> Portugal<br><b>length groups number:</b> 21<br><b>Groups Involved:</b> Action Directe, Justice Commandos for the Armenian Genocide, Abu Nidal Organization (ANO), Hungarian exile, Irish Republican Army (IRA)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_35e4aaae472b0ac5d6386a58b8ff708a = L.marker(
+                [25.284220249999997, 51.546407],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_e152e4774c8abed92887326718bc194c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_35e4aaae472b0ac5d6386a58b8ff708a.setIcon(icon_e152e4774c8abed92887326718bc194c);
+        
+    
+            marker_35e4aaae472b0ac5d6386a58b8ff708a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Qatar<br><b>length groups number:</b> 4<br><b>Groups Involved:</b> The Organization for the Return of Legality, Iraqi extremists, Palestinians, Organization of Soldiers of the Levant...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_310bfe017d5497e9db86baa7117f9227 = L.marker(
+                [-3.5764719, 16.0542811],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_71c9ded903eb0d28de92895df02f071c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_310bfe017d5497e9db86baa7117f9227.setIcon(icon_71c9ded903eb0d28de92895df02f071c);
+        
+    
+            marker_310bfe017d5497e9db86baa7117f9227.bindTooltip(
+                `<div>
+                     <b>Region:</b> Republic of the Congo<br><b>length groups number:</b> 5<br><b>Groups Involved:</b> Mayi Mayi, Supporters of Pascal Lissouba, Ninjas, Presidential Movement (MP) Militiamen, Malitia-Pro Govt...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a8b2ad510a4fb0e2ae944768eb2321a0 = L.marker(
+                [-12.496733714285716, 20.4727273877551],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_313e62ed02bd055eedd9c98c5f67d46e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a8b2ad510a4fb0e2ae944768eb2321a0.setIcon(icon_313e62ed02bd055eedd9c98c5f67d46e);
+        
+    
+            marker_a8b2ad510a4fb0e2ae944768eb2321a0.bindTooltip(
+                `<div>
+                     <b>Region:</b> Rhodesia<br><b>length groups number:</b> 8<br><b>Groups Involved:</b> Zimbabwe African People's Union, Black Nationalists, Zimbabwe Patriotic Front, Rhodesian guerillas, Guerrillas...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0f74a783f35cb5ea285431122e8caab2 = L.marker(
+                [44.433333, 26.1],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_a2bfc3e879554ea1e916cfda7eb18215 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0f74a783f35cb5ea285431122e8caab2.setIcon(icon_a2bfc3e879554ea1e916cfda7eb18215);
+        
+    
+            marker_0f74a783f35cb5ea285431122e8caab2.bindTooltip(
+                `<div>
+                     <b>Region:</b> Romania<br><b>length groups number:</b> 2<br><b>Groups Involved:</b> Black September II, Bavarian Liberation Army...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c7a6b65dc5d8d8c299cbb8d4d1758e45 = L.marker(
+                [44.65286094455067, 45.33196650286807],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_2c9370537361b040301b92643fa966a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c7a6b65dc5d8d8c299cbb8d4d1758e45.setIcon(icon_2c9370537361b040301b92643fa966a6);
+        
+    
+            marker_c7a6b65dc5d8d8c299cbb8d4d1758e45.bindTooltip(
+                `<div>
+                     <b>Region:</b> Russia<br><b>length groups number:</b> 58<br><b>Groups Involved:</b> Ingush Rebels, Sword of Islam, Khasavyurt Group, Guerrillas, Misanthropic Division...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_96b238a2030a742e01cd8f14913733d9 = L.marker(
+                [-1.7689963333333334, 27.53542807246377],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_ee1ec4f21f2cd36667dce235adb4a71c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_96b238a2030a742e01cd8f14913733d9.setIcon(icon_ee1ec4f21f2cd36667dce235adb4a71c);
+        
+    
+            marker_96b238a2030a742e01cd8f14913733d9.bindTooltip(
+                `<div>
+                     <b>Region:</b> Rwanda<br><b>length groups number:</b> 8<br><b>Groups Involved:</b> Inkotanyi, Tutsi extremists, Hutu extremists, Democratic Front for the Liberation of Rwanda (FDLR), Unidentified Infiltrators...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_90bc77760d933f63dbb6a3b18c0c17ce = L.marker(
+                [18.846374684684687, 42.50278618468469],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_eac2e5303bdc94e78be7d2a6c253cda3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_90bc77760d933f63dbb6a3b18c0c17ce.setIcon(icon_eac2e5303bdc94e78be7d2a6c253cda3);
+        
+    
+            marker_90bc77760d933f63dbb6a3b18c0c17ce.bindTooltip(
+                `<div>
+                     <b>Region:</b> Saudi Arabia<br><b>length groups number:</b> 21<br><b>Groups Involved:</b> Popular Resistance Committees (Yemen), Hezbollah, Islamic State of Iraq and the Levant (ISIL), Generation of Arab Fury, Shia Muslim extremists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ab78d81c7582720ea513d2b69bf05efc = L.marker(
+                [8.796189255813953, -11.111483953488372],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_45d8c9bfa2e7805866e50ac6d8dcbba1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ab78d81c7582720ea513d2b69bf05efc.setIcon(icon_45d8c9bfa2e7805866e50ac6d8dcbba1);
+        
+    
+            marker_ab78d81c7582720ea513d2b69bf05efc.bindTooltip(
+                `<div>
+                     <b>Region:</b> Senegal<br><b>length groups number:</b> 6<br><b>Groups Involved:</b> Casamance Separatists, Movement of Democratic Forces of Casamance, Liberation Front of the Senegalese People, Separatists, Mali students...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c90e822e35b06eaf32c9fa4bd12da9fc = L.marker(
+                [43.625026000000005, 21.049787000000002],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_86f43847d579fa394a63873af586164f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c90e822e35b06eaf32c9fa4bd12da9fc.setIcon(icon_86f43847d579fa394a63873af586164f);
+        
+    
+            marker_c90e822e35b06eaf32c9fa4bd12da9fc.bindTooltip(
+                `<div>
+                     <b>Region:</b> Serbia<br><b>length groups number:</b> 2<br><b>Groups Involved:</b> Liberation Army for Presevo, Medvedja and Bujanovac (UCPMB), The Black Sun...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f4bdd7583d723df8be7e03d9a9fc83ae = L.marker(
+                [43.626298000000006, 21.050186],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_a835fa30af064ef701886e20a9dcef52 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f4bdd7583d723df8be7e03d9a9fc83ae.setIcon(icon_a835fa30af064ef701886e20a9dcef52);
+        
+    
+            marker_f4bdd7583d723df8be7e03d9a9fc83ae.bindTooltip(
+                `<div>
+                     <b>Region:</b> Serbia-Montenegro<br><b>length groups number:</b> 2<br><b>Groups Involved:</b> Albanian National Army (ANA), Zemun Clan...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b22bb3f68a643270de21c0d5f130d336 = L.marker(
+                [-4.616858, 55.44939],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_27ea94a195d9a58cc495f1c8d33598f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b22bb3f68a643270de21c0d5f130d336.setIcon(icon_27ea94a195d9a58cc495f1c8d33598f0);
+        
+    
+            marker_b22bb3f68a643270de21c0d5f130d336.bindTooltip(
+                `<div>
+                     <b>Region:</b> Seychelles<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Mercenaries...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2f977a1d54d1b09ecbce3e4f22cb1be2 = L.marker(
+                [7.619537738095238, -10.690622428571428],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_704f80432a55603f31a4ba56299ef6cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2f977a1d54d1b09ecbce3e4f22cb1be2.setIcon(icon_704f80432a55603f31a4ba56299ef6cd);
+        
+    
+            marker_2f977a1d54d1b09ecbce3e4f22cb1be2.bindTooltip(
+                `<div>
+                     <b>Region:</b> Sierra Leone<br><b>length groups number:</b> 9<br><b>Groups Involved:</b> Supporters of Johnny Paul Koroma, Rebels, National Patriotic Front of Liberia (NPFL), Revolutionary United Front (RUF), Armed Forces Revolutionary Council (AFRC)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_de9a018f2f38e3d902d6ec5e321fb9b5 = L.marker(
+                [1.27986, 103.848989],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_fc63c527b44ce6b585d08207fb264f7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_de9a018f2f38e3d902d6ec5e321fb9b5.setIcon(icon_fc63c527b44ce6b585d08207fb264f7d);
+        
+    
+            marker_de9a018f2f38e3d902d6ec5e321fb9b5.bindTooltip(
+                `<div>
+                     <b>Region:</b> Singapore<br><b>length groups number:</b> 3<br><b>Groups Involved:</b> Al-Zulfikar, Popular Front for the Liberation of Palestine (PFLP), Japanese Red Army (JRA)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7b860676263ece667889a672c1f9a91c = L.marker(
+                [48.45547366666667, 17.895145],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_f2d7d8221578ce0f06b723d45418a589 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7b860676263ece667889a672c1f9a91c.setIcon(icon_f2d7d8221578ce0f06b723d45418a589);
+        
+    
+            marker_7b860676263ece667889a672c1f9a91c.bindTooltip(
+                `<div>
+                     <b>Region:</b> Slovak Republic<br><b>length groups number:</b> 2<br><b>Groups Involved:</b> Neo-Nazi extremists, Right-wing extremists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dddf22463396cbd23eb1b62cac02f355 = L.marker(
+                [-9.584336, 160.155603],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_48e36462d1c60491d687d34b484ccf65 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dddf22463396cbd23eb1b62cac02f355.setIcon(icon_48e36462d1c60491d687d34b484ccf65);
+        
+    
+            marker_dddf22463396cbd23eb1b62cac02f355.bindTooltip(
+                `<div>
+                     <b>Region:</b> Solomon Islands<br><b>length groups number:</b> 3<br><b>Groups Involved:</b> Guadalcanal Liberation Army, Isatabu Freedom Movement (IFM), Guadalcanal Liberation Front (GLF)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a1f900b9ed664042ccdf039efd9df46c = L.marker(
+                [2.756540765089723, 44.477730775530176],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_04e419257e5c43ff87c9c9c88d646f0e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a1f900b9ed664042ccdf039efd9df46c.setIcon(icon_04e419257e5c43ff87c9c9c88d646f0e);
+        
+    
+            marker_a1f900b9ed664042ccdf039efd9df46c.bindTooltip(
+                `<div>
+                     <b>Region:</b> Somalia<br><b>length groups number:</b> 50<br><b>Groups Involved:</b> Habr Gedir Clan, Rahanwein Resistance Army (RRA), Front for the Liberation of the French Somali Coast, Islamic State of Iraq and the Levant (ISIL), United Somali Congress...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ad6b5a518bbaa4c83b384a76f174017a = L.marker(
+                [-26.802076441215323, 26.440069528401587],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_0403987d2205442feeaaac9179be857f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ad6b5a518bbaa4c83b384a76f174017a.setIcon(icon_0403987d2205442feeaaac9179be857f);
+        
+    
+            marker_ad6b5a518bbaa4c83b384a76f174017a.bindTooltip(
+                `<div>
+                     <b>Region:</b> South Africa<br><b>length groups number:</b> 43<br><b>Groups Involved:</b> United Democratic Front (UDF), Right-Wing Group, Xhosa Tribal Workers, Gang, Orde Boerevoik...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d768380304e1c772b0090e3cc59dfe4f = L.marker(
+                [36.7000988125, 127.132970625],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_77d438fee2cb402ee7b91d66b0003936 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d768380304e1c772b0090e3cc59dfe4f.setIcon(icon_77d438fee2cb402ee7b91d66b0003936);
+        
+    
+            marker_d768380304e1c772b0090e3cc59dfe4f.bindTooltip(
+                `<div>
+                     <b>Region:</b> South Korea<br><b>length groups number:</b> 13<br><b>Groups Involved:</b> Chonson Univ. students, Hanchongryun, Namchong-Nyon Students, Korean Youth League, Chondaehyop (Radical Student Coalition)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fdc2f58e300765150aaa04967ccbdebe = L.marker(
+                [7.3254715586206895, 30.763588193103452],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_625552055760427717055778cd5aeb3a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fdc2f58e300765150aaa04967ccbdebe.setIcon(icon_625552055760427717055778cd5aeb3a);
+        
+    
+            marker_fdc2f58e300765150aaa04967ccbdebe.bindTooltip(
+                `<div>
+                     <b>Region:</b> South Sudan<br><b>length groups number:</b> 13<br><b>Groups Involved:</b> David Yau Yau Militia, Revolutionary Movement for National Salvation (REMNASA), Sudan People's Liberation Movement in Opposition (SPLM-IO), Revolutionary Front, Mabanese Defence Forces...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5351f2af88b2f4e54ac66c4a6e025cc6 = L.marker(
+                [6.4128235, 22.423208],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_373000208ef8230cc3b6361f660da1d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5351f2af88b2f4e54ac66c4a6e025cc6.setIcon(icon_373000208ef8230cc3b6361f660da1d2);
+        
+    
+            marker_5351f2af88b2f4e54ac66c4a6e025cc6.bindTooltip(
+                `<div>
+                     <b>Region:</b> South Yemen<br><b>length groups number:</b> 2<br><b>Groups Involved:</b> Palestinians, Popular Front for the Liberation of Palestine (PFLP)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_64280e363c21124f6bd7274359b98850 = L.marker(
+                [41.69977125, 39.81678745],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_b9b263d2cb950e6a02f627c8a7df23c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_64280e363c21124f6bd7274359b98850.setIcon(icon_b9b263d2cb950e6a02f627c8a7df23c2);
+        
+    
+            marker_64280e363c21124f6bd7274359b98850.bindTooltip(
+                `<div>
+                     <b>Region:</b> Soviet Union<br><b>length groups number:</b> 9<br><b>Groups Involved:</b> Armenian Group, Armenian militants, Armenian Guerrillas, Armenians, Armenian extremists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_37b04455cd8600e0e83bebb1ab40dec5 = L.marker(
+                [41.33640288159393, -2.615877574573055],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_2f526bebadcdce9d25f1b74f98de9e04 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_37b04455cd8600e0e83bebb1ab40dec5.setIcon(icon_2f526bebadcdce9d25f1b74f98de9e04);
+        
+    
+            marker_37b04455cd8600e0e83bebb1ab40dec5.bindTooltip(
+                `<div>
+                     <b>Region:</b> Spain<br><b>length groups number:</b> 99<br><b>Groups Involved:</b> Al-Borkan Liberation Organization, Three Stars Autonomous Commando, Lebanese male, National Front for the Liberation of Cuba (FLNC), Basque Fatherland and Freedom (ETA)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_052d02718150d89771d414e6f2359693 = L.marker(
+                [7.761156865580448, 77.82377227372709],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_c790b8173a051e2fdf3673cdd302369c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_052d02718150d89771d414e6f2359693.setIcon(icon_c790b8173a051e2fdf3673cdd302369c);
+        
+    
+            marker_052d02718150d89771d414e6f2359693.bindTooltip(
+                `<div>
+                     <b>Region:</b> Sri Lanka<br><b>length groups number:</b> 41<br><b>Groups Involved:</b> Rival Parts, Tamils, Liberation Tigers of Tamil Eelam (LTTE), Guerrillas, Tamil Makkal Viduthalai Pulikal (TMVP)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1d8459f7fb01b2d8f00f6a7c6ec3059f = L.marker(
+                [17.300063, -62.730877],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_eafb6eb994af87e74defe65c1666d0eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1d8459f7fb01b2d8f00f6a7c6ec3059f.setIcon(icon_eafb6eb994af87e74defe65c1666d0eb);
+        
+    
+            marker_1d8459f7fb01b2d8f00f6a7c6ec3059f.bindTooltip(
+                `<div>
+                     <b>Region:</b> St. Kitts and Nevis<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> St. Kitts Nevis Labor Party...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3f2d59ddbacacbccebc9722e7121e57b = L.marker(
+                [14.01011, -60.9875],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_ac627799d4b2a014c8c6ce35ff0ab616 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3f2d59ddbacacbccebc9722e7121e57b.setIcon(icon_ac627799d4b2a014c8c6ce35ff0ab616);
+        
+    
+            marker_3f2d59ddbacacbccebc9722e7121e57b.bindTooltip(
+                `<div>
+                     <b>Region:</b> St. Lucia<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Rastas...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0eb8792109ba395ab2a7c285a91c06af = L.marker(
+                [11.380402727272728, 25.96754658181818],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_b4c84e8bb7b019510e67584d1ac2a951 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0eb8792109ba395ab2a7c285a91c06af.setIcon(icon_b4c84e8bb7b019510e67584d1ac2a951);
+        
+    
+            marker_0eb8792109ba395ab2a7c285a91c06af.bindTooltip(
+                `<div>
+                     <b>Region:</b> Sudan<br><b>length groups number:</b> 46<br><b>Groups Involved:</b> Abbala extremists, Sudan Alliance Forces, Sudanese People's Liberation Forces, Ummah Liberation Army, Rebels...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b80837f195ed871e20c8732dd35c7a89 = L.marker(
+                [5.100297080000001, -51.54290298],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_26e46c1042b51b6a27ad188e6681d5df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b80837f195ed871e20c8732dd35c7a89.setIcon(icon_26e46c1042b51b6a27ad188e6681d5df);
+        
+    
+            marker_b80837f195ed871e20c8732dd35c7a89.bindTooltip(
+                `<div>
+                     <b>Region:</b> Suriname<br><b>length groups number:</b> 7<br><b>Groups Involved:</b> National Liberation Union, White Mercenaries, Surinamese Amerindians, Suriname Liberation Front, Tacayana Indians...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0c50210af7636291778c2c8e9927068e = L.marker(
+                [-26.434294285714284, 31.369293142857142],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_d3c9a1e6c327f8dc4f41564bb495f669 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0c50210af7636291778c2c8e9927068e.setIcon(icon_d3c9a1e6c327f8dc4f41564bb495f669);
+        
+    
+            marker_0c50210af7636291778c2c8e9927068e.bindTooltip(
+                `<div>
+                     <b>Region:</b> Swaziland<br><b>length groups number:</b> 6<br><b>Groups Involved:</b> Tigers, African National Congress (South Africa), Mozambique National Resistance Movement (MNR), Umbane People's Liberation Army (Swaziland), People's United Democratic Movement (PUDEMO)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c7ad30395c8358e92575d94680cbaf35 = L.marker(
+                [56.566449594594594, 14.833902945945947],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_2d9d70c27d8da2e83f1b6a1af1fb05b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c7ad30395c8358e92575d94680cbaf35.setIcon(icon_2d9d70c27d8da2e83f1b6a1af1fb05b6);
+        
+    
+            marker_c7ad30395c8358e92575d94680cbaf35.bindTooltip(
+                `<div>
+                     <b>Region:</b> Sweden<br><b>length groups number:</b> 21<br><b>Groups Involved:</b> Nordisk Rikspartiet (Nordic National Party), Animal Liberation Front (ALF), We Who Built Sweden, Anti-Iran Government Exiles, Hells Angels...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_da9cae246893e203112a737a7cdd1f32 = L.marker(
+                [46.68605478947368, 7.122895929824561],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_3af20645172c9a6268de36ed80317491 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_da9cae246893e203112a737a7cdd1f32.setIcon(icon_3af20645172c9a6268de36ed80317491);
+        
+    
+            marker_da9cae246893e203112a737a7cdd1f32.bindTooltip(
+                `<div>
+                     <b>Region:</b> Switzerland<br><b>length groups number:</b> 30<br><b>Groups Involved:</b> Palestine Liberation Organization (PLO), Iberian Liberation Movement (MIL), Popular Front for the Liberation of Palestine, Gen Cmd (PFLP-GC), New Armenian Resistance, Anti-Iran Government Exiles...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b23d957b5e205cc35de2469c9fa53ca1 = L.marker(
+                [34.95956818453427, 36.8698371089631],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_755fef88c044c1fd8f356ebc5388e57d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellowgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b23d957b5e205cc35de2469c9fa53ca1.setIcon(icon_755fef88c044c1fd8f356ebc5388e57d);
+        
+    
+            marker_b23d957b5e205cc35de2469c9fa53ca1.bindTooltip(
+                `<div>
+                     <b>Region:</b> Syria<br><b>length groups number:</b> 67<br><b>Groups Involved:</b> Arab Revolution/Liberation Vanguard Organization, Syrian Democratic Forces (SDF), Revolutionaries Army (Jaysh al-Thowwar), Authenticity and Development Front, Free Syrian Army...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_06655f0510098d4dbed3bc67e3bca818 = L.marker(
+                [24.284591000000002, 120.73430657142856],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_35689c1ac9c075ed73671c76b61c5ee6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_06655f0510098d4dbed3bc67e3bca818.setIcon(icon_35689c1ac9c075ed73671c76b61c5ee6);
+        
+    
+            marker_06655f0510098d4dbed3bc67e3bca818.bindTooltip(
+                `<div>
+                     <b>Region:</b> Taiwan<br><b>length groups number:</b> 6<br><b>Groups Involved:</b> Anti-Nuclear extremists, Gang, Chinese Illegal Immigrant, Organized Crime, Separatists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0cb12b22d56673fb416e3f4464ec51f1 = L.marker(
+                [34.98422377272727, 62.84068736363636],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_5ff3ca6c6a7eeba5a6c1cfa1f2640773 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0cb12b22d56673fb416e3f4464ec51f1.setIcon(icon_5ff3ca6c6a7eeba5a6c1cfa1f2640773);
+        
+    
+            marker_0cb12b22d56673fb416e3f4464ec51f1.bindTooltip(
+                `<div>
+                     <b>Region:</b> Tajikistan<br><b>length groups number:</b> 14<br><b>Groups Involved:</b> Tajik Rebels, Muslim Militants, Gunmen, Jihadi-inspired extremists, People's Democratic Army...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_712d72b27540afc37e539a3eef767bb2 = L.marker(
+                [-5.106202052631579, 33.26748773684211],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_b186437a66bec041051c8f4cd9934bbf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_712d72b27540afc37e539a3eef767bb2.setIcon(icon_b186437a66bec041051c8f4cd9934bbf);
+        
+    
+            marker_712d72b27540afc37e539a3eef767bb2.bindTooltip(
+                `<div>
+                     <b>Region:</b> Tanzania<br><b>length groups number:</b> 15<br><b>Groups Involved:</b> People's Revolutionary Party (Tanzania), Civic United Front (CUF), Left-Wing Terrorists, Gunmen, Anti-United States extremists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2cfc66112c39251d159aa4b050fb68e1 = L.marker(
+                [7.424930423208192, 99.55983982935153],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_889d34a5dcc2da1fd034096c44b1fdd1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2cfc66112c39251d159aa4b050fb68e1.setIcon(icon_889d34a5dcc2da1fd034096c44b1fdd1);
+        
+    
+            marker_2cfc66112c39251d159aa4b050fb68e1.bindTooltip(
+                `<div>
+                     <b>Region:</b> Thailand<br><b>length groups number:</b> 54<br><b>Groups Involved:</b> Runda Kumpulan Kecil (RKK), Kachin Independence Army (KIA), Insurgents, Sanidila Secessionist Movement, Malaysian Communist Party...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c7af169a94b773d7b2672d4de1ddb7b3 = L.marker(
+                [6.1611478, 1.2256647999999999],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_e00cbc25af1622028212b3a2aacf13ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c7af169a94b773d7b2672d4de1ddb7b3.setIcon(icon_e00cbc25af1622028212b3a2aacf13ce);
+        
+    
+            marker_c7af169a94b773d7b2672d4de1ddb7b3.bindTooltip(
+                `<div>
+                     <b>Region:</b> Togo<br><b>length groups number:</b> 3<br><b>Groups Involved:</b> Togolese Dissidents, Rebel Military Unit, Togolese Peoples Rally...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e21ed73de68fc841fe7c27845dad1c85 = L.marker(
+                [10.624099166666667, -61.483453499999996],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_8d239eec4d337b75907121e5bb5c062e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e21ed73de68fc841fe7c27845dad1c85.setIcon(icon_8d239eec4d337b75907121e5bb5c062e);
+        
+    
+            marker_e21ed73de68fc841fe7c27845dad1c85.bindTooltip(
+                `<div>
+                     <b>Region:</b> Trinidad and Tobago<br><b>length groups number:</b> 3<br><b>Groups Involved:</b> Coordination of the United Revolutionary Organization (CORU), Taxi Drivers, Professional Killers...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1f859f93a8cad660e55fa4c3441eb98d = L.marker(
+                [34.959243894736844, 9.44224719736842],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_c48b0212db7401e5629c320e2ac220d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1f859f93a8cad660e55fa4c3441eb98d.setIcon(icon_c48b0212db7401e5629c320e2ac220d3);
+        
+    
+            marker_1f859f93a8cad660e55fa4c3441eb98d.bindTooltip(
+                `<div>
+                     <b>Region:</b> Tunisia<br><b>length groups number:</b> 13<br><b>Groups Involved:</b> Ansar al-Sharia (Tunisia), Tripoli Province of the Islamic State, Al-Qaida in the Islamic Maghreb (AQIM), Muslim extremists, Jund al-Khilafah (Tunisia)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3d6db28859d3ecb52693c16d979c817b = L.marker(
+                [37.17505074634478, 36.470444167630056],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_824566745d06118fe1f37ed2d4269617 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3d6db28859d3ecb52693c16d979c817b.setIcon(icon_824566745d06118fe1f37ed2d4269617);
+        
+    
+            marker_3d6db28859d3ecb52693c16d979c817b.bindTooltip(
+                `<div>
+                     <b>Region:</b> Turkey<br><b>length groups number:</b> 98<br><b>Groups Involved:</b> Islamic Movement Organization, Free Syrian Army, Left-Wing Guerrillas, Mahir Cayan Suicide Group, Islamic Cause Organization...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_40aa1afac18c8ca7338f3e1ad09a56ec = L.marker(
+                [37.395037, 61.4200195],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_24901091888f60ba91c81990436c75a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_40aa1afac18c8ca7338f3e1ad09a56ec.setIcon(icon_24901091888f60ba91c81990436c75a3);
+        
+    
+            marker_40aa1afac18c8ca7338f3e1ad09a56ec.bindTooltip(
+                `<div>
+                     <b>Region:</b> Turkmenistan<br><b>length groups number:</b> 2<br><b>Groups Involved:</b> Gunmen, Taliban...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4da0c871203ffdcd44b03b67ce6ff590 = L.marker(
+                [1.681924582733813, 31.118121525179856],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_5bed42d1f9e232fce198cae652b4b8f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4da0c871203ffdcd44b03b67ce6ff590.setIcon(icon_5bed42d1f9e232fce198cae652b4b8f5);
+        
+    
+            marker_4da0c871203ffdcd44b03b67ce6ff590.bindTooltip(
+                `<div>
+                     <b>Region:</b> Uganda<br><b>length groups number:</b> 31<br><b>Groups Involved:</b> Allied Democratic Forces (ADF), Guerrillas, National Democratic Alliance (NDA), Rebels, Pokot extremists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a39a31f0a06b4f50fe2fd9d93d38664a = L.marker(
+                [48.03987802015678, 37.764419713325864],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_dc94d44c60dead3ea2b7bbe8afcbdac9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a39a31f0a06b4f50fe2fd9d93d38664a.setIcon(icon_dc94d44c60dead3ea2b7bbe8afcbdac9);
+        
+    
+            marker_a39a31f0a06b4f50fe2fd9d93d38664a.bindTooltip(
+                `<div>
+                     <b>Region:</b> Ukraine<br><b>length groups number:</b> 18<br><b>Groups Involved:</b> Anti-Yanukovych extremists, Gunmen, Cossack Separatists, Pro-Russia Militia, Russian Unity...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e2bea98b7324bba81848fefcc13756ef = L.marker(
+                [25.2115335, 55.429424833333336],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_d7f7248505c33ea8124a7fd09fd24b84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e2bea98b7324bba81848fefcc13756ef.setIcon(icon_d7f7248505c33ea8124a7fd09fd24b84);
+        
+    
+            marker_e2bea98b7324bba81848fefcc13756ef.bindTooltip(
+                `<div>
+                     <b>Region:</b> United Arab Emirates<br><b>length groups number:</b> 6<br><b>Groups Involved:</b> Abdullah Azzam Brigades, Syrians, Iranians, Palestinians, Al-Qaida in the Arabian Peninsula (AQAP)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8ae35f19b792037eaecca7de1dd2f6da = L.marker(
+                [54.20056273728418, -5.637333965935603],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_e527187132378e2ec84c98aceb0cc4ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8ae35f19b792037eaecca7de1dd2f6da.setIcon(icon_e527187132378e2ec84c98aceb0cc4ae);
+        
+    
+            marker_8ae35f19b792037eaecca7de1dd2f6da.bindTooltip(
+                `<div>
+                     <b>Region:</b> United Kingdom<br><b>length groups number:</b> 110<br><b>Groups Involved:</b> Loyalist Action Force, Unemployed Persons, Qaddafi loyalists, National Front for the Liberation of Cuba (FLNC), Provisional RSPCA...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8ac32ebc339547aea0904fa658eb0d92 = L.marker(
+                [36.865336641224665, -91.93989217421303],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_3d6b423287edee1a2586556c4e8bbd8b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8ac32ebc339547aea0904fa658eb0d92.setIcon(icon_3d6b423287edee1a2586556c4e8bbd8b);
+        
+    
+            marker_8ac32ebc339547aea0904fa658eb0d92.bindTooltip(
+                `<div>
+                     <b>Region:</b> United States<br><b>length groups number:</b> 237<br><b>Groups Involved:</b> Tontons Macoutes, Qaddafi loyalists, Jewish Committee of Concern, Republic of Texas, Phineas Priesthood...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_99f66c064f72b2ee793ef08ea15841d3 = L.marker(
+                [-31.16405147368421, -50.28917908771929],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_72649936843f8d43594749770d7caa61 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_99f66c064f72b2ee793ef08ea15841d3.setIcon(icon_72649936843f8d43594749770d7caa61);
+        
+    
+            marker_99f66c064f72b2ee793ef08ea15841d3.bindTooltip(
+                `<div>
+                     <b>Region:</b> Uruguay<br><b>length groups number:</b> 9<br><b>Groups Involved:</b> Left-Wing Terrorists, Tupamaros (Uruguay), Juan Antonio Lavalleja Command, OPR-33, Nationalist Patriotic Alliance (APN)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_801b0042b0e300587619ad93dfe93c2d = L.marker(
+                [41.18030327272727, 69.84393963636363],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_bf92cc7dabcbb37ee0599748515ddcc0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_801b0042b0e300587619ad93dfe93c2d.setIcon(icon_bf92cc7dabcbb37ee0599748515ddcc0);
+        
+    
+            marker_801b0042b0e300587619ad93dfe93c2d.bindTooltip(
+                `<div>
+                     <b>Region:</b> Uzbekistan<br><b>length groups number:</b> 4<br><b>Groups Involved:</b> Hizb al-Tahrir al-Islami (HT), Islamic Jihad Group (IJG), Islamic Jihad Union (Uzbekistan), Islamic Movement of Uzbekistan (IMU)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fb097953d657d0c0f5e331643d4bce1c = L.marker(
+                [-17.734818, 168.322029],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_affbb9dc4d43423eba2abc4813708e36 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fb097953d657d0c0f5e331643d4bce1c.setIcon(icon_affbb9dc4d43423eba2abc4813708e36);
+        
+    
+            marker_fb097953d657d0c0f5e331643d4bce1c.bindTooltip(
+                `<div>
+                     <b>Region:</b> Vanuatu<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Vanuatu Mobile Force (VMF)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0a9af896a4d901044978fb41e1ebccd2 = L.marker(
+                [41.902887, 12.453553],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_b8020c690934eec1371ae0d1075123c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0a9af896a4d901044978fb41e1ebccd2.setIcon(icon_b8020c690934eec1371ae0d1075123c2);
+        
+    
+            marker_0a9af896a4d901044978fb41e1ebccd2.bindTooltip(
+                `<div>
+                     <b>Region:</b> Vatican City<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Grey Wolves...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_86c3347f9f8b550cf4fb180b3d6d5eac = L.marker(
+                [8.908307902097903, -65.45276860839161],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_cac5bcceae5155b7f6114617788f4f69 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_86c3347f9f8b550cf4fb180b3d6d5eac.setIcon(icon_cac5bcceae5155b7f6114617788f4f69);
+        
+    
+            marker_86c3347f9f8b550cf4fb180b3d6d5eac.bindTooltip(
+                `<div>
+                     <b>Region:</b> Venezuela<br><b>length groups number:</b> 44<br><b>Groups Involved:</b> Revolutionary Command, Popular Liberation Army (EPL), Tupamaro Revolutionary Movement, Revolutionary Armed Forces of Colombia (FARC), Anti-Government Group...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6db7a7e06350a3a8c7898121f02467a2 = L.marker(
+                [10.888151, 106.7473155],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_f748a014bfdb3cd7a3d20fdec3afab0e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6db7a7e06350a3a8c7898121f02467a2.setIcon(icon_f748a014bfdb3cd7a3d20fdec3afab0e);
+        
+    
+            marker_6db7a7e06350a3a8c7898121f02467a2.bindTooltip(
+                `<div>
+                     <b>Region:</b> Vietnam<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Provisional National Government of Vietnam...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a80e2f03554a6e240c7493269181da59 = L.marker(
+                [31.565864033142127, 34.710624038878265],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_f52b349d8d77fc28cbdea4e5317f51ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellowgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a80e2f03554a6e240c7493269181da59.setIcon(icon_f52b349d8d77fc28cbdea4e5317f51ef);
+        
+    
+            marker_a80e2f03554a6e240c7493269181da59.bindTooltip(
+                `<div>
+                     <b>Region:</b> West Bank and Gaza Strip<br><b>length groups number:</b> 71<br><b>Groups Involved:</b> Palestine Liberation Organization (PLO), Umar al-Mukhtar Martyr Forces, U/I Snipers, Jund Ansar Allah, Popular Front for the Liberation of Palestine, Gen Cmd (PFLP-GC)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5784bc6b58f7c0edce454218d2de5dd8 = L.marker(
+                [48.75664856834533, 9.044529183453237],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_ed1d03d62ba78fe3d54597fc4dea7a6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellowgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5784bc6b58f7c0edce454218d2de5dd8.setIcon(icon_ed1d03d62ba78fe3d54597fc4dea7a6f);
+        
+    
+            marker_5784bc6b58f7c0edce454218d2de5dd8.bindTooltip(
+                `<div>
+                     <b>Region:</b> West Germany (FRG)<br><b>length groups number:</b> 68<br><b>Groups Involved:</b> Anti-AF, Autonomen, Afghans, Revolutionary Peoples Army, Popular Front for the Liberation of Palestine, Gen Cmd (PFLP-GC)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_965b52b4dab84cb299ec60dad1832d24 = L.marker(
+                [9.051203666666668, -4.401111],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_5804395dd728008efb77515d618c8fbc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_965b52b4dab84cb299ec60dad1832d24.setIcon(icon_5804395dd728008efb77515d618c8fbc);
+        
+    
+            marker_965b52b4dab84cb299ec60dad1832d24.bindTooltip(
+                `<div>
+                     <b>Region:</b> Western Sahara<br><b>length groups number:</b> 1<br><b>Groups Involved:</b> Polisario Front...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b59f3f3dcd72600ebb570f4d79d813fa = L.marker(
+                [14.03230236283186, 44.20365359123472],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_421f91ed4433892a2b7c875531893401 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b59f3f3dcd72600ebb570f4d79d813fa.setIcon(icon_421f91ed4433892a2b7c875531893401);
+        
+    
+            marker_b59f3f3dcd72600ebb570f4d79d813fa.bindTooltip(
+                `<div>
+                     <b>Region:</b> Yemen<br><b>length groups number:</b> 59<br><b>Groups Involved:</b> Aqmur, Al Bayda Province of the Islamic State, Anti-Christian extremists, Popular Resistance Committees (Yemen), Supporters of Abd Rabbuh Mansur Hadi...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0115670c61af5adb929e8f293fc9b026 = L.marker(
+                [43.144840648648646, 20.419121202702705],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_707f5a80dd9c3b0cf3d0b9fddde44fc4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0115670c61af5adb929e8f293fc9b026.setIcon(icon_707f5a80dd9c3b0cf3d0b9fddde44fc4);
+        
+    
+            marker_0115670c61af5adb929e8f293fc9b026.bindTooltip(
+                `<div>
+                     <b>Region:</b> Yugoslavia<br><b>length groups number:</b> 17<br><b>Groups Involved:</b> Neo-Nazi extremists, Kosovo Liberation Army (KLA), Extremists, Serbian Nationalists, Gunmen...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fba584f25e893a4515d9bbbe393bce9b = L.marker(
+                [-3.315808052631579, 16.52561947368421],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_89e2df84d8859f9c5dfe36f1f75b44fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fba584f25e893a4515d9bbbe393bce9b.setIcon(icon_89e2df84d8859f9c5dfe36f1f75b44fb);
+        
+    
+            marker_fba584f25e893a4515d9bbbe393bce9b.bindTooltip(
+                `<div>
+                     <b>Region:</b> Zaire<br><b>length groups number:</b> 10<br><b>Groups Involved:</b> Soviet and Cuban-backed rebels/mercenaries, Zairean Socialist Party, Congolese Liberation Party (PLC), Supporters Opposition Leader Etienne Tshisekedi, Congolese National Movement- Lumumba (MNCL)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0b925a77a31a7ad991fbbb439a41a959 = L.marker(
+                [-12.1443114375, 22.643785375],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_3f1d01811d36c474eea5a241c3370e02 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0b925a77a31a7ad991fbbb439a41a959.setIcon(icon_3f1d01811d36c474eea5a241c3370e02);
+        
+    
+            marker_0b925a77a31a7ad991fbbb439a41a959.bindTooltip(
+                `<div>
+                     <b>Region:</b> Zambia<br><b>length groups number:</b> 8<br><b>Groups Involved:</b> Zimbabwe African People's Union, National Union for the Total Independence of Angola (UNITA), Zimbabwe Guerrillas, Mozambique National Resistance Movement (MNR), African National Congress (South Africa)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_69ec7c0cf3f336987488e837875ebf73 = L.marker(
+                [-17.646172772727272, 27.95745125],
+                {
+}
+            ).addTo(map_61568725c0a5419eb293ac01288709a3);
+        
+    
+            var icon_9bfa863dd8d7ab45cab91bfcdb8f6afd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_69ec7c0cf3f336987488e837875ebf73.setIcon(icon_9bfa863dd8d7ab45cab91bfcdb8f6afd);
+        
+    
+            marker_69ec7c0cf3f336987488e837875ebf73.bindTooltip(
+                `<div>
+                     <b>Region:</b> Zimbabwe<br><b>length groups number:</b> 13<br><b>Groups Involved:</b> Zimbabwe African People's Union, Dissidents linked to Zanga, Guerrillas, Anti-Government extremists, Supporters of Joshua Nkomo...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

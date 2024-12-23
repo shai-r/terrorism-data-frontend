@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0fe6a36d959151fac8af6de184607098 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0fe6a36d959151fac8af6de184607098" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0fe6a36d959151fac8af6de184607098 = L.map(
+                "map_0fe6a36d959151fac8af6de184607098",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_23adad6c3cceb2b49395fd063d18bcf7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_23adad6c3cceb2b49395fd063d18bcf7.addTo(map_0fe6a36d959151fac8af6de184607098);
+        
+    
+            var marker_d48918db420ffb814663722e797a07ca = L.marker(
+                [-24.801432916666666, 134.42682695833335],
+                {
+}
+            ).addTo(map_0fe6a36d959151fac8af6de184607098);
+        
+    
+            var icon_e286a9c9a3dad30005493396986c3033 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d48918db420ffb814663722e797a07ca.setIcon(icon_e286a9c9a3dad30005493396986c3033);
+        
+    
+            marker_d48918db420ffb814663722e797a07ca.bindTooltip(
+                `<div>
+                     <b>Attack Type:</b> Facility/Infrastructure Attack<br><b>Region:</b> Australasia & Oceania<br><b>length groups number:</b> 14<br><b>Groups Involved:</b> Kanak Separatists, Kanakas, Bougainville Revolutionary Army (BRA), Christian extremists, Anarchists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d220f313a4718c68e75e004f90d73f87 = L.marker(
+                [11.632562587468982, -26807.665817686415],
+                {
+}
+            ).addTo(map_0fe6a36d959151fac8af6de184607098);
+        
+    
+            var icon_5fa27c370e03acecf8df4374200d2522 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d220f313a4718c68e75e004f90d73f87.setIcon(icon_5fa27c370e03acecf8df4374200d2522);
+        
+    
+            marker_d220f313a4718c68e75e004f90d73f87.bindTooltip(
+                `<div>
+                     <b>Attack Type:</b> Armed Assault<br><b>Region:</b> Central America & Caribbean<br><b>length groups number:</b> 98<br><b>Groups Involved:</b> Nicaraguan Counter Revolutionaries (group unk), Kisan Indian Organization, Guerrilla Army of the Poor (EGP), Somozists, Cinchoneros Popular Liberation Movement...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2ae406c086ce4f0e361b528dad7035b0 = L.marker(
+                [40.70682774418605, 54.56973109302326],
+                {
+}
+            ).addTo(map_0fe6a36d959151fac8af6de184607098);
+        
+    
+            var icon_f47e93f95e8eaa6a105ca8a7328eb2af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2ae406c086ce4f0e361b528dad7035b0.setIcon(icon_f47e93f95e8eaa6a105ca8a7328eb2af);
+        
+    
+            marker_2ae406c086ce4f0e361b528dad7035b0.bindTooltip(
+                `<div>
+                     <b>Attack Type:</b> Bombing/Explosion<br><b>Region:</b> Central Asia<br><b>length groups number:</b> 22<br><b>Groups Involved:</b> South Ossetian Separatists, Supporters of Ex-President Gamsakhurdial, Islamic Jihad Group (IJG), Hizb al-Tahrir al-Islami (HT), Turkestan Islamic Party...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a178bbd7051f3de197282b540da95e77 = L.marker(
+                [34.9103558125, 136.8154531875],
+                {
+}
+            ).addTo(map_0fe6a36d959151fac8af6de184607098);
+        
+    
+            var icon_ef950bd77d23ec69a92c6d84fec34d89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a178bbd7051f3de197282b540da95e77.setIcon(icon_ef950bd77d23ec69a92c6d84fec34d89);
+        
+    
+            marker_a178bbd7051f3de197282b540da95e77.bindTooltip(
+                `<div>
+                     <b>Attack Type:</b> Facility/Infrastructure Attack<br><b>Region:</b> East Asia<br><b>length groups number:</b> 31<br><b>Groups Involved:</b> Issui Kai, Radicals, Nara Red Army, Japan National Youth Alliance, League of Communists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f0c6d99e243ff4da22d3a10fadbc6624 = L.marker(
+                [46.496450196078435, 37.85139507720588],
+                {
+}
+            ).addTo(map_0fe6a36d959151fac8af6de184607098);
+        
+    
+            var icon_ed333f2dcaad83c682e967b62e86b5a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f0c6d99e243ff4da22d3a10fadbc6624.setIcon(icon_ed333f2dcaad83c682e967b62e86b5a6);
+        
+    
+            marker_f0c6d99e243ff4da22d3a10fadbc6624.bindTooltip(
+                `<div>
+                     <b>Attack Type:</b> Bombing/Explosion<br><b>Region:</b> Eastern Europe<br><b>length groups number:</b> 85<br><b>Groups Involved:</b> Caucasus Province of the Islamic State, Albanian National Army (ANA), Anti-Government extremists, Karabulak Gang, Fatherland...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d508a05c3d5c26739552f24232c021a0 = L.marker(
+                [31.899881035682426, 37.1248653882248],
+                {
+}
+            ).addTo(map_0fe6a36d959151fac8af6de184607098);
+        
+    
+            var icon_c04462d250dd1a13f0a3578748c18223 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d508a05c3d5c26739552f24232c021a0.setIcon(icon_c04462d250dd1a13f0a3578748c18223);
+        
+    
+            marker_d508a05c3d5c26739552f24232c021a0.bindTooltip(
+                `<div>
+                     <b>Attack Type:</b> Bombing/Explosion<br><b>Region:</b> Middle East & North Africa<br><b>length groups number:</b> 450<br><b>Groups Involved:</b> Haftar Militia, Kurdish Rebels, Islamic Army in Iraq (al-Jaish al-Islami fi al-Iraq), People's Protection Units (YPG), Generation of Arab Fury...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4fec12635c1b5cc274494dc63949d076 = L.marker(
+                [34.9934484487395, -90.89473415294118],
+                {
+}
+            ).addTo(map_0fe6a36d959151fac8af6de184607098);
+        
+    
+            var icon_dca519a16c2f71700e6abc37427b75a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4fec12635c1b5cc274494dc63949d076.setIcon(icon_dca519a16c2f71700e6abc37427b75a6);
+        
+    
+            marker_4fec12635c1b5cc274494dc63949d076.bindTooltip(
+                `<div>
+                     <b>Attack Type:</b> Bombing/Explosion<br><b>Region:</b> North America<br><b>length groups number:</b> 163<br><b>Groups Involved:</b> Animal Rights extremists, Action Directe, Basque Fatherland and Freedom (ETA), Black September, Irish Republican Army (IRA)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8901b11fcb6cc2db2ab6806049ba2cf0 = L.marker(
+                [-9.315969479078131, -71.87738256979405],
+                {
+}
+            ).addTo(map_0fe6a36d959151fac8af6de184607098);
+        
+    
+            var icon_c021c19e68db808cf8a86b92b931d7c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8901b11fcb6cc2db2ab6806049ba2cf0.setIcon(icon_c021c19e68db808cf8a86b92b931d7c1);
+        
+    
+            marker_8901b11fcb6cc2db2ab6806049ba2cf0.bindTooltip(
+                `<div>
+                     <b>Attack Type:</b> Bombing/Explosion<br><b>Region:</b> South America<br><b>length groups number:</b> 186<br><b>Groups Involved:</b> Argentine Liberation Front (FAL), People's Revolutionary Organization, Antagonistic Nuclei of the New Urban Guerrilla, Civil Association for Peace in Colombia, Asocipaz, Popular Militia (Chile)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c96a0a59f192e98b9a99daef95659332 = L.marker(
+                [27.319902830532364, 74.87839470215765],
+                {
+}
+            ).addTo(map_0fe6a36d959151fac8af6de184607098);
+        
+    
+            var icon_8204feb743ef8e023d71d564237bf074 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c96a0a59f192e98b9a99daef95659332.setIcon(icon_8204feb743ef8e023d71d564237bf074);
+        
+    
+            marker_c96a0a59f192e98b9a99daef95659332.bindTooltip(
+                `<div>
+                     <b>Attack Type:</b> Bombing/Explosion<br><b>Region:</b> South Asia<br><b>length groups number:</b> 353<br><b>Groups Involved:</b> Baloch Liberation Army (BLA), Colonel Karuna Faction, Al-Madina, Saif-ul-Muslimeen, Anti-Government extremists...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e95c1eee0d2f76cc2a787949c78b21c4 = L.marker(
+                [8.385686729339746, 109.78823866462615],
+                {
+}
+            ).addTo(map_0fe6a36d959151fac8af6de184607098);
+        
+    
+            var icon_2b86f0b2b0156654601af952430d3467 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellowgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e95c1eee0d2f76cc2a787949c78b21c4.setIcon(icon_2b86f0b2b0156654601af952430d3467);
+        
+    
+            marker_e95c1eee0d2f76cc2a787949c78b21c4.bindTooltip(
+                `<div>
+                     <b>Attack Type:</b> Bombing/Explosion<br><b>Region:</b> Southeast Asia<br><b>length groups number:</b> 119<br><b>Groups Involved:</b> Karen Insurgents, Al-Yakin Mujahidin, Ta'ang National Liberation Army (TNLA), Mujahidin Ambon, Karenni National Progressive Party...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_245fb6afe3585e98d0b40f73a0563181 = L.marker(
+                [3.959704496868476, 23.103071793783347],
+                {
+}
+            ).addTo(map_0fe6a36d959151fac8af6de184607098);
+        
+    
+            var icon_b591d0c8998d3416c399e45bcf0ab1b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_245fb6afe3585e98d0b40f73a0563181.setIcon(icon_b591d0c8998d3416c399e45bcf0ab1b7);
+        
+    
+            marker_245fb6afe3585e98d0b40f73a0563181.bindTooltip(
+                `<div>
+                     <b>Attack Type:</b> Armed Assault<br><b>Region:</b> Sub-Saharan Africa<br><b>length groups number:</b> 282<br><b>Groups Involved:</b> Didier Ratsiraka's Militia, Supporters of Joshua Nkomo, Rhodesian guerillas, Uganda Federal Democratic Alliance (UFEDA), Saharan Revolutionary Armed Front (FARS)...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_98b0052ae1252447c9ab987a866fb09c = L.marker(
+                [45.75252122145089, 2.1419140249913227],
+                {
+}
+            ).addTo(map_0fe6a36d959151fac8af6de184607098);
+        
+    
+            var icon_8cea19490c35c8b1310a29317d958598 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_98b0052ae1252447c9ab987a866fb09c.setIcon(icon_8cea19490c35c8b1310a29317d958598);
+        
+    
+            marker_98b0052ae1252447c9ab987a866fb09c.bindTooltip(
+                `<div>
+                     <b>Attack Type:</b> Bombing/Explosion<br><b>Region:</b> Western Europe<br><b>length groups number:</b> 511<br><b>Groups Involved:</b> Animal Rights extremists, Argentine Anticommunist Alliance (AAA), Revolutionary Proletarian Initiative Nuclei (NIPR), Martyrs of Baalbek, Soldiers of the Algerian Opposition...
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

@@ -10,7 +10,7 @@ MAPS_DIR = os.path.join(os.getcwd(),"static", "maps")
 
 @map_blueprint.route("/", methods=["GET", "POST"])
 def home():
-    region = request.form.get("region", None)
+    region = request.form.get("region", "")
     query = request.form.get("query", "home")
     if request.method == "POST":
         select_query(query, region)

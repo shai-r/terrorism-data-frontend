@@ -13,14 +13,28 @@
     <main>
         <form method="POST" action="/">
             <label for="region">Region:</label>
-            <input type="text" id="region" name="region" placeholder="Enter region">
+            <select id="region" name="region">
+                <option value="">Empty</option>
+                <option value="region">Region</option>
+                <option value="country">Country</option>
+            </select>
             <label for="query">Query:</label>
             <select id="query" name="query">
                 <option value="home">Home</option>
                 <option value="mean_casualties_by_area">Mean Casualties</option>
                 <option value="calculate_percent_change">Percent Change</option>
                 <option value="calculate_event_victim_correlation">
-                    Event Victim Correlation</option>
+                    Event Victim Correlation
+                </option>
+                <option value="identify_shared_attack_strategies">
+                    Shared Attack Strategies
+                </option>
+                <option value="identify_high_activity_regions">
+                    High Activity Regions
+                </option>
+                <option value="identify_influential_groups">
+                    Influential Groups
+                </option>
                 <!-- Add more options as needed -->
             </select>
             <button type="submit">Update Map</button>
