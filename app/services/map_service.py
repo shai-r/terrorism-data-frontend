@@ -155,7 +155,6 @@ def map_of_high_activity_regions(res, region_type):
         return
 
     main_map = folium.Map(location=[20, 0], zoom_start=2)
-    print(res)
     for loc in res:
         region = loc[region_type]
         groups = loc['groups']
@@ -192,7 +191,6 @@ def map_of_influential_groups(res, region_type):
         return
 
     main_map = folium.Map(location=[20, 0], zoom_start=2)
-    print(res)
     for loc in res:
         region = loc[region_type]
         group = loc['group']
