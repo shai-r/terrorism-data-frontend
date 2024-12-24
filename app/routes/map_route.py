@@ -1,4 +1,4 @@
-from flask import render_template, request, jsonify, Blueprint, send_file
+from flask import render_template, request, Blueprint, send_file
 import os
 
 from app.services.queries_service import select_query
